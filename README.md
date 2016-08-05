@@ -29,12 +29,14 @@ You have several options to install Xgbfir.
 ### Using pip
 You can install using the pip package manager by running
 
-    pip install xxxxxxxxxxx
+    pip install xgbfir
 
-### Using conda
-You can install using the conda package manager by running
+### ~~Using conda~~
+Sorry, conda build is not ready yet. Please build from source.
 
-    conda install xxxxxxxxxxx
+~~You can install using the conda package manager by running~~
+
+~~conda install~~
 
 ### From source
 Clone the repo and install:
