@@ -74,7 +74,7 @@ List of saveXgbFI function parameters:
 
 ### Python example
 
-Take a look at this example of usage (available in [examples](https://github.com/limexp/xgbfir/tree/master/xgbfir)):
+Take a look at this example of usage (available in [examples](https://github.com/limexp/xgbfir/tree/master/examples)):
 
 ```python
 from sklearn.datasets import load_iris, load_boston
