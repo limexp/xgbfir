@@ -50,7 +50,61 @@ Or download the source code by pressing 'Download ZIP' on this page. Install by 
     sudo python setup.py install
 
 ## Usage
-Xgbfir is a CLI (Command Line Interface) tool, so you can run it with command:
+You can use Xgbfir as a python function or as a CLI (Command Line Interface) tool.
+
+### Python function
+
+You can produce feature interactions file without saving any model dump file beforehand:
+```python
+import xgbfir
+
+xgbfir.saveXgbFI(booster) # booster is a XGBoost booster
+```
+
+List of saveXgbFI function parameters:
+ * **booster** - XGBoost booster or XGBClassifier
+ * **feature_names** (default = None) - feature names that *will be set in booster*
+ * **OutputXlsxFile** (default = 'XgbFeatureInteractions.xlsx') - output file name
+ * **MaxTrees** (default = 100) - Upper bound for trees to be parsed
+ * **MaxInteractionDepth** (default = 2) - Upper bound for extracted feature interactions depth
+ * **MaxDeepening** (default = -1) - Upper bound for interaction start deepening (zero deepening => interactions starting at root only)
+ * **TopK** (default = 100) - Upper bound for exported feature interactions per depth level
+ * **MaxHistograms** (default = 10) - Maximum number of histograms
+ * **SortBy** (default = 'Gain') - Score metric to sort by (Gain, FScore, wFScore, AvgwFScore, AvgGain, ExpGain)
+
+### Python example
+
+Take a look at this example of usage (available in [examples](https://github.com/limexp/xgbfir/tree/master/xgbfir)):
+
+```python
+from sklearn.datasets import load_iris, load_boston
+import xgboost as xgb
+import xgbfir
+
+# loading database
+boston = load_boston()
+
+# doing all the XGBoost magic
+xgb_rmodel = xgb.XGBRegressor().fit(boston['data'], boston['target'])
+
+# saving to file with proper feature names
+xgbfir.saveXgbFI(xgb_rmodel, feature_names=boston.feature_names, OutputXlsxFile = 'bostonFI.xlsx')
+
+
+# loading database
+iris = load_iris()
+
+# doing all the XGBoost magic
+xgb_cmodel = xgb.XGBClassifier().fit(iris['data'], iris['target'])
+
+# saving to file with proper feature names
+xgbfir.saveXgbFI(xgb_cmodel, feature_names=iris.feature_names, OutputXlsxFile = 'irisFI.xlsx')
+```
+
+
+### CLI 
+
+Xgbfir can be run as a console tool with the following command:
 
     xgbfir [options]
 
@@ -58,8 +112,13 @@ Use the following command for help:
 
     xgbfir --help
 
-**XGBoost model dump must be created before running xgbfir**. More information on [Xgbfi page](https://github.com/Far0n/xgbfi).
-	
+**XGBoost model dump must be created before running xgbfir**. 
+
+To dump a model with proper feature names use the following code:
+```python
+booster.feature_names = list(feature_names) # set names for XGBoost booster
+booster.dump_model('xgb.dump', with_stats=True)
+```
 
 ## Dependencies
 * python (2.7+ or 3.5+)
@@ -70,8 +129,8 @@ Xgbfir is in beta now, so there are several ways for improvement:
 * Add more information and error messages, handle wrong input
 * Make code style cool
 * Cover with tests
-* Add non-CLI
-* Parse model from XGBoost without dumping
+* ~~Add non-CLI~~ Done!
+* ~~Parse model from XGBoost without dumping~~ Done!
 * Optimize code
 * Add new functions
 	

@@ -1,6 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# Xgbfir is a XGBoost model dump parser, which ranks features as well as
+# feature interactions by different metrics.
 # Copyright (c) 2016 Boris Kostenko
+# https://github.com/limexp/xgbfir/
+#
+# Originally based on implementation by Far0n
+# https://github.com/Far0n/xgbfi
 
 from __future__ import print_function
 
@@ -106,7 +112,8 @@ class FeatureInteractions:
                 self.interactions[key].SplitValueHistogram.Merge(fi.SplitValueHistogram)
 
 class XgbModel:
-    def __init__(self):
+    def __init__(self, verbosity = 0):
+        self._verbosity = verbosity
         self.XgbTrees = []
         self._treeIndex = 0
         self._maxDeepening = 0
@@ -121,13 +128,15 @@ class XgbModel:
         self._maxInteractionDepth = maxInteractionDepth
         self._maxDeepening = maxDeepening
 
-        if self._maxInteractionDepth == -1:
-            print("Collectiong feature interactions")
-        else:
-            print("Collectiong feature interactions up to depth {}".format(self._maxInteractionDepth))
+        if self._verbosity >= 1:
+            if self._maxInteractionDepth == -1:
+                print("Collectiong feature interactions")
+            else:
+                print("Collectiong feature interactions up to depth {}".format(self._maxInteractionDepth))
             
         for i, tree in enumerate(self.XgbTrees):
-            sys.stdout.write("Collectiong feature interactions within tree #{} ".format(i+1))
+            if self._verbosity >= 2:
+                sys.stdout.write("Collectiong feature interactions within tree #{} ".format(i+1))
 
             self._treeFeatureInteractions = FeatureInteractions()
             self._pathMemo = []
@@ -136,10 +145,12 @@ class XgbModel:
             treeNodes = []
             self.CollectFeatureInteractions(tree, treeNodes, currentGain = 0.0, currentCover = 0.0, pathProbability = 1.0, depth = 0, deepening = 0)
 
-            sys.stdout.write("=> number of interactions: {}\n".format(len(self._treeFeatureInteractions.interactions)))
+            if self._verbosity >= 2:
+                sys.stdout.write("=> number of interactions: {}\n".format(len(self._treeFeatureInteractions.interactions)))
             xgbFeatureInteractions.Merge(self._treeFeatureInteractions)
 
-        print("{} feature interactions has been collected.".format(len(xgbFeatureInteractions.interactions)))
+        if self._verbosity >= 1:
+            print("{} feature interactions has been collected.".format(len(xgbFeatureInteractions.interactions)))
         
         return xgbFeatureInteractions
 
@@ -235,7 +246,8 @@ class XgbTree:
         self.node = node # or node.copy()
 
 class XgbModelParser:
-    def __init__(self):
+    def __init__(self, verbosity = 0):
+        self._verbosity = verbosity
         self.nodeRegex = re.compile("(\d+):\[(.*)<(.+)\]\syes=(.*),no=(.*),missing=.*,gain=(.*),cover=(.*)")
         self.leafRegex = re.compile("(\d+):leaf=(.*),cover=(.*)")
 
@@ -269,7 +281,7 @@ class XgbModelParser:
 
         
     def GetXgbModelFromFile(self, fileName, maxTrees):
-        model = XgbModel()
+        model = XgbModel(self._verbosity)
         self.xgbNodeList = {}
         numTree = 0
         with open(fileName) as f:
@@ -278,14 +290,16 @@ class XgbModelParser:
                 if (not line) or line.startswith('booster'):
                     if any(self.xgbNodeList):
                         numTree += 1
-                        sys.stdout.write("Constructing tree #{}\n".format(numTree))
+                        if self._verbosity >= 2:
+                            sys.stdout.write("Constructing tree #{}\n".format(numTree))
                         tree = XgbTree(self.xgbNodeList[0])
                         self.ConstructXgbTree(tree)
                         
                         model.AddTree(tree)
                         self.xgbNodeList = {}
                         if numTree == maxTrees:
-                            print('maxTrees reached')
+                            if self._verbosity >= 1:
+                                print('maxTrees reached')
                             break
                 else:
                     node = self.ParseXgbTreeNode(line)
@@ -295,7 +309,8 @@ class XgbModelParser:
                     
             if any(self.xgbNodeList) and ((maxTrees < 0) or (numTree < maxTrees)):
                 numTree += 1
-                sys.stdout.write("Constructing tree #{}\n".format(numTree))
+                if self._verbosity >= 2:
+                    sys.stdout.write("Constructing tree #{}\n".format(numTree))
                 tree = XgbTree(self.xgbNodeList[0])
                 self.ConstructXgbTree(tree)
                 
@@ -304,14 +319,37 @@ class XgbModelParser:
         
         return model
 
+    def GetXgbModelFromMemory(self, dump, maxTrees):
+        model = XgbModel(self._verbosity)
+        self.xgbNodeList = {}
+        numTree = 0
+        for booster_line in dump:
+            self.xgbNodeList = {}
+            for line in booster_line.split('\n'):
+                line = line.strip()
+                if not line:
+                    continue
+                node = self.ParseXgbTreeNode(line)
+                if not node:
+                    return None
+                self.xgbNodeList[node.Number] = node
+            numTree += 1
+            tree = XgbTree(self.xgbNodeList[0])
+            self.ConstructXgbTree(tree)
+            model.AddTree(tree)
+            if numTree == maxTrees:
+                break
+        return model
+
 def rankInplace(a):
     c = [(j, i[0]) for j,i in enumerate(sorted(enumerate(a), key=lambda x:x[1]))]
     c.sort(key = lambda x: x[1])
     return [i[0] for i in c]
 
-def FeatureInteractionsWriter(FeatureInteractions, fileName, MaxDepth, topK, MaxHistograms):
+def FeatureInteractionsWriter(FeatureInteractions, fileName, MaxDepth, topK, MaxHistograms, verbosity = 0):
 
-    print("Writing {}".format(fileName))
+    if verbosity >= 1:
+        print("Writing {}".format(fileName))
 
     workbook = xlsxwriter.Workbook(fileName)
     
@@ -328,7 +366,8 @@ def FeatureInteractionsWriter(FeatureInteractions, fileName, MaxDepth, topK, Max
     cf_num.set_num_format('0.00')
     
     for depth in range(MaxDepth + 1):
-        print("Writing feature interactions with depth {}".format(depth))
+        if verbosity >= 1:
+            print("Writing feature interactions with depth {}".format(depth))
 
         interactions = FeatureInteractions.GetFeatureInteractionsOfDepth(depth)
 
@@ -390,7 +429,8 @@ def FeatureInteractionsWriter(FeatureInteractions, fileName, MaxDepth, topK, Max
         
     interactions = FeatureInteractions.GetFeatureInteractionsWithLeafStatistics()
     if interactions:
-        print("Writing leaf statistics")
+        if verbosity >= 1:
+            print("Writing leaf statistics")
         
         ws = workbook.add_worksheet("Leaf Statistics")
         
@@ -411,7 +451,8 @@ def FeatureInteractionsWriter(FeatureInteractions, fileName, MaxDepth, topK, Max
             
     interactions = FeatureInteractions.GetFeatureInteractionsOfDepth(0)
     if interactions:
-        print("Writing split value histograms")
+        if verbosity >= 1:
+            print("Writing split value histograms")
         
         ws = workbook.add_worksheet("Split Value Histograms")
         
@@ -442,7 +483,7 @@ def FeatureInteractionsWriter(FeatureInteractions, fileName, MaxDepth, topK, Max
 
 def main(argv):
     epilog = '''
-XGBoost Feature Interactions Reshaped 0.1
+XGBoost Feature Interactions Reshaped 0.2
 URL: https://github.com/limexp/xgbfir
 '''
 
@@ -454,7 +495,7 @@ URL: https://github.com/limexp/xgbfir
     arg_parser.add_argument(
         '-V', '--version',
         action='version',
-        version='XGBoost Feature Interactions Reshaped 0.1')
+        version='XGBoost Feature Interactions Reshaped 0.2')
 
     arg_parser.add_argument('-m',
                                           dest='XgbModelFile', action='store',
@@ -490,11 +531,17 @@ URL: https://github.com/limexp/xgbfir
                                           default='Gain',
         help='Score metric to sort by (Gain, FScore, wFScore, \
                  AvgwFScore, AvgGain, ExpGain)')
-
+    arg_parser.add_argument('-v', '--verbosity',
+                                          dest='Verbosity', action='count',
+                                          default='2',
+        help='Increate output verbosity')
+                    
     args = arg_parser.parse_args(args=argv[1:])
 
     args.XgbModelFile = args.XgbModelFile.strip()
     args.OutputXlsxFile = args.OutputXlsxFile.strip()
+    
+    verbosity = int(args.Verbosity)
     
     settings_print = '''
 Settings:
@@ -516,17 +563,19 @@ MaxHistograms (-H): {histograms}
               sortby=args.SortBy,
               histograms=args.MaxHistograms)
               
-    print(settings_print)
+    if verbosity >= 1:
+        print(settings_print)
 
     FeatureScoreComparer(args.SortBy)
     
-    xgbParser = XgbModelParser()
+    xgbParser = XgbModelParser(verbosity)
     xgbModel = xgbParser.GetXgbModelFromFile(args.XgbModelFile, args.MaxTrees)
     featureInteractions = xgbModel.GetFeatureInteractions(args.MaxInteractionDepth, args.MaxDeepening)
     
     FeatureInteractionsWriter(featureInteractions, args.OutputXlsxFile, args.MaxInteractionDepth, args.TopK, args.MaxHistograms)
                  
-    print(epilog)
+    if verbosity >= 1:
+        print(epilog)
 
     return 0
 
@@ -536,5 +585,23 @@ def entry_point():
     raise SystemExit(main(sys.argv))
 
 
+def saveXgbFI(booster, feature_names = None, OutputXlsxFile = 'XgbFeatureInteractions.xlsx', MaxTrees = 100, MaxInteractionDepth = 2, MaxDeepening = -1, TopK = 100, MaxHistograms = 10, SortBy = 'Gain'):
+    if not 'get_dump' in dir(booster):
+        if 'booster' in dir(booster):
+            booster = booster.booster()
+        else:
+            return -20
+    if feature_names is not None:
+        if isinstance(feature_names, list):
+            booster.feature_names = feature_names
+        else:
+            booster.feature_names = list(feature_names)
+    FeatureScoreComparer(SortBy)
+    xgbParser = XgbModelParser()
+    dump = booster.get_dump('', with_stats = True)
+    xgbModel = xgbParser.GetXgbModelFromMemory(dump, MaxTrees)
+    featureInteractions = xgbModel.GetFeatureInteractions(MaxInteractionDepth, MaxDeepening)
+    FeatureInteractionsWriter(featureInteractions, OutputXlsxFile, MaxInteractionDepth, TopK, MaxHistograms)
+    
 if __name__ == '__main__':
     entry_point()
