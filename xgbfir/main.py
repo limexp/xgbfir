@@ -9,6 +9,7 @@
 # https://github.com/Far0n/xgbfi
 
 from __future__ import print_function
+from __future__ import division
 
 import argparse
 import sys

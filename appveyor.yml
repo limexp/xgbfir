@@ -1,0 +1,51 @@
+build: false
+
+environment:
+  matrix:
+#    - PYTHON: "C:\\Python26"
+#    - PYTHON: "C:\\Python26-x64"
+    - PYTHON: "C:\\Python27"
+    - PYTHON: "C:\\Python27-x64"
+#    - PYTHON: "C:\\Python33"
+#    - PYTHON: "C:\\Python33-x64"
+    - PYTHON: "C:\\Python34"
+    - PYTHON: "C:\\Python34-x64"
+    - PYTHON: "C:\\Python35"
+    - PYTHON: "C:\\Python35-x64"
+    - PYTHON: "C:\\Python36"
+    - PYTHON: "C:\\Python36-x64"
+
+matrix:
+  fast_finish: true  
+  
+#artifacts:
+#  - path: tests\data\*.xlsx  
+
+init:
+  - "ECHO %PYTHON%"
+#  - set OLD_PATH=%PATH%
+#  - set NEW_PATH=%PYTHON%;%PYTHON%\\Scripts
+  - set PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%
+  - python -V
+  - pip install numpy pandas six xlsxwriter nose xlrd
+
+install:
+  - python setup.py install
+
+test_script:
+  - cd %APPVEYOR_BUILD_FOLDER%
+  - git clone https://github.com/Far0n/xgbfi.git
+  - cd xgbfi\bin
+  - copy %APPVEYOR_BUILD_FOLDER%\tests\data\iris.dump xgb.dump
+  - XgbFeatureInteractions.exe
+  - copy XgbFeatureInteractions.xlsx %APPVEYOR_BUILD_FOLDER%\tests\data\iris_1.xlsx
+  - copy %APPVEYOR_BUILD_FOLDER%\tests\data\boston.dump xgb.dump
+  - XgbFeatureInteractions.exe
+  - copy XgbFeatureInteractions.xlsx %APPVEYOR_BUILD_FOLDER%\tests\data\boston_1.xlsx
+  - cd %APPVEYOR_BUILD_FOLDER%\tests\data\
+  - xgbfir -mboston.dump -oboston_2.xlsx
+  - xgbfir -miris.dump -oiris_2.xlsx
+  - cd %APPVEYOR_BUILD_FOLDER%
+  - dir tests\data
+  - nosetests --nocapture
+#  - echo 'OK'

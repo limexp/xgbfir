@@ -1,0 +1,1526 @@
+booster[0]:
+0:[LSTAT<9.725] yes=1,no=2,missing=1,gain=18247.6,cover=506
+	1:[RM<6.941] yes=3,no=4,missing=3,gain=6860.23,cover=212
+		3:[DIS<1.48495] yes=7,no=8,missing=7,gain=564.904,cover=142
+			7:leaf=3.96,cover=4
+			8:leaf=2.40158,cover=138
+		4:[RM<7.437] yes=9,no=10,missing=9,gain=713.552,cover=70
+			9:leaf=3.22561,cover=40
+			10:leaf=4.31581,cover=30
+	2:[LSTAT<16.085] yes=5,no=6,missing=5,gain=2385.59,cover=294
+		5:[B<116.025] yes=11,no=12,missing=11,gain=118.414,cover=150
+			11:leaf=1.1825,cover=7
+			12:leaf=1.99701,cover=143
+		6:[NOX<0.603] yes=13,no=14,missing=13,gain=639.937,cover=144
+			13:leaf=1.6868,cover=49
+			14:leaf=1.18573,cover=95
+booster[1]:
+0:[RM<6.8375] yes=1,no=2,missing=1,gain=15038.2,cover=506
+	1:[LSTAT<14.4] yes=3,no=4,missing=3,gain=5437.6,cover=419
+		3:[DIS<1.38485] yes=7,no=8,missing=7,gain=851.826,cover=245
+			7:leaf=3.45938,cover=5
+			8:leaf=1.99007,cover=240
+		4:[CRIM<6.99237] yes=9,no=10,missing=9,gain=915.856,cover=174
+			9:leaf=1.48634,cover=102
+			10:leaf=0.983538,cover=72
+	2:[RM<7.437] yes=5,no=6,missing=5,gain=1679.55,cover=87
+		5:[NOX<0.659] yes=11,no=12,missing=11,gain=597.286,cover=57
+			11:leaf=2.82798,cover=54
+			12:leaf=0.933288,cover=3
+		6:[CRIM<2.74224] yes=13,no=14,missing=13,gain=349.538,cover=30
+			13:leaf=3.97114,cover=29
+			14:leaf=0.85421,cover=1
+booster[2]:
+0:[LSTAT<9.63] yes=1,no=2,missing=1,gain=12642,cover=506
+	1:[RM<6.941] yes=3,no=4,missing=3,gain=4523.34,cover=207
+		3:[DIS<1.48495] yes=7,no=8,missing=7,gain=538.427,cover=138
+			7:leaf=3.36645,cover=4
+			8:leaf=1.96475,cover=134
+		4:[RM<7.437] yes=9,no=10,missing=9,gain=399.831,cover=69
+			9:leaf=2.65052,cover=39
+			10:leaf=3.5239,cover=30
+	2:[LSTAT<19.23] yes=5,no=6,missing=5,gain=1790.63,cover=299
+		5:[B<116.025] yes=11,no=12,missing=11,gain=276.285,cover=217
+			11:leaf=1.01755,cover=18
+			12:leaf=1.55729,cover=199
+		6:[NOX<0.603] yes=13,no=14,missing=13,gain=345.527,cover=82
+			13:leaf=1.29204,cover=23
+			14:leaf=0.789123,cover=59
+booster[3]:
+0:[LSTAT<7.685] yes=1,no=2,missing=1,gain=10486.6,cover=506
+	1:[RM<7.437] yes=3,no=4,missing=3,gain=2476.28,cover=149
+		3:[LSTAT<5.44] yes=7,no=8,missing=7,gain=460.263,cover=119
+			7:leaf=2.37231,cover=51
+			8:leaf=1.825,cover=68
+		4:[CRIM<2.74224] yes=9,no=10,missing=9,gain=297.143,cover=30
+			9:leaf=3.24662,cover=29
+			10:leaf=0.635304,cover=1
+	2:[LSTAT<15] yes=5,no=6,missing=5,gain=2333.27,cover=357
+		5:[RM<6.6045] yes=11,no=12,missing=11,gain=242.89,cover=195
+			11:leaf=1.48397,cover=173
+			12:leaf=1.97082,cover=22
+		6:[CRIM<5.76921] yes=13,no=14,missing=13,gain=512.745,cover=162
+			13:leaf=1.19874,cover=84
+			14:leaf=0.810939,cover=78
+booster[4]:
+0:[RM<6.8375] yes=1,no=2,missing=1,gain=8615.57,cover=506
+	1:[LSTAT<14.4] yes=3,no=4,missing=3,gain=3007.09,cover=419
+		3:[DIS<1.38485] yes=7,no=8,missing=7,gain=794.891,cover=245
+			7:leaf=2.76744,cover=5
+			8:leaf=1.45037,cover=240
+		4:[DIS<2.0037] yes=9,no=10,missing=9,gain=555.69,cover=174
+			9:leaf=0.731318,cover=85
+			10:leaf=1.11341,cover=89
+	2:[RM<7.437] yes=5,no=6,missing=5,gain=846.502,cover=87
+		5:[NOX<0.659] yes=11,no=12,missing=11,gain=375.349,cover=57
+			11:leaf=2.10907,cover=54
+			12:leaf=0.656677,cover=3
+		6:[CRIM<2.74224] yes=13,no=14,missing=13,gain=215.345,cover=30
+			13:leaf=2.93278,cover=29
+			14:leaf=0.603539,cover=1
+booster[5]:
+0:[LSTAT<7.685] yes=1,no=2,missing=1,gain=7311.73,cover=506
+	1:[RM<7.141] yes=3,no=4,missing=3,gain=1626.97,cover=149
+		3:[LSTAT<5.145] yes=7,no=8,missing=7,gain=382.042,cover=102
+			7:leaf=1.96133,cover=36
+			8:leaf=1.43964,cover=66
+		4:[CRIM<2.74224] yes=9,no=10,missing=9,gain=99.7849,cover=47
+			9:leaf=2.44694,cover=46
+			10:leaf=0.573362,cover=1
+	2:[LSTAT<16.085] yes=5,no=6,missing=5,gain=1483.44,cover=357
+		5:[RM<6.6045] yes=11,no=12,missing=11,gain=237.04,cover=213
+			11:leaf=1.17819,cover=191
+			12:leaf=1.61266,cover=22
+		6:[DIS<2.0037] yes=13,no=14,missing=13,gain=351.812,cover=144
+			13:leaf=0.633371,cover=75
+			14:leaf=0.971049,cover=69
+booster[6]:
+0:[LSTAT<9.725] yes=1,no=2,missing=1,gain=6046.41,cover=506
+	1:[RM<6.6385] yes=3,no=4,missing=3,gain=2178.42,cover=212
+		3:[CRIM<4.72705] yes=7,no=8,missing=7,gain=435.989,cover=113
+			7:leaf=1.21297,cover=110
+			8:leaf=2.45456,cover=3
+		4:[RM<7.437] yes=9,no=10,missing=9,gain=518.881,cover=99
+			9:leaf=1.72553,cover=69
+			10:leaf=2.37005,cover=30
+	2:[LSTAT<19.83] yes=5,no=6,missing=5,gain=829.171,cover=294
+		5:[B<116.025] yes=11,no=12,missing=11,gain=181.878,cover=218
+			11:leaf=0.623748,cover=19
+			12:leaf=1.01494,cover=199
+		6:[NOX<0.603] yes=13,no=14,missing=13,gain=192.883,cover=76
+			13:leaf=0.84933,cover=21
+			14:leaf=0.470521,cover=55
+booster[7]:
+0:[LSTAT<5.44] yes=1,no=2,missing=1,gain=5043.42,cover=506
+	1:[AGE<82.95] yes=3,no=4,missing=3,gain=219.024,cover=76
+		3:[RM<6.7275] yes=7,no=8,missing=7,gain=157.906,cover=64
+			7:leaf=1.21495,cover=16
+			8:leaf=1.80172,cover=48
+		4:leaf=2.38533,cover=12
+	2:[LSTAT<11.675] yes=5,no=6,missing=5,gain=1709.48,cover=430
+		5:[RM<7.0835] yes=9,no=10,missing=9,gain=453.359,cover=185
+			9:leaf=1.0938,cover=166
+			10:leaf=1.66733,cover=19
+		6:[NOX<0.6695] yes=11,no=12,missing=11,gain=515.883,cover=245
+			11:leaf=0.86687,cover=151
+			12:leaf=0.554114,cover=94
+booster[8]:
+0:[LSTAT<5.155] yes=1,no=2,missing=1,gain=4161.96,cover=506
+	1:[DIS<3.20745] yes=3,no=4,missing=3,gain=280.498,cover=67
+		3:leaf=2.191,cover=15
+		4:[RM<6.495] yes=7,no=8,missing=7,gain=113.067,cover=52
+			7:leaf=0.702533,cover=4
+			8:leaf=1.5656,cover=48
+	2:[LSTAT<14.795] yes=5,no=6,missing=5,gain=1524.79,cover=439
+		5:[RM<6.543] yes=9,no=10,missing=9,gain=585.085,cover=273
+			9:leaf=0.897242,cover=205
+			10:leaf=1.26079,cover=68
+		6:[PTRATIO<19.65] yes=11,no=12,missing=11,gain=360.603,cover=166
+			11:leaf=0.850235,cover=44
+			12:leaf=0.503381,cover=122
+booster[9]:
+0:[LSTAT<9.63] yes=1,no=2,missing=1,gain=3436.16,cover=506
+	1:[LSTAT<4.65] yes=3,no=4,missing=3,gain=1278.42,cover=207
+		3:[DIS<3.20745] yes=7,no=8,missing=7,gain=60.4106,cover=50
+			7:leaf=2.03291,cover=12
+			8:leaf=1.45819,cover=38
+		4:[NOX<0.574] yes=9,no=10,missing=9,gain=421.393,cover=157
+			9:leaf=0.95761,cover=141
+			10:leaf=1.54633,cover=16
+	2:[LSTAT<19.83] yes=5,no=6,missing=5,gain=556.14,cover=299
+		5:[PTRATIO<19.65] yes=11,no=12,missing=11,gain=129.957,cover=223
+			11:leaf=0.818633,cover=105
+			12:leaf=0.638211,cover=118
+		6:[PTRATIO<19.65] yes=13,no=14,missing=13,gain=153.83,cover=76
+			13:leaf=0.667749,cover=17
+			14:leaf=0.317456,cover=59
+booster[10]:
+0:[RM<6.978] yes=1,no=2,missing=1,gain=2931.81,cover=506
+	1:[LSTAT<14.4] yes=3,no=4,missing=3,gain=1045.95,cover=438
+		3:[DIS<1.38485] yes=7,no=8,missing=7,gain=620.859,cover=262
+			7:leaf=1.86587,cover=5
+			8:leaf=0.783873,cover=257
+		4:[PTRATIO<19.45] yes=9,no=10,missing=9,gain=284.26,cover=176
+			9:leaf=0.703956,cover=47
+			10:leaf=0.407473,cover=129
+	2:[NOX<0.659] yes=5,no=6,missing=5,gain=237.46,cover=68
+		5:[RM<7.437] yes=11,no=12,missing=11,gain=185.027,cover=65
+			11:leaf=1.19538,cover=36
+			12:leaf=1.67894,cover=29
+		6:leaf=0.367339,cover=3
+booster[11]:
+0:[RM<6.5455] yes=1,no=2,missing=1,gain=2540.69,cover=506
+	1:[LSTAT<19.645] yes=3,no=4,missing=3,gain=544.879,cover=362
+		3:[DIS<1.37275] yes=7,no=8,missing=7,gain=474.953,cover=291
+			7:leaf=1.62421,cover=4
+			8:leaf=0.602076,cover=287
+		4:[PTRATIO<19.65] yes=9,no=10,missing=9,gain=124.524,cover=71
+			9:leaf=0.538199,cover=17
+			10:leaf=0.224159,cover=54
+	2:[NOX<0.659] yes=5,no=6,missing=5,gain=647.357,cover=144
+		5:[RM<7.437] yes=11,no=12,missing=11,gain=485.66,cover=131
+			11:leaf=1.00346,cover=102
+			12:leaf=1.51665,cover=29
+		6:[LSTAT<24.53] yes=13,no=14,missing=13,gain=16.4715,cover=13
+			13:leaf=0.383431,cover=12
+			14:leaf=-0.0193481,cover=1
+booster[12]:
+0:[LSTAT<5.44] yes=1,no=2,missing=1,gain=2101.24,cover=506
+	1:[AGE<86.7] yes=3,no=4,missing=3,gain=189.764,cover=76
+		3:[B<375.425] yes=7,no=8,missing=7,gain=116.282,cover=66
+			7:leaf=0.371325,cover=4
+			8:leaf=1.05996,cover=62
+		4:leaf=1.60049,cover=10
+	2:[PTRATIO<19.65] yes=5,no=6,missing=5,gain=695.934,cover=430
+		5:[RM<6.142] yes=9,no=10,missing=9,gain=323.005,cover=225
+			9:leaf=0.541385,cover=114
+			10:leaf=0.795948,cover=111
+		6:[DIS<1.17165] yes=11,no=12,missing=11,gain=325.548,cover=205
+			11:leaf=1.32453,cover=3
+			12:leaf=0.39038,cover=202
+booster[13]:
+0:[RM<6.5455] yes=1,no=2,missing=1,gain=1769.85,cover=506
+	1:[CRIM<13.6001] yes=3,no=4,missing=3,gain=413.644,cover=362
+		3:[DIS<1.17165] yes=7,no=8,missing=7,gain=287.195,cover=329
+			7:leaf=1.49854,cover=2
+			8:leaf=0.476022,cover=327
+		4:[NOX<0.675] yes=9,no=10,missing=9,gain=140.089,cover=33
+			9:leaf=0.386465,cover=11
+			10:leaf=-0.036832,cover=22
+	2:[RM<7.437] yes=5,no=6,missing=5,gain=455.297,cover=144
+		5:[NOX<0.659] yes=11,no=12,missing=11,gain=270.492,cover=114
+			11:leaf=0.818324,cover=102
+			12:leaf=0.284834,cover=12
+		6:[PTRATIO<17.9] yes=13,no=14,missing=13,gain=128.256,cover=30
+			13:leaf=1.33361,cover=25
+			14:leaf=0.582392,cover=5
+booster[14]:
+0:[LSTAT<5.44] yes=1,no=2,missing=1,gain=1469.59,cover=506
+	1:[AGE<86.7] yes=3,no=4,missing=3,gain=175.671,cover=76
+		3:[RM<7.433] yes=7,no=8,missing=7,gain=95.6484,cover=66
+			7:leaf=0.719885,cover=46
+			8:leaf=1.05657,cover=20
+		4:leaf=1.36029,cover=10
+	2:[PTRATIO<19.65] yes=5,no=6,missing=5,gain=507.589,cover=430
+		5:[RM<7.0105] yes=9,no=10,missing=9,gain=235.649,cover=225
+			9:leaf=0.509918,cover=204
+			10:leaf=0.875491,cover=21
+		6:[DIS<1.17165] yes=11,no=12,missing=11,gain=260.708,cover=205
+			11:leaf=1.1406,cover=3
+			12:leaf=0.308935,cover=202
+booster[15]:
+0:[LSTAT<7.685] yes=1,no=2,missing=1,gain=1236.49,cover=506
+	1:[LSTAT<4.65] yes=3,no=4,missing=3,gain=322.107,cover=149
+		3:[DIS<3.20745] yes=7,no=8,missing=7,gain=84.1697,cover=50
+			7:leaf=1.21708,cover=12
+			8:leaf=0.802176,cover=38
+		4:[TAX<267.5] yes=9,no=10,missing=9,gain=128.665,cover=99
+			9:leaf=0.781577,cover=29
+			10:leaf=0.503274,cover=70
+	2:[LSTAT<19.83] yes=5,no=6,missing=5,gain=335.23,cover=357
+		5:[DIS<1.22715] yes=11,no=12,missing=11,gain=234.016,cover=281
+			11:leaf=1.32259,cover=2
+			12:leaf=0.40283,cover=279
+		6:[NOX<0.675] yes=13,no=14,missing=13,gain=113.66,cover=76
+			13:leaf=0.300537,cover=36
+			14:leaf=0.0556324,cover=40
+booster[16]:
+0:[RM<6.5455] yes=1,no=2,missing=1,gain=1065.34,cover=506
+	1:[LSTAT<19.645] yes=3,no=4,missing=3,gain=281.887,cover=362
+		3:[DIS<1.37275] yes=7,no=8,missing=7,gain=302.241,cover=291
+			7:leaf=1.15818,cover=4
+			8:leaf=0.356351,cover=287
+		4:[NOX<0.603] yes=9,no=10,missing=9,gain=85.4268,cover=71
+			9:leaf=0.316539,cover=20
+			10:leaf=0.0746352,cover=51
+	2:[PTRATIO<15.25] yes=5,no=6,missing=5,gain=326.922,cover=144
+		5:[DIS<6.8944] yes=11,no=12,missing=11,gain=99.6502,cover=37
+			11:leaf=0.991894,cover=31
+			12:leaf=0.430301,cover=6
+		6:[NOX<0.651] yes=13,no=14,missing=13,gain=171.7,cover=107
+			13:leaf=0.599407,cover=94
+			14:leaf=0.192615,cover=13
+booster[17]:
+0:[RM<7.0105] yes=1,no=2,missing=1,gain=902.094,cover=506
+	1:[LSTAT<11.675] yes=3,no=4,missing=3,gain=347.489,cover=443
+		3:[DIS<1.38485] yes=7,no=8,missing=7,gain=336.994,cover=201
+			7:leaf=1.25554,cover=4
+			8:leaf=0.402341,cover=197
+		4:[NOX<0.6695] yes=9,no=10,missing=9,gain=154.271,cover=242
+			9:leaf=0.307842,cover=150
+			10:leaf=0.140972,cover=92
+	2:[NOX<0.659] yes=5,no=6,missing=5,gain=79.3457,cover=63
+		5:[RM<7.7835] yes=11,no=12,missing=11,gain=73.782,cover=60
+			11:leaf=0.641835,cover=40
+			12:leaf=0.948127,cover=20
+		6:[AGE<98.6] yes=13,no=14,missing=13,gain=8.12608,cover=3
+			13:leaf=0.0143957,cover=2
+			14:leaf=0.307201,cover=1
+booster[18]:
+0:[RM<6.5455] yes=1,no=2,missing=1,gain=749.71,cover=506
+	1:[CRIM<13.6001] yes=3,no=4,missing=3,gain=217.212,cover=362
+		3:[DIS<1.17165] yes=7,no=8,missing=7,gain=178.529,cover=329
+			7:leaf=1.07351,cover=2
+			8:leaf=0.280721,cover=327
+		4:[NOX<0.675] yes=9,no=10,missing=9,gain=91.9022,cover=33
+			9:leaf=0.242932,cover=11
+			10:leaf=-0.0985167,cover=22
+	2:[PTRATIO<15.25] yes=5,no=6,missing=5,gain=243.382,cover=144
+		5:[DIS<6.8944] yes=11,no=12,missing=11,gain=77.915,cover=37
+			11:leaf=0.829085,cover=31
+			12:leaf=0.345246,cover=6
+		6:[NOX<0.651] yes=13,no=14,missing=13,gain=109.785,cover=107
+			13:leaf=0.488566,cover=94
+			14:leaf=0.16226,cover=13
+booster[19]:
+0:[RM<6.978] yes=1,no=2,missing=1,gain=634.552,cover=506
+	1:[LSTAT<11.25] yes=3,no=4,missing=3,gain=241.393,cover=438
+		3:[DIS<1.38485] yes=7,no=8,missing=7,gain=275.427,cover=186
+			7:leaf=1.09677,cover=4
+			8:leaf=0.32801,cover=182
+		4:[TAX<278] yes=9,no=10,missing=9,gain=120.717,cover=252
+			9:leaf=0.392688,cover=28
+			10:leaf=0.172421,cover=224
+	2:[PTRATIO<14.75] yes=5,no=6,missing=5,gain=66.7565,cover=68
+		5:[RM<7.706] yes=11,no=12,missing=11,gain=46.1839,cover=22
+			11:leaf=0.535606,cover=12
+			12:leaf=0.947149,cover=10
+		6:[LSTAT<4.68] yes=13,no=14,missing=13,gain=58.6834,cover=46
+			13:leaf=0.638373,cover=20
+			14:leaf=0.373107,cover=26
+booster[20]:
+0:[LSTAT<5.23] yes=1,no=2,missing=1,gain=531.343,cover=506
+	1:[DIS<3.20745] yes=3,no=4,missing=3,gain=123.78,cover=69
+		3:[AGE<53.1] yes=7,no=8,missing=7,gain=18.0135,cover=15
+			7:leaf=0.165295,cover=1
+			8:leaf=0.831021,cover=14
+		4:[AGE<74.65] yes=9,no=10,missing=9,gain=87.824,cover=54
+			9:leaf=0.479867,cover=51
+			10:leaf=-0.05852,cover=3
+	2:[PTRATIO<18.75] yes=5,no=6,missing=5,gain=266.203,cover=437
+		5:[TAX<298] yes=11,no=12,missing=11,gain=185.923,cover=185
+			11:leaf=0.432993,cover=89
+			12:leaf=0.227757,cover=96
+		6:[LSTAT<21.42] yes=13,no=14,missing=13,gain=128.209,cover=252
+			13:leaf=0.203059,cover=205
+			14:leaf=0.0195783,cover=47
+booster[21]:
+0:[RM<7.0105] yes=1,no=2,missing=1,gain=456.612,cover=506
+	1:[LSTAT<15] yes=3,no=4,missing=3,gain=179.174,cover=443
+		3:[DIS<1.38485] yes=7,no=8,missing=7,gain=226.483,cover=282
+			7:leaf=0.878868,cover=5
+			8:leaf=0.248524,cover=277
+		4:[CRIM<0.61479] yes=9,no=10,missing=9,gain=90.9592,cover=161
+			9:leaf=0.246839,cover=46
+			10:leaf=0.0804349,cover=115
+	2:[LSTAT<3.99] yes=5,no=6,missing=5,gain=52.8307,cover=63
+		5:[PTRATIO<13.3] yes=11,no=12,missing=11,gain=5.98132,cover=23
+			11:leaf=0.15703,cover=1
+			12:leaf=0.651514,cover=22
+		6:[INDUS<6.685] yes=13,no=14,missing=13,gain=69.4396,cover=40
+			13:leaf=0.465121,cover=34
+			14:leaf=0.081325,cover=6
+booster[22]:
+0:[RM<6.5455] yes=1,no=2,missing=1,gain=399.964,cover=506
+	1:[CRIM<13.6001] yes=3,no=4,missing=3,gain=127.059,cover=362
+		3:[DIS<1.17165] yes=7,no=8,missing=7,gain=131.809,cover=329
+			7:leaf=0.856692,cover=2
+			8:leaf=0.181923,cover=327
+		4:[NOX<0.675] yes=9,no=10,missing=9,gain=73.1457,cover=33
+			9:leaf=0.183947,cover=11
+			10:leaf=-0.12067,cover=22
+	2:[PTRATIO<15.25] yes=5,no=6,missing=5,gain=142.87,cover=144
+		5:[NOX<0.4005] yes=11,no=12,missing=11,gain=58.5974,cover=37
+			11:leaf=0.00842845,cover=2
+			12:leaf=0.568808,cover=35
+		6:[LSTAT<4.475] yes=13,no=14,missing=13,gain=62.06,cover=107
+			13:leaf=0.445356,cover=25
+			14:leaf=0.255716,cover=82
+booster[23]:
+0:[LSTAT<7.685] yes=1,no=2,missing=1,gain=333.895,cover=506
+	1:[AGE<91.25] yes=3,no=4,missing=3,gain=111.409,cover=149
+		3:[TAX<267.5] yes=7,no=8,missing=7,gain=104.802,cover=135
+			7:leaf=0.419965,cover=47
+			8:leaf=0.229075,cover=88
+		4:[LSTAT<6.17] yes=9,no=10,missing=9,gain=48.8648,cover=14
+			9:leaf=0.692597,cover=11
+			10:leaf=0.168208,cover=3
+	2:[CRIM<15.718] yes=5,no=6,missing=5,gain=111.256,cover=357
+		5:[DIS<1.17165] yes=11,no=12,missing=11,gain=118.557,cover=331
+			11:leaf=0.799579,cover=2
+			12:leaf=0.160725,cover=329
+		6:[NOX<0.6695] yes=13,no=14,missing=13,gain=29.9049,cover=26
+			13:leaf=0.153966,cover=5
+			14:leaf=-0.0987637,cover=21
+booster[24]:
+0:[RM<6.5455] yes=1,no=2,missing=1,gain=284.051,cover=506
+	1:[TAX<222.5] yes=3,no=4,missing=3,gain=98.9682,cover=362
+		3:[INDUS<14.055] yes=7,no=8,missing=7,gain=85.6173,cover=11
+			7:leaf=0.743302,cover=4
+			8:leaf=0.167519,cover=7
+		4:[DIS<1.17165] yes=9,no=10,missing=9,gain=83.3259,cover=351
+			9:leaf=0.584411,cover=3
+			10:leaf=0.121006,cover=348
+	2:[PTRATIO<15.25] yes=5,no=6,missing=5,gain=109.885,cover=144
+		5:[DIS<6.0775] yes=11,no=12,missing=11,gain=48.9954,cover=37
+			11:leaf=0.525167,cover=27
+			12:leaf=0.229527,cover=10
+		6:[AGE<95.1] yes=13,no=14,missing=13,gain=63.4003,cover=107
+			13:leaf=0.219992,cover=98
+			14:leaf=0.496568,cover=9
+booster[25]:
+0:[PTRATIO<18.75] yes=1,no=2,missing=1,gain=248.604,cover=506
+	1:[TAX<222.5] yes=3,no=4,missing=3,gain=160.599,cover=244
+		3:[RM<6.5895] yes=7,no=8,missing=7,gain=17.2689,cover=22
+			7:leaf=0.699292,cover=5
+			8:leaf=0.398589,cover=17
+		4:[RM<7.7465] yes=9,no=10,missing=9,gain=116.838,cover=222
+			9:leaf=0.189903,cover=206
+			10:leaf=0.467786,cover=16
+	2:[DIS<1.35735] yes=5,no=6,missing=5,gain=195.055,cover=262
+		5:[CRIM<10.1702] yes=11,no=12,missing=11,gain=152.702,cover=11
+			11:leaf=0.851572,cover=5
+			12:leaf=0.115295,cover=6
+		6:[LSTAT<22.355] yes=13,no=14,missing=13,gain=75.0532,cover=251
+			13:leaf=0.103101,cover=211
+			14:leaf=-0.0453194,cover=40
+booster[26]:
+0:[RM<6.049] yes=1,no=2,missing=1,gain=217.956,cover=506
+	1:[RM<6.025] yes=3,no=4,missing=3,gain=53.3055,cover=193
+		3:[CRIM<33.5038] yes=7,no=8,missing=7,gain=53.2461,cover=186
+			7:leaf=0.0872043,cover=180
+			8:leaf=-0.195435,cover=6
+		4:[INDUS<8.915] yes=9,no=10,missing=9,gain=14.778,cover=7
+			9:leaf=-0.0670101,cover=5
+			10:leaf=-0.366226,cover=2
+	2:[TAX<267.5] yes=5,no=6,missing=5,gain=144.275,cover=313
+		5:[INDUS<4.23] yes=11,no=12,missing=11,gain=107.119,cover=68
+			11:leaf=0.426068,cover=43
+			12:leaf=0.157453,cover=25
+		6:[DIS<1.25935] yes=13,no=14,missing=13,gain=98.4105,cover=245
+			13:leaf=0.741489,cover=2
+			14:leaf=0.157341,cover=243
+booster[27]:
+0:[LSTAT<4.65] yes=1,no=2,missing=1,gain=182.868,cover=506
+	1:[DIS<3.20745] yes=3,no=4,missing=3,gain=50.0257,cover=50
+		3:[ZN<10] yes=7,no=8,missing=7,gain=17.8749,cover=12
+			7:leaf=0.52988,cover=11
+			8:leaf=0.0426832,cover=1
+		4:[AGE<74.65] yes=9,no=10,missing=9,gain=77.0745,cover=38
+			9:leaf=0.289829,cover=35
+			10:leaf=-0.190538,cover=3
+	2:[PTRATIO<19.65] yes=5,no=6,missing=5,gain=134.574,cover=456
+		5:[TAX<278] yes=11,no=12,missing=11,gain=103.971,cover=250
+			11:leaf=0.252727,cover=87
+			12:leaf=0.116251,cover=163
+		6:[TAX<334.5] yes=13,no=14,missing=13,gain=103.173,cover=206
+			13:leaf=-0.0813246,cover=43
+			14:leaf=0.0913788,cover=163
+booster[28]:
+0:[RM<6.049] yes=1,no=2,missing=1,gain=163.926,cover=506
+	1:[RAD<1.5] yes=3,no=4,missing=3,gain=45.0787,cover=193
+		3:[CRIM<0.041445] yes=7,no=8,missing=7,gain=7.53364,cover=4
+			7:leaf=-0.0613515,cover=2
+			8:leaf=-0.351807,cover=2
+		4:[CRIM<22.3241] yes=9,no=10,missing=9,gain=43.3827,cover=189
+			9:leaf=0.069744,cover=177
+			10:leaf=-0.120194,cover=12
+	2:[B<105.24] yes=5,no=6,missing=5,gain=117.563,cover=313
+		5:[CRIM<9.78796] yes=11,no=12,missing=11,gain=12.1019,cover=21
+			11:leaf=0.00796365,cover=12
+			12:leaf=-0.140367,cover=9
+		6:[TAX<219] yes=13,no=14,missing=13,gain=96.8082,cover=292
+			13:leaf=0.434512,cover=14
+			14:leaf=0.16925,cover=278
+booster[29]:
+0:[PTRATIO<17.85] yes=1,no=2,missing=1,gain=141.002,cover=506
+	1:[TAX<264.5] yes=3,no=4,missing=3,gain=131.614,cover=174
+		3:[DIS<6.5754] yes=7,no=8,missing=7,gain=48.7688,cover=42
+			7:leaf=0.378947,cover=36
+			8:leaf=0.0602312,cover=6
+		4:[CRIM<0.066295] yes=9,no=10,missing=9,gain=75.2204,cover=132
+			9:leaf=0.016975,cover=40
+			10:leaf=0.181423,cover=92
+	2:[DIS<1.35735] yes=5,no=6,missing=5,gain=134.958,cover=332
+		5:[CRIM<10.1702] yes=11,no=12,missing=11,gain=113.674,cover=11
+			11:leaf=0.710035,cover=5
+			12:leaf=0.0792803,cover=6
+		6:[AGE<73.2] yes=13,no=14,missing=13,gain=82.3918,cover=321
+			13:leaf=0.118234,cover=135
+			14:leaf=0.0157241,cover=186
+booster[30]:
+0:[RM<6.049] yes=1,no=2,missing=1,gain=125.253,cover=506
+	1:[DIS<4.4412] yes=3,no=4,missing=3,gain=45.2261,cover=193
+		3:[NOX<0.535] yes=7,no=8,missing=7,gain=82.0892,cover=145
+			7:leaf=0.237087,cover=22
+			8:leaf=0.0308876,cover=123
+		4:[PTRATIO<16.85] yes=9,no=10,missing=9,gain=22.5887,cover=48
+			9:leaf=0.0735437,cover=11
+			10:leaf=-0.0846076,cover=37
+	2:[B<105.24] yes=5,no=6,missing=5,gain=87.1386,cover=313
+		5:[CRIM<9.78796] yes=11,no=12,missing=11,gain=9.79594,cover=21
+			11:leaf=0.00450252,cover=12
+			12:leaf=-0.129149,cover=9
+		6:[TAX<207] yes=13,no=14,missing=13,gain=70.9092,cover=292
+			13:leaf=0.418008,cover=9
+			14:leaf=0.142677,cover=283
+booster[31]:
+0:[LSTAT<3.99] yes=1,no=2,missing=1,gain=112.142,cover=506
+	1:[DIS<2.0058] yes=3,no=4,missing=3,gain=33.7798,cover=33
+		3:leaf=0.521839,cover=4
+		4:[PTRATIO<18.15] yes=7,no=8,missing=7,gain=29.5442,cover=29
+			7:leaf=0.268783,cover=22
+			8:leaf=0.0295378,cover=7
+	2:[TAX<222.5] yes=5,no=6,missing=5,gain=92.3894,cover=473
+		5:[B<384.74] yes=9,no=10,missing=9,gain=29.0878,cover=25
+			9:leaf=0.0567199,cover=6
+			10:leaf=0.318833,cover=19
+		6:[PTRATIO<17.7] yes=11,no=12,missing=11,gain=73.6699,cover=448
+			11:leaf=0.130593,cover=126
+			12:leaf=0.0404301,cover=322
+booster[32]:
+0:[RM<7.7835] yes=1,no=2,missing=1,gain=96.9045,cover=506
+	1:[DIS<1.30075] yes=3,no=4,missing=3,gain=79.8451,cover=485
+		3:[CRIM<10.1702] yes=7,no=8,missing=7,gain=57.6751,cover=7
+			7:leaf=0.656567,cover=3
+			8:leaf=0.091748,cover=4
+		4:[PTRATIO<20.95] yes=9,no=10,missing=9,gain=66.9579,cover=478
+			9:leaf=0.0781239,cover=433
+			10:leaf=-0.0491695,cover=45
+	2:[TAX<270] yes=5,no=6,missing=5,gain=44.1071,cover=21
+		5:[RM<7.8255] yes=11,no=12,missing=11,gain=9.18038,cover=9
+			11:leaf=0.0713568,cover=1
+			12:leaf=0.479343,cover=8
+		6:[LSTAT<3.225] yes=13,no=14,missing=13,gain=15.255,cover=12
+			13:leaf=-0.0426739,cover=3
+			14:leaf=0.202249,cover=9
+booster[33]:
+0:[NOX<0.6695] yes=1,no=2,missing=1,gain=89.8248,cover=506
+	1:[DIS<1.60065] yes=3,no=4,missing=3,gain=127.835,cover=405
+		3:[RM<5.816] yes=7,no=8,missing=7,gain=44.0229,cover=17
+			7:leaf=0.205533,cover=11
+			8:leaf=0.561388,cover=6
+		4:[PTRATIO<15.25] yes=9,no=10,missing=9,gain=98.1199,cover=388
+			9:leaf=0.203246,cover=56
+			10:leaf=0.0607757,cover=332
+	2:[NOX<0.6965] yes=5,no=6,missing=5,gain=74.4689,cover=101
+		5:[DIS<1.4013] yes=11,no=12,missing=11,gain=19.0306,cover=29
+			11:leaf=0.0290682,cover=5
+			12:leaf=-0.1794,cover=24
+		6:[B<354.625] yes=13,no=14,missing=13,gain=42.8252,cover=72
+			13:leaf=-0.037589,cover=34
+			14:leaf=0.115112,cover=38
+booster[34]:
+0:[RM<6.049] yes=1,no=2,missing=1,gain=85.809,cover=506
+	1:[DIS<5.58775] yes=3,no=4,missing=3,gain=37.5319,cover=193
+		3:[NOX<0.6735] yes=7,no=8,missing=7,gain=40.1927,cover=164
+			7:leaf=0.061961,cover=120
+			8:leaf=-0.0488752,cover=44
+		4:[B<394.96] yes=9,no=10,missing=9,gain=9.16527,cover=29
+			9:leaf=-0.145113,cover=14
+			10:leaf=-0.0317985,cover=15
+	2:[B<105.24] yes=5,no=6,missing=5,gain=58.7115,cover=313
+		5:[CRIM<9.78796] yes=11,no=12,missing=11,gain=8.14204,cover=21
+			11:leaf=-0.00492524,cover=12
+			12:leaf=-0.127532,cover=9
+		6:[TAX<207] yes=13,no=14,missing=13,gain=50.4386,cover=292
+			13:leaf=0.332864,cover=9
+			14:leaf=0.101649,cover=283
+booster[35]:
+0:[LSTAT<3.99] yes=1,no=2,missing=1,gain=72.856,cover=506
+	1:[DIS<5.9736] yes=3,no=4,missing=3,gain=27.4323,cover=33
+		3:[DIS<2.0058] yes=7,no=8,missing=7,gain=14.39,cover=25
+			7:leaf=0.424303,cover=4
+			8:leaf=0.200219,cover=21
+		4:[B<386.215] yes=9,no=10,missing=9,gain=8.12768,cover=8
+			9:leaf=-0.10762,cover=2
+			10:leaf=0.0903987,cover=6
+	2:[TAX<222.5] yes=5,no=6,missing=5,gain=66.0137,cover=473
+		5:[AGE<69.25] yes=11,no=12,missing=11,gain=23.392,cover=25
+			11:leaf=0.30125,cover=12
+			12:leaf=0.099601,cover=13
+		6:[RAD<4.5] yes=13,no=14,missing=13,gain=48.3551,cover=448
+			13:leaf=-0.0038018,cover=161
+			14:leaf=0.0646038,cover=287
+booster[36]:
+0:[RM<6.049] yes=1,no=2,missing=1,gain=65.8116,cover=506
+	1:[RM<6.0205] yes=3,no=4,missing=3,gain=34.1908,cover=193
+		3:[DIS<4.4418] yes=7,no=8,missing=7,gain=32.212,cover=184
+			7:leaf=0.0404903,cover=141
+			8:leaf=-0.0574808,cover=43
+		4:[NOX<0.56] yes=9,no=10,missing=9,gain=12.7861,cover=9
+			9:leaf=-0.0841033,cover=7
+			10:leaf=-0.350551,cover=2
+	2:[B<105.24] yes=5,no=6,missing=5,gain=47.8695,cover=313
+		5:[CRIM<9.78796] yes=11,no=12,missing=11,gain=6.65614,cover=21
+			11:leaf=-0.0104341,cover=12
+			12:leaf=-0.121868,cover=9
+		6:[DIS<1.25935] yes=13,no=14,missing=13,gain=44.7926,cover=292
+			13:leaf=0.480204,cover=2
+			14:leaf=0.088137,cover=290
+booster[37]:
+0:[RM<7.7835] yes=1,no=2,missing=1,gain=63.0779,cover=506
+	1:[CHAS<0.5] yes=3,no=4,missing=3,gain=56.9015,cover=485
+		3:[TAX<223.5] yes=7,no=8,missing=7,gain=49.7184,cover=454
+			7:leaf=0.158328,cover=28
+			8:leaf=0.0228834,cover=426
+		4:[NOX<0.8205] yes=9,no=10,missing=9,gain=52.5903,cover=31
+			9:leaf=0.219326,cover=27
+			10:leaf=-0.141987,cover=4
+	2:[TAX<270] yes=5,no=6,missing=5,gain=34.4869,cover=21
+		5:[RM<7.8255] yes=11,no=12,missing=11,gain=8.2244,cover=9
+			11:leaf=0.0381262,cover=1
+			12:leaf=0.383844,cover=8
+		6:[LSTAT<3.225] yes=13,no=14,missing=13,gain=13.7833,cover=12
+			13:leaf=-0.0768437,cover=3
+			14:leaf=0.148817,cover=9
+booster[38]:
+0:[NOX<0.6695] yes=1,no=2,missing=1,gain=59.1663,cover=506
+	1:[DIS<1.60065] yes=3,no=4,missing=3,gain=101.303,cover=405
+		3:[CRIM<16.4683] yes=7,no=8,missing=7,gain=34.1696,cover=17
+			7:leaf=0.378844,cover=12
+			8:leaf=0.0578595,cover=5
+		4:[PTRATIO<20.95] yes=9,no=10,missing=9,gain=69.0233,cover=388
+			9:leaf=0.0648894,cover=344
+			10:leaf=-0.0670247,cover=44
+	2:[NOX<0.6965] yes=5,no=6,missing=5,gain=59.4207,cover=101
+		5:[NOX<0.686] yes=11,no=12,missing=11,gain=14.1438,cover=29
+			11:leaf=-0.0685017,cover=15
+			12:leaf=-0.212803,cover=14
+		6:[B<354.625] yes=13,no=14,missing=13,gain=30.5688,cover=72
+			13:leaf=-0.0439177,cover=34
+			14:leaf=0.0849379,cover=38
+booster[39]:
+0:[LSTAT<23.74] yes=1,no=2,missing=1,gain=52.8711,cover=506
+	1:[PTRATIO<20.95] yes=3,no=4,missing=3,gain=58.2574,cover=462
+		3:[DIS<6.1388] yes=7,no=8,missing=7,gain=71.449,cover=420
+			7:leaf=0.0803674,cover=341
+			8:leaf=-0.0248785,cover=79
+		4:[TAX<385.5] yes=9,no=10,missing=9,gain=40.8654,cover=42
+			9:leaf=-0.130112,cover=28
+			10:leaf=0.0741272,cover=14
+	2:[INDUS<26.695] yes=5,no=6,missing=5,gain=28.1788,cover=44
+		5:[AGE<43.8] yes=11,no=12,missing=11,gain=20.0241,cover=42
+			11:leaf=0.269274,cover=1
+			12:leaf=-0.0559922,cover=41
+		6:leaf=-0.361428,cover=2
+booster[40]:
+0:[RM<7.7835] yes=1,no=2,missing=1,gain=49.4389,cover=506
+	1:[CRIM<33.1589] yes=3,no=4,missing=3,gain=44.2224,cover=485
+		3:[RAD<1.5] yes=7,no=8,missing=7,gain=41.7854,cover=477
+			7:leaf=-0.109017,cover=19
+			8:leaf=0.0388305,cover=458
+		4:[DIS<1.5485] yes=9,no=10,missing=9,gain=5.08223,cover=8
+			9:leaf=-0.263608,cover=4
+			10:leaf=-0.0805969,cover=4
+	2:[AGE<71.85] yes=5,no=6,missing=5,gain=30.1328,cover=21
+		5:[RM<7.8255] yes=11,no=12,missing=11,gain=7.53389,cover=10
+			11:leaf=0.0762807,cover=2
+			12:leaf=0.34108,cover=8
+		6:[DIS<3.05505] yes=13,no=14,missing=13,gain=28.6832,cover=11
+			13:leaf=0.154016,cover=8
+			14:leaf=-0.169616,cover=3
+booster[41]:
+0:[NOX<0.6695] yes=1,no=2,missing=1,gain=47.5663,cover=506
+	1:[DIS<1.60065] yes=3,no=4,missing=3,gain=85.4182,cover=405
+		3:[RM<5.816] yes=7,no=8,missing=7,gain=28.6572,cover=17
+			7:leaf=0.142776,cover=11
+			8:leaf=0.424437,cover=6
+		4:[PTRATIO<17.7] yes=9,no=10,missing=9,gain=60.2325,cover=388
+			9:leaf=0.0908036,cover=135
+			10:leaf=0.00824611,cover=253
+	2:[CRIM<9.87002] yes=5,no=6,missing=5,gain=46.7868,cover=101
+		5:[B<354.625] yes=11,no=12,missing=11,gain=24.0308,cover=63
+			11:leaf=-0.0467472,cover=27
+			12:leaf=0.076182,cover=36
+		6:[DIS<1.8468] yes=13,no=14,missing=13,gain=6.02097,cover=38
+			13:leaf=-0.140606,cover=27
+			14:leaf=-0.0472474,cover=11
+booster[42]:
+0:[RM<6.049] yes=1,no=2,missing=1,gain=40.8413,cover=506
+	1:[RM<6.0205] yes=3,no=4,missing=3,gain=27.4867,cover=193
+		3:[INDUS<26.695] yes=7,no=8,missing=7,gain=26.9457,cover=184
+			7:leaf=0.00828428,cover=179
+			8:leaf=-0.207138,cover=5
+		4:[NOX<0.56] yes=9,no=10,missing=9,gain=9.56121,cover=9
+			9:leaf=-0.0891642,cover=7
+			10:leaf=-0.325187,cover=2
+	2:[TAX<207] yes=5,no=6,missing=5,gain=33.7168,cover=313
+		5:[RM<6.6455] yes=11,no=12,missing=11,gain=39.5423,cover=9
+			11:leaf=0.477005,cover=3
+			12:leaf=0.0591512,cover=6
+		6:[DIS<1.25935] yes=13,no=14,missing=13,gain=33.5731,cover=304
+			13:leaf=0.378618,cover=2
+			14:leaf=0.0414325,cover=302
+booster[43]:
+0:[NOX<0.6695] yes=1,no=2,missing=1,gain=38.7222,cover=506
+	1:[DIS<1.60065] yes=3,no=4,missing=3,gain=69.4738,cover=405
+		3:[CRIM<19.7636] yes=7,no=8,missing=7,gain=24.9826,cover=17
+			7:leaf=0.284687,cover=14
+			8:leaf=-0.0239355,cover=3
+		4:[PTRATIO<15.25] yes=9,no=10,missing=9,gain=51.1584,cover=388
+			9:leaf=0.118281,cover=56
+			10:leaf=0.0156612,cover=332
+	2:[NOX<0.6965] yes=5,no=6,missing=5,gain=40.277,cover=101
+		5:[NOX<0.686] yes=11,no=12,missing=11,gain=11.6317,cover=29
+			11:leaf=-0.0593863,cover=15
+			12:leaf=-0.189878,cover=14
+		6:[B<354.625] yes=13,no=14,missing=13,gain=22.0077,cover=72
+			13:leaf=-0.0465668,cover=34
+			14:leaf=0.0626926,cover=38
+booster[44]:
+0:[DIS<6.22315] yes=1,no=2,missing=1,gain=36.7684,cover=506
+	1:[AGE<68.95] yes=3,no=4,missing=3,gain=75.63,cover=428
+		3:[DIS<4.3607] yes=7,no=8,missing=7,gain=56.1123,cover=144
+			7:leaf=0.158997,cover=68
+			8:leaf=0.0338618,cover=76
+		4:[RAD<4.5] yes=9,no=10,missing=9,gain=53.8533,cover=284
+			9:leaf=-0.0672893,cover=75
+			10:leaf=0.0309493,cover=209
+	2:[INDUS<1.605] yes=5,no=6,missing=5,gain=22.9249,cover=78
+		5:[B<387.075] yes=11,no=12,missing=11,gain=5.27871,cover=12
+			11:leaf=-0.0474201,cover=2
+			12:leaf=0.111039,cover=10
+		6:[INDUS<2.245] yes=13,no=14,missing=13,gain=14.9699,cover=66
+			13:leaf=-0.154987,cover=13
+			14:leaf=-0.0374626,cover=53
+booster[45]:
+0:[B<105.24] yes=1,no=2,missing=1,gain=35.8265,cover=506
+	1:[AGE<77.3] yes=3,no=4,missing=3,gain=14.7163,cover=33
+		3:leaf=-0.237992,cover=4
+		4:[DIS<2.82535] yes=7,no=8,missing=7,gain=10.004,cover=29
+			7:leaf=-0.0624922,cover=28
+			8:leaf=0.171411,cover=1
+	2:[LSTAT<29.615] yes=5,no=6,missing=5,gain=45.9787,cover=473
+		5:[DIS<6.22315] yes=9,no=10,missing=9,gain=45.0337,cover=461
+			9:leaf=0.0473717,cover=383
+			10:leaf=-0.0356349,cover=78
+		6:[RM<5.056] yes=11,no=12,missing=11,gain=17.4084,cover=12
+			11:leaf=-0.0276545,cover=6
+			12:leaf=-0.264985,cover=6
+booster[46]:
+0:[RM<7.7835] yes=1,no=2,missing=1,gain=34.0488,cover=506
+	1:[CHAS<0.5] yes=3,no=4,missing=3,gain=31.2217,cover=485
+		3:[TAX<223.5] yes=7,no=8,missing=7,gain=32.6876,cover=454
+			7:leaf=0.109292,cover=28
+			8:leaf=-0.000428629,cover=426
+		4:[NOX<0.8205] yes=9,no=10,missing=9,gain=34.2889,cover=31
+			9:leaf=0.149277,cover=27
+			10:leaf=-0.139736,cover=4
+	2:[AGE<71.85] yes=5,no=6,missing=5,gain=24.9089,cover=21
+		5:[RM<7.8255] yes=11,no=12,missing=11,gain=6.72096,cover=10
+			11:leaf=0.0510799,cover=2
+			12:leaf=0.285101,cover=8
+		6:[DIS<3.05505] yes=13,no=14,missing=13,gain=22.5741,cover=11
+			13:leaf=0.116736,cover=8
+			14:leaf=-0.169341,cover=3
+booster[47]:
+0:[AGE<73.2] yes=1,no=2,missing=1,gain=30.1448,cover=506
+	1:[DIS<4.3607] yes=3,no=4,missing=3,gain=77.0645,cover=234
+		3:[B<156.82] yes=7,no=8,missing=7,gain=41.6088,cover=85
+			7:leaf=-0.254715,cover=2
+			8:leaf=0.130583,cover=83
+		4:[LSTAT<6.725] yes=9,no=10,missing=9,gain=26.2972,cover=149
+			9:leaf=0.0429184,cover=72
+			10:leaf=-0.0405909,cover=77
+	2:[DIS<3.2948] yes=5,no=6,missing=5,gain=54.1339,cover=272
+		5:[NOX<0.6695] yes=11,no=12,missing=11,gain=39.6209,cover=223
+			11:leaf=0.0535818,cover=122
+			12:leaf=-0.0307382,cover=101
+		6:[PTRATIO<17] yes=13,no=14,missing=13,gain=26.3686,cover=49
+			13:leaf=0.0604699,cover=8
+			14:leaf=-0.131599,cover=41
+booster[48]:
+0:[LSTAT<23.88] yes=1,no=2,missing=1,gain=27.5128,cover=506
+	1:[DIS<1.2438] yes=3,no=4,missing=3,gain=36.3746,cover=463
+		3:[CRIM<14.9742] yes=7,no=8,missing=7,gain=16.0657,cover=4
+			7:leaf=0.381169,cover=3
+			8:leaf=-0.0352028,cover=1
+		4:[RM<4.9715] yes=9,no=10,missing=9,gain=32.3452,cover=459
+			9:leaf=0.27255,cover=4
+			10:leaf=0.0166666,cover=455
+	2:[INDUS<26.695] yes=5,no=6,missing=5,gain=21.4608,cover=43
+		5:[AGE<43.8] yes=11,no=12,missing=11,gain=15.6885,cover=41
+			11:leaf=0.235433,cover=1
+			12:leaf=-0.0528442,cover=40
+		6:leaf=-0.31951,cover=2
+booster[49]:
+0:[PTRATIO<17.7] yes=1,no=2,missing=1,gain=26.9248,cover=506
+	1:[DIS<6.02125] yes=3,no=4,missing=3,gain=50.763,cover=151
+		3:[TAX<320] yes=7,no=8,missing=7,gain=34.5394,cover=102
+			7:leaf=0.135162,cover=62
+			8:leaf=0.0159035,cover=40
+		4:[AGE<53.6] yes=9,no=10,missing=9,gain=22.992,cover=49
+			9:leaf=-0.000181663,cover=40
+			10:leaf=-0.169715,cover=9
+	2:[TAX<222.5] yes=5,no=6,missing=5,gain=31.9498,cover=355
+		5:[PTRATIO<18.1] yes=11,no=12,missing=11,gain=18.0986,cover=23
+			11:leaf=0.222876,cover=8
+			12:leaf=0.0399916,cover=15
+		6:[DIS<1.35735] yes=13,no=14,missing=13,gain=33.5336,cover=332
+			13:leaf=0.154959,cover=11
+			14:leaf=-0.0153156,cover=321
+booster[50]:
+0:[CRIM<33.1589] yes=1,no=2,missing=1,gain=25.0869,cover=506
+	1:[RAD<1.5] yes=3,no=4,missing=3,gain=24.9319,cover=498
+		3:[ZN<26.5] yes=7,no=8,missing=7,gain=39.351,cover=20
+			7:leaf=-0.265757,cover=7
+			8:leaf=0.0150564,cover=13
+		4:[INDUS<26.695] yes=9,no=10,missing=9,gain=23.7275,cover=478
+			9:leaf=0.0226351,cover=473
+			10:leaf=-0.177652,cover=5
+	2:[DIS<1.5485] yes=5,no=6,missing=5,gain=5.47173,cover=8
+		5:leaf=-0.224735,cover=4
+		6:[DIS<1.6328] yes=11,no=12,missing=11,gain=0.728539,cover=4
+			11:leaf=0.013848,cover=1
+			12:leaf=-0.070213,cover=3
+booster[51]:
+0:[RM<6.049] yes=1,no=2,missing=1,gain=23.7397,cover=506
+	1:[RM<6.0205] yes=3,no=4,missing=3,gain=20.7945,cover=193
+		3:[AGE<93.95] yes=7,no=8,missing=7,gain=19.7942,cover=184
+			7:leaf=0.015568,cover=119
+			8:leaf=-0.0526258,cover=65
+		4:[NOX<0.56] yes=9,no=10,missing=9,gain=8.25369,cover=9
+			9:leaf=-0.0827649,cover=7
+			10:leaf=-0.302028,cover=2
+	2:[DIS<1.25935] yes=5,no=6,missing=5,gain=19.6675,cover=313
+		5:leaf=0.283392,cover=2
+		6:[CRIM<5.69997] yes=11,no=12,missing=11,gain=23.0789,cover=311
+			11:leaf=0.0375194,cover=261
+			12:leaf=-0.0361111,cover=50
+booster[52]:
+0:[RM<7.7835] yes=1,no=2,missing=1,gain=21.8024,cover=506
+	1:[CRIM<0.066295] yes=3,no=4,missing=3,gain=30.7218,cover=485
+		3:[AGE<79.85] yes=7,no=8,missing=7,gain=47.9567,cover=99
+			7:leaf=-0.027632,cover=95
+			8:leaf=-0.345923,cover=4
+		4:[LSTAT<10.14] yes=9,no=10,missing=9,gain=35.1463,cover=386
+			9:leaf=0.0647046,cover=114
+			10:leaf=-0.00123289,cover=272
+	2:[AGE<71.85] yes=5,no=6,missing=5,gain=19.3296,cover=21
+		5:[RM<7.8255] yes=11,no=12,missing=11,gain=5.48772,cover=10
+			11:leaf=0.032775,cover=2
+			12:leaf=0.23496,cover=8
+		6:[DIS<3.05505] yes=13,no=14,missing=13,gain=17.6936,cover=11
+			13:leaf=0.0893379,cover=8
+			14:leaf=-0.163537,cover=3
+booster[53]:
+0:[B<105.24] yes=1,no=2,missing=1,gain=20.292,cover=506
+	1:[AGE<77.3] yes=3,no=4,missing=3,gain=12.0851,cover=33
+		3:leaf=-0.210185,cover=4
+		4:[DIS<2.82535] yes=7,no=8,missing=7,gain=8.0943,cover=29
+			7:leaf=-0.0516488,cover=28
+			8:leaf=0.158267,cover=1
+	2:[LSTAT<29.615] yes=5,no=6,missing=5,gain=28.6101,cover=473
+		5:[DIS<4.14415] yes=9,no=10,missing=9,gain=31.7222,cover=461
+			9:leaf=0.0389909,cover=285
+			10:leaf=-0.0149023,cover=176
+		6:[RM<5.056] yes=11,no=12,missing=11,gain=11.8527,cover=12
+			11:leaf=-0.0245212,cover=6
+			12:leaf=-0.220712,cover=6
+booster[54]:
+0:[AGE<35.8] yes=1,no=2,missing=1,gain=21.7286,cover=506
+	1:[DIS<4.1959] yes=3,no=4,missing=3,gain=62.1252,cover=92
+		3:[CRIM<0.06154] yes=7,no=8,missing=7,gain=5.23819,cover=12
+			7:leaf=0.0646657,cover=2
+			8:leaf=0.283169,cover=10
+		4:[B<371.65] yes=9,no=10,missing=9,gain=20.3746,cover=80
+			9:leaf=-0.159249,cover=5
+			10:leaf=0.0323218,cover=75
+	2:[RAD<1.5] yes=5,no=6,missing=5,gain=29.824,cover=414
+		5:[ZN<26.5] yes=11,no=12,missing=11,gain=15.3088,cover=9
+			11:leaf=-0.235059,cover=7
+			12:leaf=0.0522483,cover=2
+		6:[DIS<3.8973] yes=13,no=14,missing=13,gain=26.1868,cover=405
+			13:leaf=0.0181579,cover=293
+			14:leaf=-0.038483,cover=112
+booster[55]:
+0:[AGE<73.2] yes=1,no=2,missing=1,gain=19.5898,cover=506
+	1:[DIS<4.3607] yes=3,no=4,missing=3,gain=49.3448,cover=234
+		3:[B<156.82] yes=7,no=8,missing=7,gain=30.0877,cover=85
+			7:leaf=-0.227487,cover=2
+			8:leaf=0.098948,cover=83
+		4:[PTRATIO<16.05] yes=9,no=10,missing=9,gain=21.1229,cover=149
+			9:leaf=0.0605176,cover=35
+			10:leaf=-0.0272647,cover=114
+	2:[DIS<3.2948] yes=5,no=6,missing=5,gain=39.7132,cover=272
+		5:[NOX<0.6695] yes=11,no=12,missing=11,gain=24.8963,cover=223
+			11:leaf=0.0372958,cover=122
+			12:leaf=-0.0295308,cover=101
+		6:[PTRATIO<17] yes=13,no=14,missing=13,gain=22.1039,cover=49
+			13:leaf=0.0550817,cover=8
+			14:leaf=-0.120791,cover=41
+booster[56]:
+0:[CRIM<33.1589] yes=1,no=2,missing=1,gain=18.1164,cover=506
+	1:[INDUS<26.695] yes=3,no=4,missing=3,gain=18.2021,cover=498
+		3:[CRIM<0.066295] yes=7,no=8,missing=7,gain=19.3012,cover=493
+			7:leaf=-0.0267686,cover=105
+			8:leaf=0.0213824,cover=388
+		4:[AGE<95.35] yes=9,no=10,missing=9,gain=10.4937,cover=5
+			9:leaf=0.0154472,cover=2
+			10:leaf=-0.257847,cover=3
+	2:[DIS<1.5485] yes=5,no=6,missing=5,gain=4.7628,cover=8
+		5:leaf=-0.200635,cover=4
+		6:[DIS<1.6328] yes=11,no=12,missing=11,gain=0.471161,cover=4
+			11:leaf=0.0110579,cover=1
+			12:leaf=-0.0565938,cover=3
+booster[57]:
+0:[AGE<35.8] yes=1,no=2,missing=1,gain=18.6349,cover=506
+	1:[DIS<4.1959] yes=3,no=4,missing=3,gain=46.3535,cover=92
+		3:[CRIM<0.06154] yes=7,no=8,missing=7,gain=4.04309,cover=12
+			7:leaf=0.0555428,cover=2
+			8:leaf=0.246487,cover=10
+		4:[RM<5.91] yes=9,no=10,missing=9,gain=18.289,cover=80
+			9:leaf=-0.102794,cover=10
+			10:leaf=0.0358931,cover=70
+	2:[RAD<1.5] yes=5,no=6,missing=5,gain=24.9703,cover=414
+		5:[ZN<26.5] yes=11,no=12,missing=11,gain=13.2763,cover=9
+			11:leaf=-0.217846,cover=7
+			12:leaf=0.0494412,cover=2
+		6:[INDUS<4.22] yes=13,no=14,missing=13,gain=21.5141,cover=405
+			13:leaf=0.0569099,cover=57
+			14:leaf=-0.0088608,cover=348
+booster[58]:
+0:[TAX<207] yes=1,no=2,missing=1,gain=16.8545,cover=506
+	1:[B<396.23] yes=3,no=4,missing=3,gain=20.2563,cover=17
+		3:[DIS<2.86445] yes=7,no=8,missing=7,gain=11.3006,cover=14
+			7:leaf=-0.0276728,cover=9
+			8:leaf=0.147092,cover=5
+		4:[CRIM<0.06334] yes=9,no=10,missing=9,gain=7.18376,cover=3
+			9:leaf=0.0320614,cover=1
+			10:leaf=0.378009,cover=2
+	2:[PTRATIO<17.7] yes=5,no=6,missing=5,gain=17.5195,cover=489
+		5:[DIS<6.02125] yes=11,no=12,missing=11,gain=27.4805,cover=149
+			11:leaf=0.0595804,cover=101
+			12:leaf=-0.031687,cover=48
+		6:[PTRATIO<18.45] yes=13,no=14,missing=13,gain=26.8865,cover=340
+			13:leaf=-0.074192,cover=55
+			14:leaf=0.00159565,cover=285
+booster[59]:
+0:[AGE<35.8] yes=1,no=2,missing=1,gain=16.1332,cover=506
+	1:[DIS<4.1959] yes=3,no=4,missing=3,gain=37.187,cover=92
+		3:[CRIM<0.07321] yes=7,no=8,missing=7,gain=3.36545,cover=12
+			7:leaf=0.07285,cover=3
+			8:leaf=0.229987,cover=9
+		4:[B<376.37] yes=9,no=10,missing=9,gain=17.4809,cover=80
+			9:leaf=-0.107498,cover=9
+			10:leaf=0.0337111,cover=71
+	2:[CRIM<0.049955] yes=5,no=6,missing=5,gain=22.025,cover=414
+		5:[INDUS<1.705] yes=11,no=12,missing=11,gain=16.3927,cover=36
+			11:leaf=0.0790677,cover=5
+			12:leaf=-0.104224,cover=31
+		6:[INDUS<2.675] yes=13,no=14,missing=13,gain=23.7759,cover=378
+			13:leaf=0.1269,cover=14
+			14:leaf=-0.00156342,cover=364
+booster[60]:
+0:[DIS<1.2438] yes=1,no=2,missing=1,gain=16.138,cover=506
+	1:[CRIM<10.1702] yes=3,no=4,missing=3,gain=22.6968,cover=6
+		3:leaf=0.311825,cover=3
+		4:[CRIM<14.8032] yes=7,no=8,missing=7,gain=1.02344,cover=3
+			7:leaf=0.0265632,cover=1
+			8:leaf=-0.0714827,cover=2
+	2:[AGE<73.2] yes=5,no=6,missing=5,gain=17.9612,cover=500
+		5:[DIS<4.3607] yes=9,no=10,missing=9,gain=32.7545,cover=234
+			9:leaf=0.0715393,cover=85
+			10:leaf=-0.00592966,cover=149
+		6:[DIS<3.07005] yes=11,no=12,missing=11,gain=27.7682,cover=266
+			11:leaf=0.00146875,cover=209
+			12:leaf=-0.076731,cover=57
+booster[61]:
+0:[CRIM<9.87002] yes=1,no=2,missing=1,gain=15.6361,cover=506
+	1:[DIS<1.262] yes=3,no=4,missing=3,gain=31.2383,cover=450
+		3:leaf=0.288439,cover=3
+		4:[B<372.62] yes=7,no=8,missing=7,gain=21.1292,cover=447
+			7:leaf=-0.0378858,cover=82
+			8:leaf=0.0180056,cover=365
+	2:[NOX<0.6635] yes=5,no=6,missing=5,gain=24.5195,cover=56
+		5:[B<26.72] yes=9,no=10,missing=9,gain=22.6162,cover=16
+			9:leaf=-0.1987,cover=2
+			10:leaf=0.104092,cover=14
+		6:[B<378.945] yes=11,no=12,missing=11,gain=5.77382,cover=40
+			11:leaf=-0.0452252,cover=20
+			12:leaf=-0.123946,cover=20
+booster[62]:
+0:[INDUS<26.695] yes=1,no=2,missing=1,gain=14.4708,cover=506
+	1:[CRIM<9.87002] yes=3,no=4,missing=3,gain=14.0259,cover=501
+		3:[INDUS<10.3] yes=7,no=8,missing=7,gain=26.5791,cover=445
+			7:leaf=-0.00749167,cover=279
+			8:leaf=0.0429271,cover=166
+		4:[NOX<0.645] yes=9,no=10,missing=9,gain=20.1424,cover=56
+			9:leaf=0.0595888,cover=14
+			10:leaf=-0.0755532,cover=42
+	2:[AGE<95.35] yes=5,no=6,missing=5,gain=8.78343,cover=5
+		5:[CRIM<0.13109] yes=11,no=12,missing=11,gain=0.385302,cover=2
+			11:leaf=0.0418796,cover=1
+			12:leaf=-0.0213181,cover=1
+		6:leaf=-0.236513,cover=3
+booster[63]:
+0:[RM<7.7835] yes=1,no=2,missing=1,gain=13.6646,cover=506
+	1:[CRIM<0.066295] yes=3,no=4,missing=3,gain=15.2525,cover=485
+		3:[AGE<79.85] yes=7,no=8,missing=7,gain=37.9366,cover=99
+			7:leaf=-0.0207761,cover=95
+			8:leaf=-0.303764,cover=4
+		4:[NOX<0.528] yes=9,no=10,missing=9,gain=20.9886,cover=386
+			9:leaf=0.0399651,cover=137
+			10:leaf=-0.00862814,cover=249
+	2:[AGE<71.85] yes=5,no=6,missing=5,gain=14.6554,cover=21
+		5:[RM<7.864] yes=11,no=12,missing=11,gain=4.94976,cover=10
+			11:leaf=0.0557749,cover=4
+			12:leaf=0.21454,cover=6
+		6:[CRIM<0.45114] yes=13,no=14,missing=13,gain=14.4126,cover=11
+			13:leaf=-0.159091,cover=3
+			14:leaf=0.0690451,cover=8
+booster[64]:
+0:[RM<4.0005] yes=1,no=2,missing=1,gain=13.0245,cover=506
+	1:leaf=0.210584,cover=2
+	2:[RM<5.853] yes=3,no=4,missing=3,gain=16.6151,cover=504
+		3:[LSTAT<13.795] yes=5,no=6,missing=5,gain=16.5882,cover=104
+			5:leaf=-0.103128,cover=25
+			6:leaf=-0.0108707,cover=79
+		4:[DIS<1.25935] yes=7,no=8,missing=7,gain=25.9298,cover=400
+			7:leaf=0.264233,cover=3
+			8:leaf=0.00829264,cover=397
+booster[65]:
+0:[TAX<298] yes=1,no=2,missing=1,gain=12.6786,cover=506
+	1:[PTRATIO<19.15] yes=3,no=4,missing=3,gain=32.5867,cover=165
+		3:[RAD<3.5] yes=7,no=8,missing=7,gain=15.1971,cover=131
+			7:leaf=0.00941409,cover=58
+			8:leaf=0.0779622,cover=73
+		4:[CRIM<0.10993] yes=9,no=10,missing=9,gain=11.3615,cover=34
+			9:leaf=-0.107259,cover=20
+			10:leaf=0.00847424,cover=14
+	2:[RAD<4.5] yes=5,no=6,missing=5,gain=33.741,cover=341
+		5:[B<376.805] yes=11,no=12,missing=11,gain=30.9124,cover=90
+			11:leaf=-0.167109,cover=20
+			12:leaf=-0.0281925,cover=70
+		6:[NOX<0.6695] yes=13,no=14,missing=13,gain=19.7054,cover=251
+			13:leaf=0.0333901,cover=150
+			14:leaf=-0.0235194,cover=101
+booster[66]:
+0:[B<105.24] yes=1,no=2,missing=1,gain=12.2016,cover=506
+	1:[AGE<77.3] yes=3,no=4,missing=3,gain=9.80059,cover=33
+		3:leaf=-0.185547,cover=4
+		4:[DIS<2.82535] yes=7,no=8,missing=7,gain=6.52102,cover=29
+			7:leaf=-0.0431325,cover=28
+			8:leaf=0.144975,cover=1
+	2:[B<240.34] yes=5,no=6,missing=5,gain=16.9674,cover=473
+		5:[LSTAT<27.175] yes=9,no=10,missing=9,gain=11.8211,cover=10
+			9:leaf=0.179354,cover=8
+			10:leaf=-0.0642464,cover=2
+		6:[CRIM<24.5978] yes=11,no=12,missing=11,gain=16.9022,cover=463
+			11:leaf=0.00589607,cover=457
+			12:leaf=-0.150682,cover=6
+booster[67]:
+0:[TAX<207] yes=1,no=2,missing=1,gain=11.6857,cover=506
+	1:[B<396.23] yes=3,no=4,missing=3,gain=16.8551,cover=17
+		3:[DIS<2.86445] yes=7,no=8,missing=7,gain=8.34472,cover=14
+			7:leaf=-0.0304921,cover=9
+			8:leaf=0.119308,cover=5
+		4:[RM<6.3535] yes=9,no=10,missing=9,gain=6.72242,cover=3
+			9:leaf=0.401773,cover=1
+			10:leaf=0.0823734,cover=2
+	2:[ZN<83.75] yes=5,no=6,missing=5,gain=12.9643,cover=489
+		5:[CRIM<0.066295] yes=11,no=12,missing=11,gain=18.1622,cover=479
+			11:leaf=-0.0437962,cover=89
+			12:leaf=0.00603028,cover=390
+		6:[AGE<14.6] yes=13,no=14,missing=13,gain=3.35952,cover=10
+			13:leaf=-0.0377638,cover=1
+			14:leaf=0.124703,cover=9
+booster[68]:
+0:[AGE<35.8] yes=1,no=2,missing=1,gain=11.1645,cover=506
+	1:[DIS<4.1959] yes=3,no=4,missing=3,gain=25.8853,cover=92
+		3:[B<394.88] yes=7,no=8,missing=7,gain=3.94234,cover=12
+			7:leaf=0.211246,cover=7
+			8:leaf=0.0741273,cover=5
+		4:[RM<6.484] yes=9,no=10,missing=9,gain=13.3567,cover=80
+			9:leaf=-0.0276752,cover=41
+			10:leaf=0.0531092,cover=39
+	2:[RAD<1.5] yes=5,no=6,missing=5,gain=16.6612,cover=414
+		5:[LSTAT<8.865] yes=11,no=12,missing=11,gain=10.0165,cover=9
+			11:leaf=-0.183424,cover=7
+			12:leaf=0.0472916,cover=2
+		6:[DIS<3.8973] yes=13,no=14,missing=13,gain=14.7962,cover=405
+			13:leaf=0.00994203,cover=293
+			14:leaf=-0.032634,cover=112
+booster[69]:
+0:[INDUS<26.695] yes=1,no=2,missing=1,gain=11.0666,cover=506
+	1:[B<105.24] yes=3,no=4,missing=3,gain=11.1136,cover=501
+		3:[AGE<77.3] yes=7,no=8,missing=7,gain=8.37501,cover=33
+			7:leaf=-0.171981,cover=4
+			8:leaf=-0.0300312,cover=29
+		4:[INDUS<10.3] yes=9,no=10,missing=9,gain=17.6978,cover=468
+			9:leaf=-0.00865141,cover=278
+			10:leaf=0.0308632,cover=190
+	2:[AGE<95.35] yes=5,no=6,missing=5,gain=7.11754,cover=5
+		5:[CRIM<0.13109] yes=11,no=12,missing=11,gain=0.334118,cover=2
+			11:leaf=0.0401186,cover=1
+			12:leaf=-0.018961,cover=1
+		6:leaf=-0.210371,cover=3
+booster[70]:
+0:[TAX<298] yes=1,no=2,missing=1,gain=10.8936,cover=506
+	1:[PTRATIO<19.15] yes=3,no=4,missing=3,gain=24.099,cover=165
+		3:[TAX<273] yes=7,no=8,missing=7,gain=11.9307,cover=131
+			7:leaf=0.0204956,cover=88
+			8:leaf=0.0846173,cover=43
+		4:[AGE<78.75] yes=9,no=10,missing=9,gain=10.0453,cover=34
+			9:leaf=-0.0284944,cover=30
+			10:leaf=-0.183181,cover=4
+	2:[RAD<4.5] yes=5,no=6,missing=5,gain=24.3585,cover=341
+		5:[B<376.805] yes=11,no=12,missing=11,gain=24.1274,cover=90
+			11:leaf=-0.147098,cover=20
+			12:leaf=-0.0243844,cover=70
+		6:[NOX<0.6695] yes=13,no=14,missing=13,gain=16.0513,cover=251
+			13:leaf=0.0280745,cover=150
+			14:leaf=-0.0232826,cover=101
+booster[71]:
+0:[INDUS<1.605] yes=1,no=2,missing=1,gain=11.1646,cover=506
+	1:[CRIM<0.038895] yes=3,no=4,missing=3,gain=4.35407,cover=14
+		3:[B<391.025] yes=7,no=8,missing=7,gain=3.99385,cover=11
+			7:leaf=-0.0105881,cover=2
+			8:leaf=0.139243,cover=9
+		4:[CRIM<0.054385] yes=9,no=10,missing=9,gain=0.555584,cover=3
+			9:leaf=-0.0408523,cover=2
+			10:leaf=0.0284946,cover=1
+	2:[DIS<7.82715] yes=5,no=6,missing=5,gain=17.1154,cover=492
+		5:[AGE<33.65] yes=11,no=12,missing=11,gain=14.8973,cover=470
+			11:leaf=0.0458094,cover=68
+			12:leaf=-0.00447808,cover=402
+		6:[CRIM<0.0944] yes=13,no=14,missing=13,gain=10.3243,cover=22
+			13:leaf=-0.129829,cover=15
+			14:leaf=0.0139432,cover=7
+booster[72]:
+0:[RM<4.0005] yes=1,no=2,missing=1,gain=10.4218,cover=506
+	1:leaf=0.187058,cover=2
+	2:[RM<5.8875] yes=3,no=4,missing=3,gain=12.0526,cover=504
+		3:[B<26.72] yes=5,no=6,missing=5,gain=11.5451,cover=126
+			5:leaf=-0.194056,cover=3
+			6:leaf=-0.0209251,cover=123
+		4:[LSTAT<24.03] yes=7,no=8,missing=7,gain=12.1797,cover=378
+			7:leaf=0.0122628,cover=367
+			8:leaf=-0.090147,cover=11
+booster[73]:
+0:[DIS<1.30075] yes=1,no=2,missing=1,gain=9.63148,cover=506
+	1:[CRIM<10.1702] yes=3,no=4,missing=3,gain=12.712,cover=7
+		3:leaf=0.236097,cover=3
+		4:[CRIM<15.2246] yes=7,no=8,missing=7,gain=1.78929,cover=4
+			7:leaf=0.0440076,cover=2
+			8:leaf=-0.065638,cover=2
+	2:[RM<4.9715] yes=5,no=6,missing=5,gain=13.4792,cover=499
+		5:[CRIM<3.23835] yes=9,no=10,missing=9,gain=14.2641,cover=11
+			9:leaf=-0.101787,cover=2
+			10:leaf=0.155392,cover=9
+		6:[RM<5.0155] yes=11,no=12,missing=11,gain=24.732,cover=488
+			11:leaf=-0.250868,cover=3
+			12:leaf=-0.00118535,cover=485
+booster[74]:
+0:[TAX<207] yes=1,no=2,missing=1,gain=9.64357,cover=506
+	1:[B<396.23] yes=3,no=4,missing=3,gain=15.4328,cover=17
+		3:[DIS<2.86445] yes=7,no=8,missing=7,gain=7.19887,cover=14
+			7:leaf=-0.031741,cover=9
+			8:leaf=0.107238,cover=5
+		4:[RM<6.3535] yes=9,no=10,missing=9,gain=6.32714,cover=3
+			9:leaf=0.380265,cover=1
+			10:leaf=0.0749895,cover=2
+	2:[RM<8.158] yes=5,no=6,missing=5,gain=9.65011,cover=489
+		5:[INDUS<10.3] yes=11,no=12,missing=11,gain=13.8802,cover=479
+			11:leaf=-0.0193086,cover=261
+			12:leaf=0.0148044,cover=218
+		6:[TAX<318.5] yes=13,no=14,missing=13,gain=12.9794,cover=10
+			13:leaf=0.159025,cover=7
+			14:leaf=-0.0679464,cover=3
+booster[75]:
+0:[INDUS<1.605] yes=1,no=2,missing=1,gain=9.26117,cover=506
+	1:[CRIM<0.038895] yes=3,no=4,missing=3,gain=3.54911,cover=14
+		3:[B<391.025] yes=7,no=8,missing=7,gain=3.26234,cover=11
+			7:leaf=-0.00933348,cover=2
+			8:leaf=0.126187,cover=9
+		4:[CRIM<0.054385] yes=9,no=10,missing=9,gain=0.49127,cover=3
+			9:leaf=-0.0375801,cover=2
+			10:leaf=0.0274815,cover=1
+	2:[DIS<6.22315] yes=5,no=6,missing=5,gain=15.1555,cover=492
+		5:[AGE<68.15] yes=11,no=12,missing=11,gain=15.7825,cover=426
+			11:leaf=0.0331165,cover=139
+			12:leaf=-0.00781828,cover=287
+		6:[NOX<0.5165] yes=13,no=14,missing=13,gain=10.0707,cover=66
+			13:leaf=-0.0339504,cover=62
+			14:leaf=-0.182886,cover=4
+booster[76]:
+0:[CRIM<9.87002] yes=1,no=2,missing=1,gain=8.65363,cover=506
+	1:[DIS<1.262] yes=3,no=4,missing=3,gain=18.196,cover=450
+		3:leaf=0.217866,cover=3
+		4:[B<372.62] yes=7,no=8,missing=7,gain=10.8622,cover=447
+			7:leaf=-0.0290576,cover=82
+			8:leaf=0.0110133,cover=365
+	2:[CRIM<10.9608] yes=5,no=6,missing=5,gain=13.1354,cover=56
+		5:[AGE<98.35] yes=9,no=10,missing=9,gain=5.94683,cover=6
+			9:leaf=-0.202583,cover=5
+			10:leaf=0.0327649,cover=1
+		6:[NOX<0.645] yes=11,no=12,missing=11,gain=17.5166,cover=50
+			11:leaf=0.0834522,cover=12
+			12:leaf=-0.050699,cover=38
+booster[77]:
+0:[INDUS<26.695] yes=1,no=2,missing=1,gain=8.27849,cover=506
+	1:[CRIM<33.1589] yes=3,no=4,missing=3,gain=8.33782,cover=501
+		3:[NOX<0.5845] yes=7,no=8,missing=7,gain=10.7115,cover=493
+			7:leaf=-0.00656965,cover=327
+			8:leaf=0.024545,cover=166
+		4:[DIS<1.5485] yes=9,no=10,missing=9,gain=3.7958,cover=8
+			9:leaf=-0.151528,cover=4
+			10:leaf=-0.0162154,cover=4
+	2:[AGE<95.35] yes=5,no=6,missing=5,gain=5.65677,cover=5
+		5:[CRIM<0.13109] yes=11,no=12,missing=11,gain=0.280905,cover=2
+			11:leaf=0.0381019,cover=1
+			12:leaf=-0.0163642,cover=1
+		6:leaf=-0.18481,cover=3
+booster[78]:
+0:[TAX<207] yes=1,no=2,missing=1,gain=8.46287,cover=506
+	1:[B<396.23] yes=3,no=4,missing=3,gain=13.6749,cover=17
+		3:[DIS<2.86445] yes=7,no=8,missing=7,gain=5.71778,cover=14
+			7:leaf=-0.0277792,cover=9
+			8:leaf=0.0961024,cover=5
+		4:[CRIM<0.06334] yes=9,no=10,missing=9,gain=6.08628,cover=3
+			9:leaf=0.00870361,cover=1
+			10:leaf=0.302631,cover=2
+	2:[B<395.72] yes=5,no=6,missing=5,gain=9.21234,cover=489
+		5:[DIS<1.3714] yes=11,no=12,missing=11,gain=20.1022,cover=356
+			11:leaf=0.154145,cover=8
+			12:leaf=0.00276203,cover=348
+		6:[DIS<5.91025] yes=13,no=14,missing=13,gain=17.3182,cover=133
+			13:leaf=-0.0419232,cover=107
+			14:leaf=0.0477679,cover=26
+booster[79]:
+0:[RM<4.0005] yes=1,no=2,missing=1,gain=7.67004,cover=506
+	1:leaf=0.160128,cover=2
+	2:[RM<5.8875] yes=3,no=4,missing=3,gain=9.29711,cover=504
+		3:[B<26.72] yes=5,no=6,missing=5,gain=10.1251,cover=126
+			5:leaf=-0.180497,cover=3
+			6:leaf=-0.0184082,cover=123
+		4:[PTRATIO<15.25] yes=7,no=8,missing=7,gain=10.8856,cover=378
+			7:leaf=0.0483065,cover=55
+			8:leaf=0.000546185,cover=323
+booster[80]:
+0:[DIS<6.1388] yes=1,no=2,missing=1,gain=7.73914,cover=506
+	1:[AGE<68.15] yes=3,no=4,missing=3,gain=14.9136,cover=424
+		3:[AGE<66.3] yes=7,no=8,missing=7,gain=18.8487,cover=137
+			7:leaf=0.0243669,cover=131
+			8:leaf=0.193241,cover=6
+		4:[CRIM<0.058535] yes=9,no=10,missing=9,gain=15.4804,cover=287
+			9:leaf=-0.129121,cover=9
+			10:leaf=-0.00247086,cover=278
+	2:[NOX<0.4995] yes=5,no=6,missing=5,gain=11.3578,cover=82
+		5:[CRIM<0.038195] yes=11,no=12,missing=11,gain=8.2503,cover=76
+			11:leaf=0.0291223,cover=26
+			12:leaf=-0.0393424,cover=50
+		6:[RM<6.3465] yes=13,no=14,missing=13,gain=5.73416,cover=6
+			13:leaf=-0.0547347,cover=4
+			14:leaf=-0.257188,cover=2
+booster[81]:
+0:[TAX<207] yes=1,no=2,missing=1,gain=7.28025,cover=506
+	1:[B<396.23] yes=3,no=4,missing=3,gain=11.8136,cover=17
+		3:[RM<6.4405] yes=7,no=8,missing=7,gain=4.93248,cover=14
+			7:leaf=0.0603097,cover=9
+			8:leaf=-0.0547428,cover=5
+		4:[RM<6.3535] yes=9,no=10,missing=9,gain=6.07647,cover=3
+			9:leaf=0.342997,cover=1
+			10:leaf=0.0577065,cover=2
+	2:[CRIM<0.12874] yes=5,no=6,missing=5,gain=8.52539,cover=489
+		5:[RM<7.0835] yes=11,no=12,missing=11,gain=17.1374,cover=169
+			11:leaf=-0.0334796,cover=143
+			12:leaf=0.0534374,cover=26
+		6:[NOX<0.528] yes=13,no=14,missing=13,gain=18.1737,cover=320
+			13:leaf=0.049127,cover=79
+			14:leaf=-0.00586132,cover=241
+booster[82]:
+0:[AGE<35.8] yes=1,no=2,missing=1,gain=7.08771,cover=506
+	1:[DIS<4.1959] yes=3,no=4,missing=3,gain=18.4465,cover=92
+		3:[B<394.88] yes=7,no=8,missing=7,gain=3.20383,cover=12
+			7:leaf=0.177649,cover=7
+			8:leaf=0.0578364,cover=5
+		4:[TAX<406.5] yes=9,no=10,missing=9,gain=10.2742,cover=80
+			9:leaf=0.0163998,cover=76
+			10:leaf=-0.131568,cover=4
+	2:[CRIM<0.049955] yes=5,no=6,missing=5,gain=12.9941,cover=414
+		5:[ZN<72.5] yes=11,no=12,missing=11,gain=12.3347,cover=36
+			11:leaf=-0.0874388,cover=30
+			12:leaf=0.061714,cover=6
+		6:[INDUS<2.675] yes=13,no=14,missing=13,gain=12.8718,cover=378
+			13:leaf=0.0912957,cover=14
+			14:leaf=-0.0032234,cover=364
+booster[83]:
+0:[RM<4.0005] yes=1,no=2,missing=1,gain=6.76098,cover=506
+	1:leaf=0.150224,cover=2
+	2:[RM<5.7605] yes=3,no=4,missing=3,gain=7.93815,cover=504
+		3:[DIS<3.91] yes=5,no=6,missing=5,gain=11.6166,cover=84
+			5:leaf=-0.0109401,cover=70
+			6:leaf=-0.108121,cover=14
+		4:[DIS<1.25935] yes=7,no=8,missing=7,gain=13.6918,cover=420
+			7:leaf=0.189424,cover=3
+			8:leaf=0.00350997,cover=417
+booster[84]:
+0:[INDUS<26.695] yes=1,no=2,missing=1,gain=6.5529,cover=506
+	1:[INDUS<10.3] yes=3,no=4,missing=3,gain=7.78981,cover=501
+		3:[CRIM<1.09237] yes=7,no=8,missing=7,gain=22.3583,cover=279
+			7:leaf=-0.00416788,cover=271
+			8:leaf=-0.164401,cover=8
+		4:[INDUS<10.7] yes=9,no=10,missing=9,gain=24.7504,cover=222
+			9:leaf=0.155433,cover=11
+			10:leaf=0.00773537,cover=211
+	2:[AGE<95.35] yes=5,no=6,missing=5,gain=5.00498,cover=5
+		5:[CRIM<0.13109] yes=11,no=12,missing=11,gain=0.264989,cover=2
+			11:leaf=0.0400489,cover=1
+			12:leaf=-0.0136389,cover=1
+		6:[CRIM<0.144555] yes=13,no=14,missing=13,gain=0.0804101,cover=3
+			13:leaf=-0.0507188,cover=1
+			14:leaf=-0.190499,cover=2
+booster[85]:
+0:[CRIM<9.87002] yes=1,no=2,missing=1,gain=6.59163,cover=506
+	1:[CRIM<3.55185] yes=3,no=4,missing=3,gain=13.8488,cover=450
+		3:[RM<5.0155] yes=7,no=8,missing=7,gain=21.1085,cover=378
+			7:leaf=-0.207313,cover=4
+			8:leaf=-0.000474947,cover=374
+		4:[CRIM<5.36709] yes=9,no=10,missing=9,gain=26.6288,cover=72
+			9:leaf=0.123198,cover=26
+			10:leaf=-0.0018674,cover=46
+	2:[CRIM<10.9608] yes=5,no=6,missing=5,gain=11.5314,cover=56
+		5:[AGE<98.35] yes=11,no=12,missing=11,gain=5.038,cover=6
+			11:leaf=-0.187162,cover=5
+			12:leaf=0.0297495,cover=1
+		6:[NOX<0.645] yes=13,no=14,missing=13,gain=14.4046,cover=50
+			13:leaf=0.0770348,cover=12
+			14:leaf=-0.0445998,cover=38
+booster[86]:
+0:[RM<8.158] yes=1,no=2,missing=1,gain=6.51165,cover=506
+	1:[RM<8.037] yes=3,no=4,missing=3,gain=9.57255,cover=496
+		3:[LSTAT<2.975] yes=7,no=8,missing=7,gain=7.08114,cover=494
+			7:leaf=0.0876438,cover=8
+			8:leaf=-0.00187352,cover=486
+		4:[CRIM<0.251485] yes=9,no=10,missing=9,gain=0.646463,cover=2
+			9:leaf=-0.0470894,cover=1
+			10:leaf=-0.222043,cover=1
+	2:[TAX<318.5] yes=5,no=6,missing=5,gain=10.5186,cover=10
+		5:[B<384.795] yes=11,no=12,missing=11,gain=8.16005,cover=7
+			11:leaf=0.239597,cover=3
+			12:leaf=0.0290442,cover=4
+		6:[CRIM<2.49665] yes=13,no=14,missing=13,gain=2.44826,cover=3
+			13:leaf=0.00850385,cover=2
+			14:leaf=-0.14406,cover=1
+booster[87]:
+0:[RM<4.9715] yes=1,no=2,missing=1,gain=6.41249,cover=506
+	1:[DIS<1.464] yes=3,no=4,missing=3,gain=9.95839,cover=14
+		3:[RM<4.9045] yes=7,no=8,missing=7,gain=6.3485,cover=7
+			7:leaf=-0.0928894,cover=4
+			8:leaf=0.0765934,cover=3
+		4:[CRIM<35.07] yes=9,no=10,missing=9,gain=4.48633,cover=7
+			9:leaf=0.169993,cover=6
+			10:leaf=-0.030552,cover=1
+	2:[RM<5.0155] yes=5,no=6,missing=5,gain=17.9178,cover=492
+		5:leaf=-0.212439,cover=3
+		6:[DIS<1.2438] yes=11,no=12,missing=11,gain=12.0153,cover=489
+			11:leaf=0.17268,cover=3
+			12:leaf=-0.00134613,cover=486
+booster[88]:
+0:[B<99.07] yes=1,no=2,missing=1,gain=6.28327,cover=506
+	1:[AGE<77.3] yes=3,no=4,missing=3,gain=6.31298,cover=31
+		3:leaf=-0.146246,cover=4
+		4:[DIS<2.82535] yes=7,no=8,missing=7,gain=4.92798,cover=27
+			7:leaf=-0.0330679,cover=26
+			8:leaf=0.130423,cover=1
+	2:[B<240.34] yes=5,no=6,missing=5,gain=9.84421,cover=475
+		5:[NOX<0.696] yes=9,no=10,missing=9,gain=10.6538,cover=12
+			9:leaf=0.160755,cover=7
+			10:leaf=-0.0215059,cover=5
+		6:[CRIM<24.5978] yes=11,no=12,missing=11,gain=10.1795,cover=463
+			11:leaf=0.0025926,cover=457
+			12:leaf=-0.118916,cover=6
+booster[89]:
+0:[PTRATIO<16.5] yes=1,no=2,missing=1,gain=6.01626,cover=506
+	1:[RM<5.099] yes=3,no=4,missing=3,gain=11.4739,cover=96
+		3:[LSTAT<29.41] yes=7,no=8,missing=7,gain=3.12081,cover=3
+			7:leaf=-0.194844,cover=2
+			8:leaf=0.00464196,cover=1
+		4:[TAX<412.5] yes=9,no=10,missing=9,gain=9.68276,cover=93
+			9:leaf=0.0338943,cover=92
+			10:leaf=-0.189477,cover=1
+	2:[RM<4.9715] yes=5,no=6,missing=5,gain=11.0371,cover=410
+		5:[CRIM<8.00316] yes=11,no=12,missing=11,gain=6.35539,cover=12
+			11:leaf=0.191649,cover=3
+			12:leaf=0.0347119,cover=9
+		6:[DIS<1.2438] yes=13,no=14,missing=13,gain=11.3275,cover=398
+			13:leaf=0.159534,cover=3
+			14:leaf=-0.00964269,cover=395
+booster[90]:
+0:[DIS<6.1388] yes=1,no=2,missing=1,gain=5.90806,cover=506
+	1:[DIS<5.8793] yes=3,no=4,missing=3,gain=13.4007,cover=424
+		3:[DIS<5.6689] yes=7,no=8,missing=7,gain=12.9648,cover=414
+			7:leaf=0.00472508,cover=406
+			8:leaf=-0.116619,cover=8
+		4:[DIS<5.95545] yes=9,no=10,missing=9,gain=8.17665,cover=10
+			9:leaf=0.257473,cover=2
+			10:leaf=0.0534389,cover=8
+	2:[NOX<0.5165] yes=5,no=6,missing=5,gain=9.35705,cover=82
+		5:[INDUS<1.605] yes=11,no=12,missing=11,gain=6.46721,cover=78
+			11:leaf=0.0494039,cover=12
+			12:leaf=-0.0278082,cover=66
+		6:[RM<6.0065] yes=13,no=14,missing=13,gain=5.15207,cover=4
+			13:leaf=0.0241794,cover=1
+			14:leaf=-0.208278,cover=3
+booster[91]:
+0:[AGE<35.8] yes=1,no=2,missing=1,gain=5.97837,cover=506
+	1:[DIS<4.1959] yes=3,no=4,missing=3,gain=14.4547,cover=92
+		3:[LSTAT<6.7] yes=7,no=8,missing=7,gain=2.81789,cover=12
+			7:leaf=0.0576975,cover=6
+			8:leaf=0.166934,cover=6
+		4:[TAX<406.5] yes=9,no=10,missing=9,gain=8.24793,cover=80
+			9:leaf=0.0151505,cover=76
+			10:leaf=-0.117431,cover=4
+	2:[RAD<1.5] yes=5,no=6,missing=5,gain=10.3411,cover=414
+		5:[LSTAT<8.865] yes=11,no=12,missing=11,gain=8.1651,cover=9
+			11:leaf=-0.151721,cover=7
+			12:leaf=0.0533401,cover=2
+		6:[DIS<3.8973] yes=13,no=14,missing=13,gain=8.16312,cover=405
+			13:leaf=0.00635941,cover=293
+			14:leaf=-0.0252654,cover=112
+booster[92]:
+0:[AGE<73.2] yes=1,no=2,missing=1,gain=6.08861,cover=506
+	1:[LSTAT<17.38] yes=3,no=4,missing=3,gain=19.0879,cover=234
+		3:[RM<5.8685] yes=7,no=8,missing=7,gain=14.9284,cover=228
+			7:leaf=-0.0588458,cover=29
+			8:leaf=0.016814,cover=199
+		4:[ZN<11] yes=9,no=10,missing=9,gain=0.420799,cover=6
+			9:leaf=0.188726,cover=5
+			10:leaf=0.0451859,cover=1
+	2:[DIS<3.07005] yes=5,no=6,missing=5,gain=17.0332,cover=272
+		5:[DIS<2.8666] yes=11,no=12,missing=11,gain=25.9367,cover=215
+			11:leaf=-0.00460923,cover=206
+			12:leaf=0.160286,cover=9
+		6:[LSTAT<5.895] yes=13,no=14,missing=13,gain=21.608,cover=57
+			13:leaf=-0.223269,cover=6
+			14:leaf=-0.0346924,cover=51
+booster[93]:
+0:[INDUS<26.695] yes=1,no=2,missing=1,gain=5.64707,cover=506
+	1:[CRIM<0.066295] yes=3,no=4,missing=3,gain=5.72858,cover=501
+		3:[AGE<79.85] yes=7,no=8,missing=7,gain=25.2415,cover=105
+			7:leaf=-0.00836309,cover=101
+			8:leaf=-0.238657,cover=4
+		4:[CRIM<0.070175] yes=9,no=10,missing=9,gain=12.5465,cover=396
+			9:leaf=0.117461,cover=9
+			10:leaf=0.00399468,cover=387
+	2:[AGE<95.35] yes=5,no=6,missing=5,gain=4.40409,cover=5
+		5:[CRIM<0.13109] yes=11,no=12,missing=11,gain=0.238434,cover=2
+			11:leaf=0.0382601,cover=1
+			12:leaf=-0.0127435,cover=1
+		6:[CRIM<0.144555] yes=13,no=14,missing=13,gain=0.0388786,cover=3
+			13:leaf=-0.0479694,cover=1
+			14:leaf=-0.177514,cover=2
+booster[94]:
+0:[B<99.07] yes=1,no=2,missing=1,gain=5.30514,cover=506
+	1:[RM<4.95] yes=3,no=4,missing=3,gain=5.30931,cover=31
+		3:[CRIM<32.2785] yes=7,no=8,missing=7,gain=3.18908,cover=2
+			7:leaf=0.165395,cover=1
+			8:leaf=-0.0296301,cover=1
+		4:[RM<5.8665] yes=9,no=10,missing=9,gain=8.55354,cover=29
+			9:leaf=-0.170856,cover=4
+			10:leaf=-0.0259545,cover=25
+	2:[LSTAT<29.615] yes=5,no=6,missing=5,gain=8.73287,cover=475
+		5:[INDUS<10.3] yes=11,no=12,missing=11,gain=9.99467,cover=463
+			11:leaf=-0.0070671,cover=276
+			12:leaf=0.0228106,cover=187
+		6:[RM<5.056] yes=13,no=14,missing=13,gain=5.76345,cover=12
+			13:leaf=-0.00526494,cover=6
+			14:leaf=-0.139744,cover=6
+booster[95]:
+0:[AGE<73.2] yes=1,no=2,missing=1,gain=5.25129,cover=506
+	1:[LSTAT<14.515] yes=3,no=4,missing=3,gain=17.3355,cover=234
+		3:[DIS<2.6191] yes=7,no=8,missing=7,gain=20.284,cover=217
+			7:leaf=0.135515,cover=10
+			8:leaf=-0.00382677,cover=207
+		4:[DIS<2.2705] yes=9,no=10,missing=9,gain=21.0894,cover=17
+			9:leaf=-0.14951,cover=2
+			10:leaf=0.14653,cover=15
+	2:[DIS<3.07005] yes=5,no=6,missing=5,gain=13.5037,cover=272
+		5:[DIS<2.8666] yes=11,no=12,missing=11,gain=21.1767,cover=215
+			11:leaf=-0.00470209,cover=206
+			12:leaf=0.144295,cover=9
+		6:[LSTAT<7.305] yes=13,no=14,missing=13,gain=17.9991,cover=57
+			13:leaf=-0.174474,cover=9
+			14:leaf=-0.0261675,cover=48
+booster[96]:
+0:[INDUS<1.605] yes=1,no=2,missing=1,gain=5.08572,cover=506
+	1:[B<387.075] yes=3,no=4,missing=3,gain=2.77051,cover=14
+		3:leaf=-0.0374847,cover=2
+		4:[CRIM<0.038895] yes=7,no=8,missing=7,gain=2.53695,cover=12
+			7:leaf=0.0939768,cover=10
+			8:leaf=-0.0199267,cover=2
+	2:[DIS<7.82715] yes=5,no=6,missing=5,gain=9.77978,cover=492
+		5:[B<387.21] yes=9,no=10,missing=9,gain=8.26318,cover=470
+			9:leaf=0.0179904,cover=183
+			10:leaf=-0.00913933,cover=287
+		6:[CRIM<0.0944] yes=11,no=12,missing=11,gain=8.56794,cover=22
+			11:leaf=-0.105866,cover=15
+			12:leaf=0.0238726,cover=7
+booster[97]:
+0:[CRIM<9.87002] yes=1,no=2,missing=1,gain=5.32179,cover=506
+	1:[DIS<1.55675] yes=3,no=4,missing=3,gain=9.79626,cover=450
+		3:[NOX<0.6695] yes=7,no=8,missing=7,gain=10.2527,cover=17
+			7:leaf=0.160388,cover=7
+			8:leaf=0.00768811,cover=10
+		4:[B<372.62] yes=9,no=10,missing=9,gain=11.8626,cover=433
+			9:leaf=-0.0346406,cover=77
+			10:leaf=0.00840748,cover=356
+	2:[CRIM<10.9608] yes=5,no=6,missing=5,gain=9.33086,cover=56
+		5:[AGE<98.35] yes=11,no=12,missing=11,gain=4.06578,cover=6
+			11:leaf=-0.168615,cover=5
+			12:leaf=0.0264471,cover=1
+		6:[B<384.145] yes=13,no=14,missing=13,gain=11.1159,cover=50
+			13:leaf=0.0235236,cover=31
+			14:leaf=-0.0715857,cover=19
+booster[98]:
+0:[INDUS<26.695] yes=1,no=2,missing=1,gain=4.72342,cover=506
+	1:[CRIM<5.69997] yes=3,no=4,missing=3,gain=5.14282,cover=501
+		3:[CRIM<3.69503] yes=7,no=8,missing=7,gain=27.2111,cover=404
+			7:leaf=-0.000992798,cover=377
+			8:leaf=0.101181,cover=27
+		4:[CHAS<0.5] yes=9,no=10,missing=9,gain=11.8112,cover=97
+			9:leaf=-0.0263635,cover=94
+			10:leaf=0.149332,cover=3
+	2:[AGE<95.35] yes=5,no=6,missing=5,gain=3.64002,cover=5
+		5:[CRIM<0.13109] yes=11,no=12,missing=11,gain=0.217895,cover=2
+			11:leaf=0.0354783,cover=1
+			12:leaf=-0.0129752,cover=1
+		6:leaf=-0.143489,cover=3
+booster[99]:
+0:[TAX<298] yes=1,no=2,missing=1,gain=4.67593,cover=506
+	1:[PTRATIO<19.15] yes=3,no=4,missing=3,gain=12.8261,cover=165
+		3:[TAX<273] yes=7,no=8,missing=7,gain=9.06449,cover=131
+			7:leaf=0.00938202,cover=88
+			8:leaf=0.0651052,cover=43
+		4:[CRIM<0.10993] yes=9,no=10,missing=9,gain=6.53776,cover=34
+			9:leaf=-0.0754434,cover=20
+			10:leaf=0.0120238,cover=14
+	2:[TAX<304.5] yes=5,no=6,missing=5,gain=15.9229,cover=341
+		5:[RM<6.5865] yes=11,no=12,missing=11,gain=8.06467,cover=21
+			11:leaf=-0.0566377,cover=18
+			12:leaf=-0.220024,cover=3
+		6:[CRIM<0.087665] yes=13,no=14,missing=13,gain=9.22764,cover=320
+			13:leaf=-0.0446713,cover=41
+			14:leaf=0.00559445,cover=279

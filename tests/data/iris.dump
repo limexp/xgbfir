@@ -1,0 +1,2114 @@
+booster[0]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=72.2968,cover=66.6667
+	1:leaf=0.143541,cover=22.2222
+	2:leaf=-0.0733496,cover=44.4444
+booster[1]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=18.0742,cover=66.6667
+	1:leaf=-0.0717703,cover=22.2222
+	2:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=41.9078,cover=44.4444
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=4.58985,cover=24
+			5:leaf=0.138806,cover=21.3333
+			6:leaf=-3.25116e-009,cover=2.66667
+		4:[petal_length_(cm)<4.85] yes=7,no=8,missing=7,gain=0.635159,cover=20.4444
+			7:leaf=-2.55448e-009,cover=1.33333
+			8:leaf=-0.0712707,cover=19.1111
+booster[2]:
+0:[petal_width_(cm)<1.65] yes=1,no=2,missing=1,gain=59.723,cover=66.6667
+	1:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=5.96545,cover=45.3333
+		3:leaf=-0.0732998,cover=43.1111
+		4:leaf=0.0724138,cover=2.22222
+	2:leaf=0.134328,cover=21.3333
+booster[3]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=60.4627,cover=66.3077
+	1:leaf=0.125266,cover=23.6298
+	2:leaf=-0.0706711,cover=42.6779
+booster[4]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=15.8169,cover=66.3641
+	1:leaf=-0.0690967,cover=21.3429
+	2:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=34.7026,cover=45.0212
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=3.49543,cover=25.3099
+			5:leaf=0.121304,cover=22.6503
+			6:leaf=0.000282831,cover=2.65964
+		4:[petal_length_(cm)<4.85] yes=7,no=8,missing=7,gain=0.613316,cover=19.7113
+			7:leaf=0.00102581,cover=1.31711
+			8:leaf=-0.0687238,cover=18.3942
+booster[5]:
+0:[petal_width_(cm)<1.65] yes=1,no=2,missing=1,gain=49.9093,cover=66.2972
+	1:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=5.42133,cover=43.6936
+		3:leaf=-0.070615,cover=41.3957
+		4:leaf=0.0670355,cover=2.29792
+	2:leaf=0.117717,cover=22.6036
+booster[6]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=51.3382,cover=65.297
+	1:leaf=0.111727,cover=24.5097
+	2:leaf=-0.0683022,cover=40.7873
+booster[7]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=13.8971,cover=65.4551
+	1:leaf=-0.0667035,cover=20.3967
+	2:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=29.1666,cover=45.0585
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=2.75288,cover=26.135
+			5:leaf=0.108217,cover=23.4851
+			6:leaf=0.000666456,cover=2.64991
+		4:[petal_length_(cm)<4.85] yes=7,no=8,missing=7,gain=0.596299,cover=18.9235
+			7:leaf=0.00207456,cover=1.30001
+			8:leaf=-0.0664249,cover=17.6235
+booster[8]:
+0:[petal_length_(cm)<4.75] yes=1,no=2,missing=1,gain=42.331,cover=65.3356
+	1:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.65102,cover=38.7932
+		3:leaf=-0.0681315,cover=37.5088
+		4:leaf=0.00241706,cover=1.28438
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=2.65858,cover=26.5424
+		5:[petal_length_(cm)<4.95] yes=7,no=8,missing=7,gain=0.935032,cover=4.06695
+			7:leaf=-0.0385488,cover=1.22497
+			8:leaf=0.0438801,cover=2.84199
+		6:[petal_length_(cm)<4.85] yes=9,no=10,missing=9,gain=0.296563,cover=22.4755
+			9:leaf=0.0316834,cover=1.44922
+			10:leaf=0.112101,cover=21.0262
+booster[9]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=44.0811,cover=63.7463
+	1:leaf=0.101349,cover=24.9341
+	2:leaf=-0.0661907,cover=38.8122
+booster[10]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=12.2507,cover=64.045
+	1:leaf=-0.064555,cover=19.4034
+	2:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=24.7602,cover=44.6416
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=2.27304,cover=26.5575
+			5:leaf=0.098146,cover=23.905
+			6:leaf=0.000558871,cover=2.65254
+		4:[petal_length_(cm)<4.85] yes=7,no=8,missing=7,gain=0.552351,cover=18.0841
+			7:leaf=0.00180446,cover=1.30446
+			8:leaf=-0.0642639,cover=16.7796
+booster[11]:
+0:[petal_length_(cm)<4.75] yes=1,no=2,missing=1,gain=36.4354,cover=63.896
+	1:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.637753,cover=36.939
+		3:leaf=-0.0660015,cover=35.6731
+		4:leaf=0.00352932,cover=1.26591
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=2.17096,cover=26.957
+		5:[petal_length_(cm)<4.95] yes=7,no=8,missing=7,gain=0.825058,cover=4.06932
+			7:leaf=-0.0371018,cover=1.1823
+			8:leaf=0.0406215,cover=2.88703
+		6:[petal_length_(cm)<4.85] yes=9,no=10,missing=9,gain=0.219127,cover=22.8876
+			9:leaf=0.0296662,cover=1.4644
+			10:leaf=0.101611,cover=21.4233
+booster[12]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=38.1799,cover=61.7632
+	1:leaf=0.0931779,cover=24.9746
+	2:leaf=-0.0643103,cover=36.7887
+booster[13]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=10.8287,cover=62.2315
+	1:leaf=-0.062621,cover=18.3818
+	2:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=21.2006,cover=43.8496
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=1.91813,cover=26.6314
+			5:leaf=0.0901394,cover=23.9779
+			6:leaf=0.000519086,cover=2.65349
+		4:[petal_length_(cm)<4.85] yes=7,no=8,missing=7,gain=0.514465,cover=17.2182
+			7:leaf=0.0015939,cover=1.30791
+			8:leaf=-0.0623136,cover=15.9103
+booster[14]:
+0:[petal_length_(cm)<4.75] yes=1,no=2,missing=1,gain=31.5652,cover=62.0582
+	1:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.628203,cover=35.0329
+		3:leaf=-0.0640975,cover=33.786
+		4:leaf=0.00464139,cover=1.24699
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=1.81944,cover=27.0253
+		5:[petal_length_(cm)<4.95] yes=7,no=8,missing=7,gain=0.728873,cover=4.061
+			7:leaf=-0.0357087,cover=1.13851
+			8:leaf=0.0376861,cover=2.9225
+		6:[petal_length_(cm)<4.85] yes=9,no=10,missing=9,gain=0.172345,cover=22.9643
+			9:leaf=0.0278126,cover=1.47626
+			10:leaf=0.0933505,cover=21.488
+booster[15]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=33.2977,cover=59.4476
+	1:leaf=0.0866053,cover=24.699
+	2:leaf=-0.0626301,cover=34.7486
+booster[16]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=9.59385,cover=60.1065
+	1:leaf=-0.0608736,cover=17.3487
+	2:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=18.2757,cover=42.7578
+		3:[petal_length_(cm)<5.05] yes=5,no=6,missing=5,gain=1.66534,cover=26.4175
+			5:leaf=0.0821424,cover=24.6411
+			6:leaf=-0.0119302,cover=1.77637
+		4:[petal_length_(cm)<4.85] yes=7,no=8,missing=7,gain=0.481585,cover=16.3403
+			7:leaf=0.00143256,cover=1.31054
+			8:leaf=-0.0605468,cover=15.0297
+booster[17]:
+0:[petal_length_(cm)<4.75] yes=1,no=2,missing=1,gain=27.4861,cover=59.9131
+	1:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.621578,cover=33.1059
+		3:leaf=-0.0623908,cover=31.8781
+		4:leaf=0.00574601,cover=1.22778
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=1.55765,cover=26.8072
+		5:[petal_length_(cm)<4.95] yes=7,no=8,missing=7,gain=0.644586,cover=4.0438
+			7:leaf=-0.0343686,cover=1.0941
+			8:leaf=0.0350266,cover=2.9497
+		6:[petal_length_(cm)<4.85] yes=9,no=10,missing=9,gain=0.143763,cover=22.7634
+			9:leaf=0.026103,cover=1.48525
+			10:leaf=0.0867041,cover=21.2782
+booster[18]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=29.2035,cover=56.8898
+	1:leaf=0.0812249,cover=24.1698
+	2:leaf=-0.0611238,cover=32.72
+booster[19]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=8.51152,cover=57.7754
+	1:leaf=-0.0592878,cover=16.3183
+	2:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=15.822,cover=41.4571
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=1.47989,cover=25.9943
+			5:leaf=0.0783049,cover=23.3258
+			6:leaf=-0.000104263,cover=2.6685
+		4:[petal_length_(cm)<4.85] yes=7,no=8,missing=7,gain=0.452835,cover=15.4627
+			7:leaf=0.00131172,cover=1.3125
+			8:leaf=-0.058939,cover=14.1502
+booster[20]:
+0:[petal_length_(cm)<4.75] yes=1,no=2,missing=1,gain=24.0624,cover=57.5499
+	1:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.616689,cover=31.1941
+		3:leaf=-0.0608629,cover=29.9851
+		4:leaf=0.00680535,cover=1.20902
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=1.33712,cover=26.3558
+		5:[petal_length_(cm)<4.95] yes=7,no=8,missing=7,gain=0.578398,cover=4.01702
+			7:leaf=-0.0330981,cover=1.05016
+			8:leaf=0.0330648,cover=2.96685
+		6:[petal_length_(cm)<4.85] yes=9,no=10,missing=9,gain=0.126387,cover=22.3388
+			9:leaf=0.024521,cover=1.49178
+			10:leaf=0.0812609,cover=20.847
+booster[21]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=25.7314,cover=54.1669
+	1:leaf=0.0767542,cover=23.443
+	2:leaf=-0.0597675,cover=30.7239
+booster[22]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=7.56846,cover=55.2671
+	1:leaf=-0.0578416,cover=15.3027
+	2:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=13.7714,cover=39.9644
+		3:[petal_length_(cm)<5.05] yes=5,no=6,missing=5,gain=1.32308,cover=25.3683
+			5:leaf=0.0723641,cover=23.6018
+			6:leaf=-0.0114456,cover=1.76651
+		4:[petal_length_(cm)<4.85] yes=7,no=8,missing=7,gain=0.42749,cover=14.5961
+			7:leaf=0.00122408,cover=1.31392
+			8:leaf=-0.0574687,cover=13.2822
+booster[23]:
+0:[petal_length_(cm)<4.75] yes=1,no=2,missing=1,gain=21.1074,cover=55.0274
+	1:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.61413,cover=29.3007
+		3:leaf=-0.0594768,cover=28.111
+		4:leaf=0.00787952,cover=1.18971
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=1.18254,cover=25.7267
+		5:[petal_length_(cm)<4.95] yes=7,no=8,missing=7,gain=0.512394,cover=3.98783
+			7:leaf=-0.0318585,cover=1.00581
+			8:leaf=0.0308163,cover=2.98202
+		6:[petal_length_(cm)<4.85] yes=9,no=10,missing=9,gain=0.116104,cover=21.7389
+			9:leaf=0.023053,cover=1.4962
+			10:leaf=0.0767356,cover=20.2427
+booster[24]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=22.7618,cover=51.3488
+	1:leaf=0.0729912,cover=22.568
+	2:leaf=-0.0585423,cover=28.7808
+booster[25]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=6.73552,cover=52.6872
+	1:leaf=-0.0565156,cover=14.3116
+	2:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=12.015,cover=38.3756
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=1.19339,cover=24.6266
+			5:leaf=0.0699424,cover=21.9516
+			6:leaf=-0.000462967,cover=2.67502
+		4:[petal_length_(cm)<4.85] yes=7,no=8,missing=7,gain=0.40495,cover=13.749
+			7:leaf=0.0011635,cover=1.31489
+			8:leaf=-0.0561164,cover=12.4341
+booster[26]:
+0:[petal_length_(cm)<4.75] yes=1,no=2,missing=1,gain=18.5896,cover=52.4214
+	1:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.612355,cover=27.4627
+		3:leaf=-0.0582265,cover=26.2916
+		4:leaf=0.00889957,cover=1.17114
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=1.04211,cover=24.9587
+		5:[petal_length_(cm)<5.05] yes=7,no=8,missing=7,gain=0.42727,cover=3.95233
+			7:leaf=-0.0178648,cover=1.95639
+			8:leaf=0.0363884,cover=1.99593
+		6:[petal_length_(cm)<4.85] yes=9,no=10,missing=9,gain=0.1104,cover=21.0063
+			9:leaf=0.0216873,cover=1.49883
+			10:leaf=0.072924,cover=19.5075
+booster[27]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=20.2039,cover=48.4934
+	1:leaf=0.0697874,cover=21.5871
+	2:leaf=-0.0574322,cover=26.9063
+booster[28]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=6.00237,cover=50.0537
+	1:leaf=-0.0552923,cover=13.3528
+	2:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=10.516,cover=36.7009
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=1.08451,cover=23.7727
+			5:leaf=0.0666063,cover=21.0965
+			6:leaf=-0.000581426,cover=2.6762
+		4:[petal_length_(cm)<4.85] yes=7,no=8,missing=7,gain=0.384719,cover=12.9282
+			7:leaf=0.00112483,cover=1.31552
+			8:leaf=-0.0548652,cover=11.6127
+booster[29]:
+0:[petal_length_(cm)<4.75] yes=1,no=2,missing=1,gain=16.3948,cover=49.774
+	1:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.612119,cover=25.6755
+		3:leaf=-0.057082,cover=24.5233
+		4:leaf=0.00992801,cover=1.15222
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.934855,cover=24.0985
+		5:[petal_length_(cm)<5.05] yes=7,no=8,missing=7,gain=0.382947,cover=3.92039
+			7:leaf=-0.0171088,cover=1.9209
+			8:leaf=0.034403,cover=1.99949
+		6:[petal_length_(cm)<4.85] yes=9,no=10,missing=9,gain=0.107691,cover=20.1781
+			9:leaf=0.020414,cover=1.49993
+			10:leaf=0.0696759,cover=18.6782
+booster[30]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=17.9853,cover=45.6433
+	1:leaf=0.0670315,cover=20.536
+	2:leaf=-0.0564199,cover=25.1073
+booster[31]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=5.35462,cover=47.4222
+	1:leaf=-0.0541567,cover=12.4321
+	2:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=9.22473,cover=34.9901
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=0.991696,cover=22.8511
+			5:leaf=0.0636864,cover=20.1749
+			6:leaf=-0.000670485,cover=2.67627
+		4:[petal_length_(cm)<4.85] yes=7,no=8,missing=7,gain=0.366383,cover=12.139
+			7:leaf=0.00110371,cover=1.31586
+			8:leaf=-0.0536998,cover=10.8231
+booster[32]:
+0:[petal_length_(cm)<4.75] yes=1,no=2,missing=1,gain=14.484,cover=47.1307
+	1:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.612558,cover=23.9595
+		3:leaf=-0.0560346,cover=22.8258
+		4:leaf=0.0109294,cover=1.13364
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.845919,cover=23.1712
+		5:[petal_length_(cm)<5.05] yes=7,no=8,missing=7,gain=0.343395,cover=3.88582
+			7:leaf=-0.0163762,cover=1.88609
+			8:leaf=0.0325588,cover=1.99973
+		6:[petal_length_(cm)<4.85] yes=9,no=10,missing=9,gain=0.106942,cover=19.2854
+			9:leaf=0.0192246,cover=1.49975
+			10:leaf=0.0668789,cover=17.7857
+booster[33]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=16.0506,cover=42.8359
+	1:leaf=0.0646383,cover=19.4446
+	2:leaf=-0.0554919,cover=23.3913
+booster[34]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=4.78104,cover=44.8273
+	1:leaf=-0.053095,cover=11.5536
+	2:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=8.11408,cover=33.2737
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=1.75136,cover=20.9411
+			5:leaf=0.0655918,cover=18.7298
+			6:leaf=-0.0205838,cover=2.21129
+		4:[petal_length_(cm)<5.05] yes=7,no=8,missing=7,gain=0.275233,cover=12.3327
+			7:leaf=-0.0137195,cover=3.43445
+			8:leaf=-0.051989,cover=8.89822
+booster[35]:
+0:[petal_length_(cm)<4.75] yes=1,no=2,missing=1,gain=12.8134,cover=44.5258
+	1:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.613415,cover=22.3223
+		3:leaf=-0.0550708,cover=21.2068
+		4:leaf=0.0119015,cover=1.11549
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.771017,cover=22.2035
+		5:[petal_width_(cm)<1.55] yes=7,no=8,missing=7,gain=0.353979,cover=3.84923
+			7:leaf=0.0296387,cover=2.35163
+			8:leaf=-0.0206562,cover=1.49761
+		6:[petal_length_(cm)<4.85] yes=9,no=10,missing=9,gain=0.107465,cover=18.3543
+			9:leaf=0.0181117,cover=1.4985
+			10:leaf=0.0644468,cover=16.8558
+booster[36]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=14.3517,cover=40.088
+	1:leaf=0.0625412,cover=18.3369
+	2:leaf=-0.0546344,cover=21.7511
+booster[37]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=4.26991,cover=42.3006
+	1:leaf=-0.0520954,cover=10.7202
+	2:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=7.1608,cover=31.5805
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=1.63597,cover=19.9323
+			5:leaf=0.0634745,cover=17.7313
+			6:leaf=-0.0201416,cover=2.201
+		4:[petal_length_(cm)<5.05] yes=7,no=8,missing=7,gain=0.268026,cover=11.6482
+			7:leaf=-0.0129124,cover=3.37892
+			8:leaf=-0.0509339,cover=8.26924
+booster[38]:
+0:[petal_length_(cm)<4.75] yes=1,no=2,missing=1,gain=11.3268,cover=42.0162
+	1:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.601165,cover=20.7518
+		3:leaf=-0.0541628,cover=19.6448
+		4:leaf=0.0122116,cover=1.10707
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.731187,cover=21.2643
+		5:[petal_width_(cm)<1.55] yes=7,no=8,missing=7,gain=0.344043,cover=3.83806
+			7:leaf=0.0285919,cover=2.3408
+			8:leaf=-0.0209438,cover=1.49725
+		6:[petal_length_(cm)<4.85] yes=9,no=10,missing=9,gain=0.115412,cover=17.4263
+			9:leaf=0.0167715,cover=1.49558
+			10:leaf=0.0623573,cover=15.9307
+booster[39]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=12.858,cover=37.4344
+	1:leaf=0.0606879,cover=17.2326
+	2:leaf=-0.053841,cover=20.2018
+booster[40]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=3.81638,cover=39.8544
+	1:leaf=-0.0511472,cover=9.93333
+	2:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=6.3302,cover=29.9211
+		3:[petal_length_(cm)<5.05] yes=5,no=6,missing=5,gain=0.76457,cover=19.8736
+			5:leaf=0.0553054,cover=18.1507
+			6:leaf=-0.00941319,cover=1.7229
+		4:[sepal_length_(cm)<5.95] yes=7,no=8,missing=7,gain=0.3676,cover=10.0475
+			7:leaf=-0.000681873,cover=1.67016
+			8:leaf=-0.0520168,cover=8.3773
+booster[41]:
+0:[petal_length_(cm)<4.75] yes=1,no=2,missing=1,gain=10.0191,cover=39.5906
+	1:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.589614,cover=19.2685
+		3:leaf=-0.0533165,cover=18.1699
+		4:leaf=0.0125125,cover=1.09851
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.695825,cover=20.3221
+		5:[petal_width_(cm)<1.55] yes=7,no=8,missing=7,gain=0.334466,cover=3.82364
+			7:leaf=0.0276195,cover=2.3268
+			8:leaf=-0.0211946,cover=1.49685
+		6:[sepal_length_(cm)<5.95] yes=9,no=10,missing=9,gain=0.13315,cover=16.4985
+			9:leaf=0.0228452,cover=2.60099
+			10:leaf=0.0620851,cover=13.8975
+booster[42]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=11.5508,cover=34.9233
+	1:leaf=0.0590362,cover=16.1467
+	2:leaf=-0.0531118,cover=18.7766
+booster[43]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=3.41289,cover=37.5807
+	1:leaf=-0.0502411,cover=9.19367
+	2:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=5.61937,cover=28.3871
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=1.48523,cover=17.9929
+			5:leaf=0.0600483,cover=15.7982
+			6:leaf=-0.0200082,cover=2.19465
+		4:[petal_length_(cm)<5.05] yes=7,no=8,missing=7,gain=0.252875,cover=10.3942
+			7:leaf=-0.0114078,cover=3.24668
+			8:leaf=-0.0490179,cover=7.1475
+booster[44]:
+0:[petal_length_(cm)<4.75] yes=1,no=2,missing=1,gain=8.88716,cover=37.3199
+	1:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.590547,cover=17.9007
+		3:leaf=-0.0525425,cover=16.8181
+		4:leaf=0.0133624,cover=1.08264
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.636753,cover=19.4192
+		5:[petal_width_(cm)<1.55] yes=7,no=8,missing=7,gain=0.321669,cover=3.80874
+			7:leaf=0.0271366,cover=2.3132
+			8:leaf=-0.0207826,cover=1.49554
+		6:[petal_length_(cm)<4.85] yes=9,no=10,missing=9,gain=0.159052,cover=15.6104
+			9:leaf=0.0129135,cover=1.47794
+			10:leaf=0.0589194,cover=14.1325
+booster[45]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=10.3828,cover=32.4986
+	1:leaf=0.0575519,cover=15.0908
+	2:leaf=-0.052417,cover=17.4078
+booster[46]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=3.05404,cover=35.3349
+	1:leaf=-0.0493687,cover=8.50101
+	2:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=4.97717,cover=26.8339
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=1.39844,cover=17.0147
+			5:leaf=0.0585597,cover=14.8319
+			6:leaf=-0.0195494,cover=2.18284
+		4:[petal_length_(cm)<5.05] yes=7,no=8,missing=7,gain=0.245703,cover=9.81917
+			7:leaf=-0.0107085,cover=3.19851
+			8:leaf=-0.0480771,cover=6.62066
+booster[47]:
+0:[petal_length_(cm)<4.75] yes=1,no=2,missing=1,gain=7.86439,cover=35.0986
+	1:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.579807,cover=16.592
+		3:leaf=-0.0517903,cover=15.5177
+		4:leaf=0.0136407,cover=1.07436
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.60897,cover=18.5066
+		5:[petal_width_(cm)<1.55] yes=7,no=8,missing=7,gain=0.312855,cover=3.78991
+			7:leaf=0.0262675,cover=2.29483
+			8:leaf=-0.0209881,cover=1.49509
+		6:[petal_length_(cm)<4.85] yes=9,no=10,missing=9,gain=0.1641,cover=14.7166
+			9:leaf=0.0118483,cover=1.47091
+			10:leaf=0.0574227,cover=13.2457
+booster[48]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=9.34624,cover=30.2022
+	1:leaf=0.0562071,cover=14.0735
+	2:leaf=-0.051761,cover=16.1287
+booster[49]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=2.73434,cover=33.2032
+	1:leaf=-0.0485226,cover=7.8545
+	2:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=4.41198,cover=25.3487
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=1.31944,cover=16.0677
+			5:leaf=0.0572185,cover=13.897
+			6:leaf=-0.0191014,cover=2.17075
+		4:[petal_length_(cm)<5.05] yes=7,no=8,missing=7,gain=0.23843,cover=9.28098
+			7:leaf=-0.0100414,cover=3.15269
+			8:leaf=-0.0471604,cover=6.12829
+booster[50]:
+0:[petal_length_(cm)<4.75] yes=1,no=2,missing=1,gain=6.95938,cover=32.992
+	1:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.56929,cover=15.3701
+		3:leaf=-0.0510736,cover=14.3041
+		4:leaf=0.0139081,cover=1.06603
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.582912,cover=17.6218
+		5:[petal_width_(cm)<1.55] yes=7,no=8,missing=7,gain=0.30431,cover=3.76872
+			7:leaf=0.0254563,cover=2.27411
+			8:leaf=-0.0211622,cover=1.49461
+		6:[sepal_length_(cm)<5.95] yes=9,no=10,missing=9,gain=0.18295,cover=13.8531
+			9:leaf=0.0165885,cover=2.3047
+			10:leaf=0.0575835,cover=11.5484
+booster[51]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=8.42689,cover=28.0472
+	1:leaf=0.0549786,cover=13.1009
+	2:leaf=-0.0511389,cover=14.9462
+booster[52]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=2.44981,cover=31.1985
+	1:leaf=-0.0476964,cover=7.25283
+	2:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=3.91006,cover=23.9457
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=1.24707,cover=15.1581
+			5:leaf=0.0560006,cover=12.9997
+			6:leaf=-0.018665,cover=2.15842
+		4:[petal_length_(cm)<5.05] yes=7,no=8,missing=7,gain=0.236689,cover=8.78763
+			7:leaf=-0.00915558,cover=3.10486
+			8:leaf=-0.0462917,cover=5.68276
+booster[53]:
+0:[petal_length_(cm)<4.75] yes=1,no=2,missing=1,gain=6.15532,cover=31.0283
+	1:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.558885,cover=14.2327
+		3:leaf=-0.0503855,cover=13.175
+		4:leaf=0.0141643,cover=1.05768
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.556511,cover=16.7956
+		5:[petal_width_(cm)<1.55] yes=7,no=8,missing=7,gain=0.296012,cover=3.74545
+			7:leaf=0.024698,cover=2.25133
+			8:leaf=-0.0213067,cover=1.49412
+		6:[sepal_length_(cm)<5.95] yes=9,no=10,missing=9,gain=0.19116,cover=13.0502
+			9:leaf=0.0150425,cover=2.23539
+			10:leaf=0.0562851,cover=10.8148
+booster[54]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=7.60732,cover=26.0238
+	1:leaf=0.0538469,cover=12.177
+	2:leaf=-0.0505435,cover=13.8468
+booster[55]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=2.19596,cover=29.3122
+	1:leaf=-0.0468844,cover=6.69435
+	2:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=3.46656,cover=22.6178
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=1.18037,cover=14.2901
+			5:leaf=0.0548864,cover=12.1442
+			6:leaf=-0.0182408,cover=2.14588
+		4:[petal_length_(cm)<5.05] yes=7,no=8,missing=7,gain=0.234375,cover=8.32779
+			7:leaf=-0.00830514,cover=3.05882
+			8:leaf=-0.0454385,cover=5.26897
+booster[56]:
+0:[petal_width_(cm)<1.65] yes=1,no=2,missing=1,gain=5.45377,cover=29.1812
+	1:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=1.87061,cover=15.9547
+		3:leaf=-0.0507124,cover=13.5143
+		4:leaf=0.0340142,cover=2.44042
+	2:[petal_length_(cm)<5.05] yes=5,no=6,missing=5,gain=0.0373823,cover=13.2265
+		5:[sepal_width_(cm)<2.9] yes=7,no=8,missing=7,gain=0.766998,cover=3.7658
+			7:leaf=0.0567095,cover=2.04313
+			8:leaf=-0.0188535,cover=1.72268
+		6:leaf=0.0529513,cover=9.46071
+booster[57]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=6.86903,cover=24.1156
+	1:leaf=0.0527908,cover=11.3001
+	2:leaf=-0.0499561,cover=12.8155
+booster[58]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=1.96439,cover=27.4785
+	1:leaf=-0.0460822,cover=6.17749
+	2:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=3.07395,cover=21.301
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=1.08118,cover=13.3959
+			5:leaf=0.0537161,cover=11.2804
+			6:leaf=-0.0171232,cover=2.11546
+		4:[petal_length_(cm)<5.05] yes=7,no=8,missing=7,gain=0.228861,cover=7.90514
+			7:leaf=-0.00764144,cover=3.03025
+			8:leaf=-0.0445676,cover=4.87489
+booster[59]:
+0:[petal_width_(cm)<1.65] yes=1,no=2,missing=1,gain=4.845,cover=27.3666
+	1:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=1.71866,cover=14.8648
+		3:leaf=-0.0500393,cover=12.4459
+		4:leaf=0.0320586,cover=2.41892
+	2:[petal_length_(cm)<5.05] yes=5,no=6,missing=5,gain=0.0479337,cover=12.5018
+		5:[sepal_width_(cm)<2.9] yes=7,no=8,missing=7,gain=0.73382,cover=3.70408
+			7:leaf=0.0552086,cover=1.98294
+			8:leaf=-0.0189039,cover=1.72114
+		6:leaf=0.0518365,cover=8.79768
+booster[60]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=6.20873,cover=22.3356
+	1:leaf=0.0518019,cover=10.4758
+	2:leaf=-0.0493849,cover=11.8598
+booster[61]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=1.75786,cover=25.7625
+	1:leaf=-0.0452848,cover=5.6997
+	2:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=2.72713,cover=20.0628
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=0.991346,cover=12.5495
+			5:leaf=0.0526253,cover=10.4639
+			6:leaf=-0.0160571,cover=2.08565
+		4:[petal_length_(cm)<5.05] yes=7,no=8,missing=7,gain=0.222772,cover=7.51323
+			7:leaf=-0.00701651,cover=3.00306
+			8:leaf=-0.0437022,cover=4.51017
+booster[62]:
+0:[petal_width_(cm)<1.65] yes=1,no=2,missing=1,gain=4.30576,cover=25.6694
+	1:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=1.57951,cover=13.8519
+		3:leaf=-0.0493842,cover=11.4571
+		4:leaf=0.0302339,cover=2.39476
+	2:[petal_length_(cm)<5.05] yes=5,no=6,missing=5,gain=0.0571672,cover=11.8175
+		5:[sepal_width_(cm)<2.9] yes=7,no=8,missing=7,gain=0.702197,cover=3.64421
+			7:leaf=0.0537871,cover=1.92423
+			8:leaf=-0.0189186,cover=1.71998
+		6:leaf=0.0507867,cover=8.17329
+booster[63]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=5.61728,cover=20.6797
+	1:leaf=0.0508683,cover=9.70395
+	2:leaf=-0.0488261,cover=10.9758
+booster[64]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=1.57358,cover=24.1614
+	1:leaf=-0.0444888,cover=5.25881
+	2:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=2.4205,cover=18.9026
+		3:[petal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=0.909783,cover=11.7522
+			5:leaf=0.0516001,cover=9.6956
+			6:leaf=-0.015041,cover=2.05659
+		4:[sepal_width_(cm)<2.95] yes=7,no=8,missing=7,gain=0.221439,cover=7.15036
+			7:leaf=-0.0484891,cover=2.82701
+			8:leaf=-0.0115758,cover=4.32335
+booster[65]:
+0:[petal_width_(cm)<1.65] yes=1,no=2,missing=1,gain=3.82774,cover=24.0865
+	1:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=1.45196,cover=12.9125
+		3:leaf=-0.048742,cover=10.5439
+		4:leaf=0.0285267,cover=2.36858
+	2:[petal_length_(cm)<5.05] yes=5,no=6,missing=5,gain=0.0651247,cover=11.174
+		5:[sepal_width_(cm)<2.9] yes=7,no=8,missing=7,gain=0.67201,cover=3.58636
+			7:leaf=0.0524373,cover=1.8672
+			8:leaf=-0.0189001,cover=1.71916
+		6:leaf=0.0497902,cover=7.58767
+booster[66]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=5.08757,cover=19.1453
+	1:leaf=0.0499797,cover=8.98379
+	2:leaf=-0.0482786,cover=10.1615
+booster[67]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=1.40744,cover=22.7095
+	1:leaf=-0.0436912,cover=4.8526
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=2.17338,cover=17.8569
+		3:[petal_width_(cm)<1.65] yes=5,no=6,missing=5,gain=1.01446,cover=13.8019
+			5:leaf=0.0461762,cover=10.2087
+			6:leaf=-0.0120804,cover=3.59325
+		4:leaf=-0.0449843,cover=4.05503
+booster[68]:
+0:[petal_width_(cm)<1.65] yes=1,no=2,missing=1,gain=3.40139,cover=22.6512
+	1:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=1.33493,cover=12.0429
+		3:leaf=-0.0481084,cover=9.70192
+		4:leaf=0.0269261,cover=2.34095
+	2:[petal_length_(cm)<5.05] yes=5,no=6,missing=5,gain=0.0839306,cover=10.6083
+		5:[sepal_width_(cm)<2.9] yes=7,no=8,missing=7,gain=0.632993,cover=3.51087
+			7:leaf=0.0505132,cover=1.79339
+			8:leaf=-0.0189809,cover=1.71748
+		6:leaf=0.0489367,cover=7.09743
+booster[69]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=4.61426,cover=17.7338
+	1:leaf=0.0491274,cover=8.31384
+	2:leaf=-0.0477402,cover=9.42001
+booster[70]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=1.25982,cover=21.3725
+	1:leaf=-0.0428897,cover=4.47883
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=1.95225,cover=16.8936
+		3:[petal_width_(cm)<1.65] yes=5,no=6,missing=5,gain=0.913534,cover=13.1113
+			5:leaf=0.0448905,cover=9.58038
+			6:leaf=-0.0111961,cover=3.53088
+		4:leaf=-0.0441209,cover=3.78237
+booster[71]:
+0:[petal_width_(cm)<1.65] yes=1,no=2,missing=1,gain=3.01069,cover=21.3103
+	1:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=1.25392,cover=11.2661
+		3:leaf=-0.0474957,cover=8.94426
+		4:leaf=0.0260108,cover=2.32189
+	2:[petal_length_(cm)<5.05] yes=5,no=6,missing=5,gain=0.0921412,cover=10.0442
+		5:[sepal_width_(cm)<2.9] yes=7,no=8,missing=7,gain=0.607005,cover=3.45307
+			7:leaf=0.049209,cover=1.73719
+			8:leaf=-0.0190582,cover=1.71588
+		6:leaf=0.0480319,cover=6.59111
+booster[72]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=4.1888,cover=16.4292
+	1:leaf=0.0483039,cover=7.69214
+	2:leaf=-0.0472056,cover=8.73701
+booster[73]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=1.12791,cover=20.1342
+	1:leaf=-0.0420824,cover=4.13532
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=1.75462,cover=15.9989
+		3:[petal_width_(cm)<1.65] yes=5,no=6,missing=5,gain=0.82255,cover=12.4689
+			5:leaf=0.0436216,cover=8.99662
+			6:leaf=-0.0103625,cover=3.47228
+		4:leaf=-0.0432607,cover=3.52999
+booster[74]:
+0:[petal_width_(cm)<1.65] yes=1,no=2,missing=1,gain=2.66402,cover=20.0683
+	1:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=1.17854,cover=10.5502
+		3:leaf=-0.0468855,cover=8.24814
+		4:leaf=0.0251684,cover=2.30204
+	2:[petal_length_(cm)<5.05] yes=5,no=6,missing=5,gain=0.0989531,cover=9.51817
+		5:[sepal_width_(cm)<2.9] yes=7,no=8,missing=7,gain=0.582014,cover=3.39771
+			7:leaf=0.0479666,cover=1.68305
+			8:leaf=-0.0190975,cover=1.71466
+		6:leaf=0.0471562,cover=6.12045
+booster[75]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=3.80595,cover=15.2249
+	1:leaf=0.0475026,cover=7.11646
+	2:leaf=-0.0466726,cover=8.1084
+booster[76]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=1.01002,cover=18.9892
+	1:leaf=-0.0412681,cover=3.81992
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=1.5779,cover=15.1693
+		3:[petal_width_(cm)<1.65] yes=5,no=6,missing=5,gain=0.740445,cover=11.8728
+			5:leaf=0.0423648,cover=8.45556
+			6:leaf=-0.00957842,cover=3.41719
+		4:leaf=-0.0424029,cover=3.29653
+booster[77]:
+0:[petal_width_(cm)<1.65] yes=1,no=2,missing=1,gain=2.35644,cover=18.9195
+	1:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=1.10827,cover=9.89086
+		3:leaf=-0.0462752,cover=7.60927
+		4:leaf=0.0243926,cover=2.28158
+	2:[petal_length_(cm)<5.05] yes=5,no=6,missing=5,gain=0.10444,cover=9.02868
+		5:[sepal_width_(cm)<2.9] yes=7,no=8,missing=7,gain=0.55798,cover=3.34481
+			7:leaf=0.0467812,cover=1.631
+			8:leaf=-0.0191012,cover=1.71381
+		6:leaf=0.0463035,cover=5.68388
+booster[78]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=3.46112,cover=14.1146
+	1:leaf=0.0467183,cover=6.58441
+	2:leaf=-0.0461392,cover=7.53022
+booster[79]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.904661,cover=17.9318
+	1:leaf=-0.0404462,cover=3.53057
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=1.4198,cover=14.4012
+		3:[petal_width_(cm)<1.65] yes=5,no=6,missing=5,gain=0.666304,cover=11.3205
+			5:leaf=0.0411166,cover=7.95511
+			6:leaf=-0.00884286,cover=3.36538
+		4:leaf=-0.0415471,cover=3.08069
+booster[80]:
+0:[petal_length_(cm)<4.85] yes=1,no=2,missing=1,gain=2.09365,cover=17.8581
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.813928,cover=8.55849
+		3:leaf=-0.0453295,cover=6.72798
+		4:leaf=0.0205275,cover=1.83051
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.379979,cover=9.29965
+		5:[petal_width_(cm)<1.55] yes=7,no=8,missing=7,gain=0.483001,cover=3.05385
+			7:leaf=0.0327069,cover=1.62074
+			8:leaf=-0.0292314,cover=1.43311
+		6:leaf=0.0469293,cover=6.2458
+booster[81]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=3.14926,cover=13.0876
+	1:leaf=0.0459476,cover=6.09434
+	2:leaf=-0.0455994,cover=6.99326
+booster[82]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.812162,cover=16.9666
+	1:leaf=-0.0396162,cover=3.26526
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=1.28773,cover=13.7013
+		3:[petal_width_(cm)<1.65] yes=5,no=6,missing=5,gain=0.591071,cover=10.8158
+			5:leaf=0.0398224,cover=7.51488
+			6:leaf=-0.00796067,cover=3.3009
+		4:leaf=-0.0408013,cover=2.88553
+booster[83]:
+0:[petal_length_(cm)<4.85] yes=1,no=2,missing=1,gain=1.86982,cover=16.8847
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.754943,cover=8.0303
+		3:leaf=-0.0447051,cover=6.21344
+		4:leaf=0.0194596,cover=1.81686
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.359851,cover=8.85435
+		5:[petal_width_(cm)<1.55] yes=7,no=8,missing=7,gain=0.466013,cover=3.03915
+			7:leaf=0.0322668,cover=1.60403
+			8:leaf=-0.028653,cover=1.43512
+		6:leaf=0.0461609,cover=5.8152
+booster[84]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=2.86796,cover=12.1428
+	1:leaf=0.0451855,cover=5.64271
+	2:leaf=-0.0450561,cover=6.5001
+booster[85]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.729354,cover=16.077
+	1:leaf=-0.0387786,cover=3.02216
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=1.16927,cover=13.0549
+		3:[petal_width_(cm)<1.65] yes=5,no=6,missing=5,gain=0.523654,cover=10.3493
+			5:leaf=0.0385336,cover=7.10914
+			6:leaf=-0.00712693,cover=3.24019
+		4:leaf=-0.0400611,cover=2.70555
+booster[86]:
+0:[petal_length_(cm)<4.85] yes=1,no=2,missing=1,gain=1.67152,cover=15.9864
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.700401,cover=7.54582
+		3:leaf=-0.0440741,cover=5.74265
+		4:leaf=0.0184583,cover=1.80317
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.340071,cover=8.44063
+		5:[petal_width_(cm)<1.55] yes=7,no=8,missing=7,gain=0.449732,cover=3.02382
+			7:leaf=0.0318533,cover=1.58744
+			8:leaf=-0.0280781,cover=1.43638
+		6:leaf=0.0454063,cover=5.41681
+booster[87]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=2.61406,cover=11.2743
+	1:leaf=0.0444287,cover=5.22697
+	2:leaf=-0.0445084,cover=6.04729
+booster[88]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.655222,cover=15.2576
+	1:leaf=-0.0379338,cover=2.79949
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=1.063,cover=12.4581
+		3:[petal_width_(cm)<1.65] yes=5,no=6,missing=5,gain=0.463296,cover=9.91851
+			5:leaf=0.0372513,cover=6.73548
+			6:leaf=-0.00634041,cover=3.18303
+		4:leaf=-0.0393269,cover=2.53961
+booster[89]:
+0:[petal_length_(cm)<4.45] yes=1,no=2,missing=1,gain=1.49631,cover=15.1582
+	1:leaf=-0.0414838,cover=4.18317
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=0.48066,cover=10.975
+		3:[sepal_width_(cm)<2.85] yes=5,no=6,missing=5,gain=0.485787,cover=6.73375
+			5:leaf=0.0255208,cover=3.76604
+			6:leaf=-0.0219325,cover=2.9677
+		4:leaf=0.0456207,cover=4.24124
+booster[90]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=2.38863,cover=10.4921
+	1:leaf=0.0436832,cover=4.84871
+	2:leaf=-0.0439667,cover=5.64341
+booster[91]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.59055,cover=14.5543
+	1:leaf=-0.0370824,cover=2.59547
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=0.951847,cover=11.9588
+		3:[petal_width_(cm)<1.65] yes=5,no=6,missing=5,gain=0.432784,cover=9.58846
+			5:leaf=0.0361907,cover=6.41666
+			6:leaf=-0.00623881,cover=3.1718
+		4:leaf=-0.0383522,cover=2.37034
+booster[92]:
+0:[petal_length_(cm)<4.45] yes=1,no=2,missing=1,gain=1.35264,cover=14.4686
+	1:leaf=-0.04077,cover=3.87467
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=0.440328,cover=10.5939
+		3:[sepal_width_(cm)<2.85] yes=5,no=6,missing=5,gain=0.458961,cover=6.63982
+			5:leaf=0.0250293,cover=3.71657
+			6:leaf=-0.0213522,cover=2.92326
+		4:leaf=0.0446618,cover=3.95407
+booster[93]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=2.18461,cover=9.77286
+	1:leaf=0.0429393,cover=4.50099
+	2:leaf=-0.0434204,cover=5.27187
+booster[94]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.532516,cover=13.9062
+	1:leaf=-0.0362262,cover=2.40868
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=0.852953,cover=11.4975
+		3:[petal_width_(cm)<1.65] yes=5,no=6,missing=5,gain=0.404166,cover=9.28335
+			5:leaf=0.0351452,cover=6.12267
+			6:leaf=-0.00614177,cover=3.16068
+		4:leaf=-0.0373846,cover=2.21415
+booster[95]:
+0:[petal_length_(cm)<4.45] yes=1,no=2,missing=1,gain=1.22392,cover=13.8319
+	1:leaf=-0.0400465,cover=3.59248
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=0.403404,cover=10.2394
+		3:[sepal_width_(cm)<3.05] yes=5,no=6,missing=5,gain=0.437341,cover=6.55119
+			5:leaf=0.0175778,cover=5.28509
+			6:leaf=-0.033769,cover=1.2661
+		4:leaf=0.0437155,cover=3.6882
+booster[96]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=1.99881,cover=9.10795
+	1:leaf=0.0421954,cover=4.18152
+	2:leaf=-0.0428592,cover=4.92642
+booster[97]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.481907,cover=13.307
+	1:leaf=-0.0353667,cover=2.23767
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=0.767052,cover=11.0693
+		3:[petal_width_(cm)<1.65] yes=5,no=6,missing=5,gain=0.369533,cover=8.99928
+			5:leaf=0.0340395,cover=5.8557
+			6:leaf=-0.00577575,cover=3.14358
+		4:leaf=-0.0364254,cover=2.07003
+booster[98]:
+0:[petal_length_(cm)<4.45] yes=1,no=2,missing=1,gain=1.10519,cover=13.2444
+	1:leaf=-0.039314,cover=3.33436
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=0.372814,cover=9.91007
+		3:[sepal_width_(cm)<2.85] yes=5,no=6,missing=5,gain=0.427591,cover=6.46784
+			5:leaf=0.0243522,cover=3.62996
+			6:leaf=-0.0208771,cover=2.83788
+		4:leaf=0.0427806,cover=3.44223
+booster[99]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=1.83144,cover=8.50015
+	1:leaf=0.0414508,cover=3.88812
+	2:leaf=-0.0423033,cover=4.61204
+booster[100]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.435027,cover=12.757
+	1:leaf=-0.0345057,cover=2.08109
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=0.688517,cover=10.6759
+		3:[petal_width_(cm)<1.65] yes=5,no=6,missing=5,gain=0.345101,cover=8.73881
+			5:leaf=0.0330283,cover=5.60545
+			6:leaf=-0.00569892,cover=3.13337
+		4:leaf=-0.0354759,cover=1.93707
+booster[101]:
+0:[petal_length_(cm)<4.45] yes=1,no=2,missing=1,gain=1.00212,cover=12.7018
+	1:leaf=-0.0385736,cover=3.09832
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=0.341512,cover=9.60351
+		3:[sepal_width_(cm)<2.85] yes=5,no=6,missing=5,gain=0.40532,cover=6.38873
+			5:leaf=0.0239127,cover=3.58661
+			6:leaf=-0.0203351,cover=2.80211
+		4:leaf=0.0418563,cover=3.21478
+booster[102]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=1.67965,cover=7.94129
+	1:leaf=0.040705,cover=3.61871
+	2:leaf=-0.0417429,cover=4.32258
+booster[103]:
+0:[sepal_length_(cm)<5.45] yes=1,no=2,missing=1,gain=0.404363,cover=12.25
+	1:leaf=-0.0295326,cover=2.6942
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=0.670446,cover=9.55581
+		3:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.369368,cover=7.74143
+			5:leaf=0.0337998,cover=5.60928
+			6:leaf=-0.0102496,cover=2.13215
+		4:leaf=-0.0345375,cover=1.81437
+booster[104]:
+0:[petal_length_(cm)<4.45] yes=1,no=2,missing=1,gain=0.909624,cover=12.2009
+	1:leaf=-0.0378263,cover=2.88233
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=0.312878,cover=9.31853
+		3:[sepal_width_(cm)<2.6] yes=5,no=6,missing=5,gain=0.393489,cover=6.31399
+			5:leaf=0.0378046,cover=1.428
+			6:leaf=-0.0101432,cover=4.88599
+		4:leaf=0.0409419,cover=3.00454
+booster[105]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=1.55043,cover=7.45903
+	1:leaf=0.0400135,cover=3.389
+	2:leaf=-0.041205,cover=4.07003
+booster[106]:
+0:[sepal_length_(cm)<5.45] yes=1,no=2,missing=1,gain=0.362302,cover=11.8297
+	1:leaf=-0.0285075,cover=2.57506
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=0.600499,cover=9.25464
+		3:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.346378,cover=7.5535
+			5:leaf=0.0325936,cover=5.42721
+			6:leaf=-0.0101902,cover=2.12629
+		4:leaf=-0.0336117,cover=1.70114
+booster[107]:
+0:[petal_length_(cm)<4.45] yes=1,no=2,missing=1,gain=0.83202,cover=11.7597
+	1:leaf=-0.0371104,cover=2.69379
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=0.28403,cover=9.0659
+		3:[sepal_width_(cm)<3.05] yes=5,no=6,missing=5,gain=0.387969,cover=6.25565
+			5:leaf=0.0169793,cover=5.08079
+			6:leaf=-0.032348,cover=1.17485
+		4:leaf=0.0400371,cover=2.81025
+booster[108]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=1.43094,cover=7.00652
+	1:leaf=0.0393246,cover=3.17779
+	2:leaf=-0.040643,cover=3.82873
+booster[109]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.33189,cover=11.4235
+	1:leaf=-0.032191,cover=1.72127
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=0.504092,cover=9.7022
+		3:[sepal_width_(cm)<2.55] yes=5,no=6,missing=5,gain=0.306816,cover=8.10557
+			5:leaf=-0.0113965,cover=2.13282
+			6:leaf=0.0279298,cover=5.97275
+		4:leaf=-0.0326996,cover=1.59663
+booster[110]:
+0:[petal_width_(cm)<1.35] yes=1,no=2,missing=1,gain=0.757765,cover=11.3322
+	1:leaf=-0.0364122,cover=2.52227
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=0.262632,cover=8.80996
+		3:[sepal_width_(cm)<2.85] yes=5,no=6,missing=5,gain=0.395306,cover=6.17924
+			5:leaf=0.0241738,cover=3.4208
+			6:leaf=-0.020034,cover=2.75844
+		4:leaf=0.0391416,cover=2.63071
+booster[111]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=1.31888,cover=6.58156
+	1:leaf=0.0385752,cover=2.96645
+	2:leaf=-0.0401029,cover=3.61512
+booster[112]:
+0:[sepal_length_(cm)<5.45] yes=1,no=2,missing=1,gain=0.303642,cover=11.0915
+	1:leaf=-0.0270012,cover=2.34975
+	2:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=0.529904,cover=8.74179
+		3:[sepal_width_(cm)<2.65] yes=5,no=6,missing=5,gain=0.133918,cover=5.5594
+			5:leaf=-0.000467285,cover=1.54257
+			6:leaf=0.0329254,cover=4.01683
+		4:[sepal_width_(cm)<3.05] yes=7,no=8,missing=7,gain=0.312583,cover=3.18239
+			7:leaf=-0.0383569,cover=2.05862
+			8:leaf=0.0142943,cover=1.12377
+booster[113]:
+0:[petal_length_(cm)<4.45] yes=1,no=2,missing=1,gain=0.700292,cover=10.9829
+	1:leaf=-0.0357297,cover=2.3737
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=0.2359,cover=8.60922
+		3:[sepal_width_(cm)<3.05] yes=5,no=6,missing=5,gain=0.354469,cover=6.14438
+			5:leaf=0.0166159,cover=5.00018
+			6:leaf=-0.0308826,cover=1.1442
+		4:leaf=0.0382558,cover=2.46484
+booster[114]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=1.22142,cover=6.20465
+	1:leaf=0.0378888,cover=2.78794
+	2:leaf=-0.039558,cover=3.4167
+booster[115]:
+0:[petal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.280531,cover=10.7682
+	1:[sepal_length_(cm)<5.45] yes=3,no=4,missing=3,gain=0.462077,cover=9.32313
+		3:leaf=-0.0261309,cover=2.25705
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.304715,cover=7.06609
+			5:leaf=0.0304603,cover=4.97334
+			6:leaf=-0.0101306,cover=2.09275
+	2:leaf=-0.0313305,cover=1.44506
+booster[116]:
+0:[petal_width_(cm)<1.35] yes=1,no=2,missing=1,gain=0.641813,cover=10.633
+	1:leaf=-0.0350818,cover=2.23808
+	2:[petal_length_(cm)<5.15] yes=3,no=4,missing=3,gain=0.227457,cover=8.39495
+		3:[sepal_width_(cm)<2.85] yes=5,no=6,missing=5,gain=0.34356,cover=6.05273
+			5:leaf=0.0228362,cover=3.35112
+			6:leaf=-0.0187055,cover=2.70161
+		4:leaf=0.0376298,cover=2.34222
+booster[117]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=1.13121,cover=5.84992
+	1:leaf=0.037205,cover=2.62324
+	2:leaf=-0.038999,cover=3.22668
+booster[118]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.256734,cover=10.4358
+	1:leaf=-0.0299476,cover=1.4399
+	2:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=0.3955,cover=8.99586
+		3:[sepal_width_(cm)<2.65] yes=5,no=6,missing=5,gain=0.332388,cover=5.98481
+			5:leaf=-0.00851322,cover=2.22051
+			6:leaf=0.035234,cover=3.7643
+		4:[sepal_width_(cm)<3.05] yes=7,no=8,missing=7,gain=0.299453,cover=3.01105
+			7:leaf=-0.0373525,cover=1.91313
+			8:leaf=0.0146479,cover=1.09792
+booster[119]:
+0:[petal_width_(cm)<1.75] yes=1,no=2,missing=1,gain=0.5917,cover=10.2844
+	1:[sepal_width_(cm)<2.65] yes=3,no=4,missing=3,gain=0.496155,cover=6.07828
+		3:leaf=0.020655,cover=1.85165
+		4:[petal_length_(cm)<5.05] yes=7,no=8,missing=7,gain=0.171384,cover=4.22663
+			7:leaf=-0.0425016,cover=2.96638
+			8:leaf=-9.42997e-005,cover=1.26024
+	2:[sepal_length_(cm)<5.95] yes=5,no=6,missing=5,gain=0.331623,cover=4.20611
+		5:leaf=-0.0109167,cover=1.13107
+		6:leaf=0.0426721,cover=3.07504
+booster[120]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=1.0409,cover=5.49424
+	1:leaf=0.0364221,cover=2.44952
+	2:leaf=-0.0384161,cover=3.04472
+booster[121]:
+0:[petal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.245416,cover=10.1043
+	1:[sepal_length_(cm)<5.45] yes=3,no=4,missing=3,gain=0.388989,cover=8.78814
+		3:[sepal_length_(cm)<4.95] yes=5,no=6,missing=5,gain=0.00349609,cover=2.07891
+			5:leaf=-0.0294452,cover=1.0676
+			6:leaf=-0.00744979,cover=1.01131
+		4:[petal_width_(cm)<1.75] yes=7,no=8,missing=7,gain=0.249876,cover=6.70923
+			7:leaf=0.028568,cover=4.68966
+			8:leaf=-0.00892242,cover=2.01956
+	2:leaf=-0.0301009,cover=1.31614
+booster[122]:
+0:[petal_length_(cm)<4.45] yes=1,no=2,missing=1,gain=0.54935,cover=9.936
+	1:leaf=-0.0337625,cover=1.99708
+	2:[sepal_width_(cm)<3.15] yes=3,no=4,missing=3,gain=0.211171,cover=7.93892
+		3:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.272256,cover=6.48918
+			5:leaf=0.00277513,cover=3.68325
+			6:leaf=0.0417353,cover=2.80593
+		4:leaf=-0.0126229,cover=1.44974
+booster[123]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.967523,cover=5.19677
+	1:leaf=0.0357832,cover=2.31811
+	2:leaf=-0.0378389,cover=2.87866
+booster[124]:
+0:[petal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.230865,cover=9.81205
+	1:[sepal_length_(cm)<5.45] yes=3,no=4,missing=3,gain=0.363442,cover=8.54713
+		3:leaf=-0.0241175,cover=2.0078
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.217468,cover=6.53933
+			5:leaf=0.0274935,cover=4.57108
+			6:leaf=-0.00796839,cover=1.96824
+	2:leaf=-0.0295504,cover=1.26492
+booster[125]:
+0:[petal_width_(cm)<1.35] yes=1,no=2,missing=1,gain=0.503747,cover=9.62791
+	1:leaf=-0.0330562,cover=1.87934
+	2:[sepal_width_(cm)<3.15] yes=3,no=4,missing=3,gain=0.206018,cover=7.74857
+		3:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.250816,cover=6.31978
+			5:leaf=0.00304067,cover=3.65603
+			6:leaf=0.0409811,cover=2.66375
+		4:leaf=-0.0128199,cover=1.42879
+booster[126]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.898584,cover=4.91615
+	1:leaf=0.0351092,cover=2.18876
+	2:leaf=-0.0372723,cover=2.72739
+booster[127]:
+0:[petal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.218266,cover=9.53719
+	1:[sepal_length_(cm)<5.45] yes=3,no=4,missing=3,gain=0.336176,cover=8.32008
+		3:leaf=-0.0234002,cover=1.93999
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.188851,cover=6.3801
+			5:leaf=0.0264485,cover=4.45998
+			6:leaf=-0.00706034,cover=1.92012
+	2:leaf=-0.0290143,cover=1.2171
+booster[128]:
+0:[petal_length_(cm)<4.85] yes=1,no=2,missing=1,gain=0.476306,cover=9.34466
+	1:[sepal_width_(cm)<3.05] yes=3,no=4,missing=3,gain=0.301287,cover=4.14351
+		3:[petal_width_(cm)<1.6] yes=7,no=8,missing=7,gain=0.537485,cover=2.5581
+			7:leaf=-0.0297162,cover=1.40183
+			8:leaf=0.0391289,cover=1.15627
+		4:leaf=-0.043473,cover=1.58541
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.201531,cover=5.20115
+		5:[petal_width_(cm)<1.55] yes=9,no=10,missing=9,gain=0.46994,cover=2.64411
+			9:leaf=0.0318217,cover=1.36202
+			10:leaf=-0.0318113,cover=1.28209
+		6:leaf=0.0374291,cover=2.55704
+booster[129]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.831634,cover=4.63979
+	1:leaf=0.0343963,cover=2.06147
+	2:leaf=-0.0366771,cover=2.57832
+booster[130]:
+0:[petal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.203507,cover=9.24367
+	1:[sepal_length_(cm)<5.45] yes=3,no=4,missing=3,gain=0.305009,cover=8.08366
+		3:leaf=-0.0225205,cover=1.87024
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.165338,cover=6.21342
+			5:leaf=0.0253552,cover=4.33704
+			6:leaf=-0.00639492,cover=1.87638
+	2:leaf=-0.0283993,cover=1.16001
+booster[131]:
+0:[petal_length_(cm)<4.85] yes=1,no=2,missing=1,gain=0.444527,cover=9.02155
+	1:[sepal_width_(cm)<3.05] yes=3,no=4,missing=3,gain=0.286904,cover=3.97936
+		3:[petal_width_(cm)<1.6] yes=7,no=8,missing=7,gain=0.502438,cover=2.4697
+			7:leaf=-0.0291157,cover=1.33812
+			8:leaf=0.0380852,cover=1.13158
+		4:leaf=-0.0428702,cover=1.50967
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.183685,cover=5.04218
+		5:[petal_width_(cm)<1.55] yes=9,no=10,missing=9,gain=0.447682,cover=2.62887
+			9:leaf=0.0314894,cover=1.35153
+			10:leaf=-0.0307236,cover=1.27733
+		6:leaf=0.0367379,cover=2.41331
+booster[132]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.77064,cover=4.38487
+	1:leaf=0.0336914,cover=1.94431
+	2:leaf=-0.0360844,cover=2.44056
+booster[133]:
+0:[petal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.190055,cover=8.96863
+	1:[sepal_length_(cm)<5.45] yes=3,no=4,missing=3,gain=0.276985,cover=7.8615
+		3:leaf=-0.0216729,cover=1.80461
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.14477,cover=6.05689
+			5:leaf=0.0243068,cover=4.22191
+			6:leaf=-0.00577457,cover=1.83499
+	2:leaf=-0.0278026,cover=1.10712
+booster[134]:
+0:[petal_length_(cm)<4.85] yes=1,no=2,missing=1,gain=0.415987,cover=8.71971
+	1:[sepal_width_(cm)<3.05] yes=3,no=4,missing=3,gain=0.273084,cover=3.82645
+		3:[petal_width_(cm)<1.6] yes=7,no=8,missing=7,gain=0.470419,cover=2.3861
+			7:leaf=-0.0285327,cover=1.27919
+			8:leaf=0.0370975,cover=1.10692
+		4:leaf=-0.0422592,cover=1.44034
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.167317,cover=4.89326
+		5:[petal_width_(cm)<1.55] yes=9,no=10,missing=9,gain=0.426684,cover=2.61295
+			9:leaf=0.0311523,cover=1.34152
+			10:leaf=-0.0296943,cover=1.27143
+		6:leaf=0.036053,cover=2.28031
+booster[135]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.715023,cover=4.14953
+	1:leaf=0.0329954,cover=1.83639
+	2:leaf=-0.0354951,cover=2.31314
+booster[136]:
+0:[petal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.177781,cover=8.71052
+	1:[sepal_length_(cm)<5.45] yes=3,no=4,missing=3,gain=0.251775,cover=7.65244
+		3:leaf=-0.0208569,cover=1.74278
+		4:[petal_length_(cm)<4.85] yes=5,no=6,missing=5,gain=0.136622,cover=5.90966
+			5:leaf=0.0271038,cover=3.01108
+			6:leaf=-0.0010456,cover=2.89858
+	2:leaf=-0.0272245,cover=1.05809
+booster[137]:
+0:[petal_length_(cm)<4.85] yes=1,no=2,missing=1,gain=0.390274,cover=8.43745
+	1:[sepal_width_(cm)<3.05] yes=3,no=4,missing=3,gain=0.259835,cover=3.68381
+		3:[petal_width_(cm)<1.6] yes=7,no=8,missing=7,gain=0.441123,cover=2.307
+			7:leaf=-0.0279671,cover=1.22459
+			8:leaf=0.0361613,cover=1.08241
+		4:leaf=-0.041642,cover=1.37681
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.152327,cover=4.75364
+		5:[petal_width_(cm)<1.55] yes=9,no=10,missing=9,gain=0.406855,cover=2.59649
+			9:leaf=0.0308104,cover=1.33195
+			10:leaf=-0.0287193,cover=1.26453
+		6:leaf=0.035375,cover=2.15716
+booster[138]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.664196,cover=3.93141
+	1:leaf=0.0323135,cover=1.73746
+	2:leaf=-0.0349038,cover=2.19395
+booster[139]:
+0:[petal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.167061,cover=8.48028
+	1:[petal_length_(cm)<2.45] yes=3,no=4,missing=3,gain=0.231556,cover=7.46771
+		3:leaf=-0.0254362,cover=1.01336
+		4:[sepal_width_(cm)<2.55] yes=5,no=6,missing=5,gain=0.21487,cover=6.45434
+			5:leaf=-0.0120223,cover=1.79114
+			6:leaf=0.0230335,cover=4.6632
+	2:leaf=-0.0266649,cover=1.01258
+booster[140]:
+0:[petal_length_(cm)<4.85] yes=1,no=2,missing=1,gain=0.351422,cover=8.18586
+	1:[sepal_width_(cm)<3.05] yes=3,no=4,missing=3,gain=0.24839,cover=3.55765
+		3:[petal_width_(cm)<1.6] yes=7,no=8,missing=7,gain=0.417739,cover=2.23897
+			7:leaf=-0.0273853,cover=1.17093
+			8:leaf=0.0355251,cover=1.06804
+		4:leaf=-0.0406915,cover=1.31868
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.147787,cover=4.62821
+		5:[petal_width_(cm)<1.55] yes=9,no=10,missing=9,gain=0.386783,cover=2.58252
+			9:leaf=0.0298934,cover=1.32197
+			10:leaf=-0.0282308,cover=1.26055
+		6:leaf=0.0347226,cover=2.04569
+booster[141]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.6148,cover=3.71983
+	1:leaf=0.031553,cover=1.63462
+	2:leaf=-0.0343241,cover=2.08521
+booster[142]:
+0:[sepal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.126013,cover=8.27177
+	1:leaf=-0.0212941,cover=1.32736
+	2:[petal_length_(cm)<4.85] yes=3,no=4,missing=3,gain=0.262707,cover=6.94441
+		3:[sepal_length_(cm)<5.95] yes=5,no=6,missing=5,gain=0.047222,cover=3.12286
+			5:leaf=0.0315503,cover=1.64504
+			6:leaf=0.00494161,cover=1.47782
+		4:[petal_width_(cm)<1.75] yes=7,no=8,missing=7,gain=0.136318,cover=3.82155
+			7:leaf=0.00347682,cover=2.51787
+			8:leaf=-0.0290125,cover=1.30368
+booster[143]:
+0:[petal_length_(cm)<4.85] yes=1,no=2,missing=1,gain=0.323573,cover=7.96506
+	1:[sepal_width_(cm)<3.05] yes=3,no=4,missing=3,gain=0.237194,cover=3.44503
+		3:[petal_width_(cm)<1.6] yes=7,no=8,missing=7,gain=0.39767,cover=2.17953
+			7:leaf=-0.0268734,cover=1.1258
+			8:leaf=0.0349528,cover=1.05373
+		4:leaf=-0.0397854,cover=1.2655
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.139357,cover=4.52003
+		5:[petal_width_(cm)<1.55] yes=9,no=10,missing=9,gain=0.36327,cover=2.56638
+			9:leaf=0.0291075,cover=1.31398
+			10:leaf=-0.0273241,cover=1.2524
+		6:leaf=0.034162,cover=1.95365
+booster[144]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.574826,cover=3.54233
+	1:leaf=0.030955,cover=1.55849
+	2:leaf=-0.0337484,cover=1.98384
+booster[145]:
+0:[sepal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.115629,cover=8.06318
+	1:leaf=-0.0205318,cover=1.28367
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.240687,cover=6.77951
+		3:[sepal_length_(cm)<5.95] yes=5,no=6,missing=5,gain=0.0346797,cover=3.5395
+			5:leaf=0.0284762,cover=1.66461
+			6:leaf=0.006083,cover=1.8749
+		4:[petal_width_(cm)<1.55] yes=7,no=8,missing=7,gain=0.212535,cover=3.24001
+			7:leaf=-0.0365763,cover=1.01222
+			8:leaf=0.00608918,cover=2.22779
+booster[146]:
+0:[petal_length_(cm)<4.85] yes=1,no=2,missing=1,gain=0.295147,cover=7.72989
+	1:[sepal_width_(cm)<3.05] yes=3,no=4,missing=3,gain=0.223343,cover=3.33259
+		3:[petal_width_(cm)<1.6] yes=7,no=8,missing=7,gain=0.375154,cover=2.11348
+			7:leaf=-0.0263467,cover=1.08098
+			8:leaf=0.0341916,cover=1.03251
+		4:leaf=-0.0388137,cover=1.2191
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.130327,cover=4.3973
+		5:[petal_width_(cm)<1.55] yes=9,no=10,missing=9,gain=0.344147,cover=2.55929
+			9:leaf=0.0283923,cover=1.30778
+			10:leaf=-0.026576,cover=1.25151
+		6:leaf=0.0333844,cover=1.83801
+booster[147]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.53816,cover=3.37776
+	1:leaf=0.0303678,cover=1.48761
+	2:leaf=-0.0331821,cover=1.89015
+booster[148]:
+0:[sepal_length_(cm)<5.45] yes=1,no=2,missing=1,gain=0.107423,cover=7.89001
+	1:leaf=-0.0185209,cover=1.5202
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.241221,cover=6.36981
+		3:[sepal_length_(cm)<5.95] yes=5,no=6,missing=5,gain=0.0461847,cover=3.17975
+			5:leaf=0.0316838,cover=1.34534
+			6:leaf=0.00599558,cover=1.83442
+		4:[sepal_length_(cm)<6.05] yes=7,no=8,missing=7,gain=0.0261873,cover=3.19006
+			7:leaf=9.3977e-005,cover=1.20248
+			8:leaf=-0.017305,cover=1.98758
+booster[149]:
+0:[petal_length_(cm)<4.85] yes=1,no=2,missing=1,gain=0.269931,cover=7.53367
+	1:[sepal_width_(cm)<3.05] yes=3,no=4,missing=3,gain=0.210531,cover=3.22676
+		3:[petal_width_(cm)<1.6] yes=7,no=8,missing=7,gain=0.354578,cover=2.0514
+			7:leaf=-0.02584,cover=1.03953
+			8:leaf=0.0334734,cover=1.01187
+		4:leaf=-0.037879,cover=1.17536
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.130382,cover=4.30691
+		5:[petal_width_(cm)<1.55] yes=9,no=10,missing=9,gain=0.316438,cover=2.53672
+			9:leaf=0.0270472,cover=1.28646
+			10:leaf=-0.0257827,cover=1.25026
+		6:leaf=0.0329063,cover=1.77019
+booster[150]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.503277,cover=3.22066
+	1:leaf=0.0297445,cover=1.41628
+	2:leaf=-0.0326331,cover=1.80438
+booster[151]:
+0:[sepal_length_(cm)<5.45] yes=1,no=2,missing=1,gain=0.0989024,cover=7.71226
+	1:leaf=-0.0178314,cover=1.47282
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.221946,cover=6.23944
+		3:[petal_width_(cm)<1.7] yes=5,no=6,missing=5,gain=0.0422051,cover=3.10661
+			5:leaf=0.02811,cover=1.85203
+			6:leaf=0.00314047,cover=1.25458
+		4:[sepal_length_(cm)<6.6] yes=7,no=8,missing=7,gain=0.0256816,cover=3.13283
+			7:leaf=-0.0165663,cover=2.01639
+			8:leaf=0.000640183,cover=1.11644
+booster[152]:
+0:[petal_length_(cm)<4.95] yes=1,no=2,missing=1,gain=0.246901,cover=7.34088
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.275718,cover=3.65534
+		3:leaf=-0.033408,cover=1.89251
+		4:leaf=0.011976,cover=1.76283
+	2:[petal_width_(cm)<1.55] yes=5,no=6,missing=5,gain=0.104956,cover=3.68554
+		5:leaf=0.0363052,cover=1.02027
+		6:[petal_width_(cm)<1.75] yes=7,no=8,missing=7,gain=0.356257,cover=2.66528
+			7:leaf=-0.0254206,cover=1.24881
+			8:leaf=0.0299892,cover=1.41647
+booster[153]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.47067,cover=3.07117
+	1:leaf=0.0291404,cover=1.35073
+	2:leaf=-0.0320627,cover=1.72043
+booster[154]:
+0:[sepal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.092238,cover=7.51476
+	1:leaf=-0.0186577,cover=1.16952
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.187387,cover=6.34524
+		3:[sepal_length_(cm)<5.95] yes=5,no=6,missing=5,gain=0.0323399,cover=3.26738
+			5:leaf=0.0265749,cover=1.53634
+			6:leaf=0.00495319,cover=1.73104
+		4:[sepal_length_(cm)<6.05] yes=7,no=8,missing=7,gain=0.0270783,cover=3.07786
+			7:leaf=0.000914604,cover=1.17169
+			8:leaf=-0.0163641,cover=1.90617
+booster[155]:
+0:[petal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.232823,cover=7.14161
+	1:[sepal_width_(cm)<2.85] yes=3,no=4,missing=3,gain=0.220902,cover=5.85828
+		3:[petal_width_(cm)<1.65] yes=5,no=6,missing=5,gain=0.157711,cover=3.15892
+			5:leaf=-0.00630158,cover=2.11981
+			6:leaf=0.0303949,cover=1.03911
+		4:[petal_width_(cm)<1.75] yes=7,no=8,missing=7,gain=0.0809342,cover=2.69936
+			7:leaf=-0.0341842,cover=1.467
+			8:leaf=-0.0015034,cover=1.23236
+	2:leaf=0.0303116,cover=1.28334
+booster[156]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.442696,cover=2.94116
+	1:leaf=0.0285997,cover=1.29484
+	2:leaf=-0.0315268,cover=1.64632
+booster[157]:
+0:[sepal_length_(cm)<5.45] yes=1,no=2,missing=1,gain=0.0854804,cover=7.37347
+	1:leaf=-0.01684,cover=1.39151
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.188301,cover=5.98196
+		3:[sepal_length_(cm)<5.95] yes=5,no=6,missing=5,gain=0.0463583,cover=2.94987
+			5:leaf=0.029787,cover=1.2494
+			6:leaf=0.00450784,cover=1.70047
+		4:[sepal_length_(cm)<6.05] yes=7,no=8,missing=7,gain=0.0253174,cover=3.03209
+			7:leaf=0.000853898,cover=1.16781
+			8:leaf=-0.0159311,cover=1.86427
+booster[158]:
+0:[petal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.216693,cover=6.98737
+	1:[sepal_width_(cm)<2.85] yes=3,no=4,missing=3,gain=0.207442,cover=5.76095
+		3:[petal_width_(cm)<1.65] yes=5,no=6,missing=5,gain=0.149868,cover=3.12047
+			5:leaf=-0.00613975,cover=2.10834
+			6:leaf=0.0298022,cover=1.01213
+		4:[petal_width_(cm)<1.75] yes=7,no=8,missing=7,gain=0.0796583,cover=2.64048
+			7:leaf=-0.0337,cover=1.41153
+			8:leaf=-0.0013005,cover=1.22894
+	2:leaf=0.0296262,cover=1.22643
+booster[159]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.41576,cover=2.81556
+	1:leaf=0.0280232,cover=1.23794
+	2:leaf=-0.0310037,cover=1.57761
+booster[160]:
+0:[sepal_length_(cm)<5.45] yes=1,no=2,missing=1,gain=0.0775892,cover=7.23701
+	1:leaf=-0.0161556,cover=1.35358
+	2:[petal_length_(cm)<4.85] yes=3,no=4,missing=3,gain=0.175898,cover=5.88343
+		3:[sepal_length_(cm)<5.95] yes=5,no=6,missing=5,gain=0.0585127,cover=2.42051
+			5:leaf=0.0314941,cover=1.16059
+			6:leaf=0.00231733,cover=1.25992
+		4:[petal_width_(cm)<1.75] yes=7,no=8,missing=7,gain=0.112575,cover=3.46292
+			7:leaf=0.00420694,cover=2.40593
+			8:leaf=-0.0262591,cover=1.057
+booster[161]:
+0:[petal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.201818,cover=6.84337
+	1:[sepal_width_(cm)<3.05] yes=3,no=4,missing=3,gain=0.198225,cover=5.67031
+		3:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.23095,cover=4.40425
+			5:leaf=-0.00936858,cover=3.22927
+			6:leaf=0.0309214,cover=1.17498
+		4:leaf=-0.0304178,cover=1.26606
+	2:leaf=0.0289571,cover=1.17306
+booster[162]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.391412,cover=2.69977
+	1:leaf=0.0274934,cover=1.18795
+	2:leaf=-0.0304759,cover=1.51183
+booster[163]:
+0:[sepal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.0725967,cover=7.10084
+	1:leaf=-0.016905,cover=1.08364
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.155737,cover=6.0172
+		3:[sepal_length_(cm)<5.95] yes=5,no=6,missing=5,gain=0.0297827,cover=3.07037
+			5:leaf=0.0249316,cover=1.43711
+			6:leaf=0.00414686,cover=1.63326
+		4:[sepal_length_(cm)<6.6] yes=7,no=8,missing=7,gain=0.0258905,cover=2.94682
+			7:leaf=-0.0153021,cover=1.90999
+			8:leaf=0.00167817,cover=1.03683
+booster[164]:
+0:[petal_width_(cm)<1.45] yes=1,no=2,missing=1,gain=0.189015,cover=6.70132
+	1:leaf=-0.0225881,cover=1.24908
+	2:[sepal_width_(cm)<3.05] yes=3,no=4,missing=3,gain=0.145289,cover=5.45224
+		3:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.0911752,cover=4.2496
+			5:leaf=0.00465469,cover=2.76809
+			6:leaf=0.0331567,cover=1.48151
+		4:leaf=-0.0126963,cover=1.20265
+booster[165]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.370979,cover=2.60109
+	1:leaf=0.027037,cover=1.14656
+	2:leaf=-0.0299933,cover=1.45453
+booster[166]:
+0:[sepal_length_(cm)<5.45] yes=1,no=2,missing=1,gain=0.0699946,cover=6.99291
+	1:leaf=-0.0154821,cover=1.29481
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.156893,cover=5.6981
+		3:[sepal_length_(cm)<5.95] yes=5,no=6,missing=5,gain=0.0373236,cover=2.77292
+			5:leaf=0.0276517,cover=1.17129
+			6:leaf=0.00417388,cover=1.60163
+		4:[sepal_length_(cm)<6.05] yes=7,no=8,missing=7,gain=0.0252552,cover=2.92518
+			7:leaf=0.00142501,cover=1.14178
+			8:leaf=-0.0151211,cover=1.7834
+booster[167]:
+0:[petal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.186433,cover=6.59407
+	1:[sepal_width_(cm)<2.85] yes=3,no=4,missing=3,gain=0.180706,cover=5.48881
+		3:[sepal_width_(cm)<2.55] yes=5,no=6,missing=5,gain=0.0372384,cover=3.00443
+			5:leaf=0.0173024,cover=1.37644
+			6:leaf=-0.00150285,cover=1.62799
+		4:[petal_width_(cm)<1.75] yes=7,no=8,missing=7,gain=0.0741563,cover=2.48438
+			7:leaf=-0.0326716,cover=1.29313
+			8:leaf=-0.00102015,cover=1.19125
+	2:leaf=0.0281368,cover=1.10527
+booster[168]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.349822,cover=2.49908
+	1:leaf=0.026501,cover=1.09981
+	2:leaf=-0.0295082,cover=1.39927
+booster[169]:
+0:[sepal_length_(cm)<5.45] yes=1,no=2,missing=1,gain=0.0640215,cover=6.89287
+	1:leaf=-0.0148328,cover=1.26727
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.144686,cover=5.6256
+		3:[sepal_length_(cm)<5.95] yes=5,no=6,missing=5,gain=0.0375868,cover=2.73899
+			5:leaf=0.0270288,cover=1.15289
+			6:leaf=0.00375912,cover=1.5861
+		4:[sepal_length_(cm)<6.6] yes=7,no=8,missing=7,gain=0.0248991,cover=2.88661
+			7:leaf=-0.0144053,cover=1.87263
+			8:leaf=0.00208154,cover=1.01398
+booster[170]:
+0:[petal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.174604,cover=6.49123
+	1:[sepal_width_(cm)<2.85] yes=3,no=4,missing=3,gain=0.169058,cover=5.43173
+		3:[sepal_width_(cm)<2.55] yes=5,no=6,missing=5,gain=0.0349829,cover=2.99456
+			5:leaf=0.0167095,cover=1.37148
+			6:leaf=-0.00151277,cover=1.62308
+		4:[petal_width_(cm)<1.75] yes=7,no=8,missing=7,gain=0.0734015,cover=2.43717
+			7:leaf=-0.0322241,cover=1.25003
+			8:leaf=-0.000795981,cover=1.18714
+	2:leaf=0.0275049,cover=1.0595
+booster[171]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.330197,cover=2.40318
+	1:leaf=0.0259807,cover=1.05626
+	2:leaf=-0.0290276,cover=1.34692
+booster[172]:
+0:[sepal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.0587996,cover=6.79901
+	1:leaf=-0.0152383,cover=1.01654
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.12464,cover=5.78247
+		3:[petal_width_(cm)<1.7] yes=5,no=6,missing=5,gain=0.0297773,cover=2.93193
+			5:leaf=0.0221485,cover=1.71579
+			6:leaf=0.00172813,cover=1.21614
+		4:[sepal_length_(cm)<6.05] yes=7,no=8,missing=7,gain=0.0266262,cover=2.85053
+			7:leaf=0.00206326,cover=1.13153
+			8:leaf=-0.014641,cover=1.71901
+booster[173]:
+0:[petal_length_(cm)<5.15] yes=1,no=2,missing=1,gain=0.166049,cover=6.39489
+	1:[sepal_width_(cm)<3.05] yes=3,no=4,missing=3,gain=0.157076,cover=5.37165
+		3:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.213594,cover=4.22048
+			5:leaf=-0.00960582,cover=3.12716
+			6:leaf=0.0297548,cover=1.09332
+		4:leaf=-0.0280822,cover=1.15117
+	2:leaf=0.0270011,cover=1.02325
+booster[174]:
+0:[petal_length_(cm)<2.45] yes=1,no=2,missing=1,gain=0.312427,cover=2.31311
+	1:leaf=0.0255431,cover=1.02095
+	2:leaf=-0.0285052,cover=1.29216
+booster[175]:
+0:[sepal_length_(cm)<5.45] yes=1,no=2,missing=1,gain=0.0562028,cover=6.68016
+	1:leaf=-0.0140247,cover=1.21953
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.125712,cover=5.46063
+		3:[sepal_length_(cm)<5.95] yes=5,no=6,missing=5,gain=0.0372639,cover=2.64014
+			5:leaf=0.0259808,cover=1.11576
+			6:leaf=0.00305122,cover=1.52438
+		4:[sepal_length_(cm)<6.05] yes=7,no=8,missing=7,gain=0.0245433,cover=2.82049
+			7:leaf=0.00192606,cover=1.12772
+			8:leaf=-0.014187,cover=1.69277
+booster[176]:
+0:[petal_width_(cm)<1.45] yes=1,no=2,missing=1,gain=0.15244,cover=6.27521
+	1:leaf=-0.0213132,cover=1.10371
+	2:[sepal_width_(cm)<3.05] yes=3,no=4,missing=3,gain=0.124271,cover=5.1715
+		3:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.0921483,cover=4.04835
+			5:leaf=0.00335387,cover=2.69225
+			6:leaf=0.0319063,cover=1.3561
+		4:leaf=-0.0124545,cover=1.12315
+booster[177]:
+0:[petal_length_(cm)<3.15] yes=1,no=2,missing=1,gain=0.283313,cover=2.23326
+	1:leaf=0.0241208,cover=1.01109
+	2:leaf=-0.027801,cover=1.22217
+booster[178]:
+0:[sepal_length_(cm)<5.45] yes=1,no=2,missing=1,gain=0.0534677,cover=6.58664
+	1:leaf=-0.0136592,cover=1.19403
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.118247,cover=5.39262
+		3:[sepal_length_(cm)<5.95] yes=5,no=6,missing=5,gain=0.0336502,cover=2.59078
+			5:leaf=0.0253199,cover=1.09432
+			6:leaf=0.00312591,cover=1.49646
+		4:[sepal_length_(cm)<6.05] yes=7,no=8,missing=7,gain=0.0239404,cover=2.80184
+			7:leaf=0.00207554,cover=1.12206
+			8:leaf=-0.0137665,cover=1.67979
+booster[179]:
+0:[petal_width_(cm)<1.45] yes=1,no=2,missing=1,gain=0.141875,cover=6.18578
+	1:leaf=-0.0208308,cover=1.0712
+	2:[sepal_width_(cm)<3.05] yes=3,no=4,missing=3,gain=0.115834,cover=5.11458
+		3:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.0918413,cover=3.99972
+			5:leaf=0.00295989,cover=2.68486
+			6:leaf=0.0314209,cover=1.31485
+		4:leaf=-0.0121063,cover=1.11487
+booster[180]:
+0:[petal_length_(cm)<3.4] yes=1,no=2,missing=1,gain=0.244005,cover=2.16045
+	1:leaf=0.0217702,cover=1.03068
+	2:leaf=-0.0268035,cover=1.12977
+booster[181]:
+0:[petal_width_(cm)<1.75] yes=1,no=2,missing=1,gain=0.0511796,cover=6.49926
+	1:[sepal_length_(cm)<5.45] yes=3,no=4,missing=3,gain=0.101004,cover=4.63247
+		3:leaf=-0.0132781,cover=1.17155
+		4:[petal_width_(cm)<1.55] yes=5,no=6,missing=5,gain=0.153781,cover=3.46091
+			5:leaf=-0.00389732,cover=2.19258
+			6:leaf=0.0317304,cover=1.26833
+	2:leaf=-0.010963,cover=1.86679
+booster[182]:
+0:[petal_width_(cm)<1.45] yes=1,no=2,missing=1,gain=0.132275,cover=6.10093
+	1:leaf=-0.020366,cover=1.04091
+	2:[sepal_width_(cm)<3.05] yes=3,no=4,missing=3,gain=0.108004,cover=5.06002
+		3:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.0913546,cover=3.95345
+			5:leaf=0.00259152,cover=2.6777
+			6:leaf=0.0309472,cover=1.27575
+		4:leaf=-0.0117663,cover=1.10657
+booster[183]:
+0:[petal_length_(cm)<3.4] yes=1,no=2,missing=1,gain=0.230557,cover=2.09617
+	1:leaf=0.0211883,cover=1.00037
+	2:leaf=-0.0264101,cover=1.09579
+booster[184]:
+0:[petal_length_(cm)<5.05] yes=1,no=2,missing=1,gain=0.050178,cover=6.42261
+	1:[sepal_length_(cm)<6.25] yes=3,no=4,missing=3,gain=0.174229,cover=4.59863
+		3:[sepal_length_(cm)<5.95] yes=5,no=6,missing=5,gain=0.108347,cover=3.52231
+			5:leaf=0.00662046,cover=2.25234
+			6:leaf=-0.0222888,cover=1.26997
+		4:leaf=0.0288213,cover=1.07632
+	2:leaf=-0.010852,cover=1.82398
+booster[185]:
+0:[petal_length_(cm)<4.95] yes=1,no=2,missing=1,gain=0.127887,cover=6.02243
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.180031,cover=2.92535
+		3:leaf=-0.0294546,cover=1.36631
+		4:leaf=0.00988114,cover=1.55903
+	2:[sepal_length_(cm)<6.05] yes=5,no=6,missing=5,gain=0.0279461,cover=3.09709
+		5:leaf=0.000420155,cover=1.15513
+		6:leaf=0.0191501,cover=1.94196
+booster[186]:
+0:[petal_width_(cm)<1.05] yes=1,no=2,missing=1,gain=0.205401,cover=2.03498
+	1:leaf=0.0196839,cover=1.00905
+	2:leaf=-0.0255756,cover=1.02593
+booster[187]:
+0:[sepal_length_(cm)<5.45] yes=1,no=2,missing=1,gain=0.0492228,cover=6.3182
+	1:leaf=-0.0129569,cover=1.13876
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.109131,cover=5.17944
+		3:[sepal_length_(cm)<5.95] yes=5,no=6,missing=5,gain=0.0287872,cover=2.44388
+			5:leaf=0.0247305,cover=1.04704
+			6:leaf=0.00322884,cover=1.39685
+		4:[sepal_length_(cm)<6.05] yes=7,no=8,missing=7,gain=0.0239869,cover=2.73556
+			7:leaf=0.00248678,cover=1.10275
+			8:leaf=-0.0132526,cover=1.63281
+booster[188]:
+0:[petal_length_(cm)<4.85] yes=1,no=2,missing=1,gain=0.11768,cover=5.9092
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.101372,cover=2.43509
+		3:leaf=-0.0265136,cover=1.10564
+		4:leaf=0.00552057,cover=1.32945
+	2:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.0970063,cover=3.47411
+		5:[petal_width_(cm)<1.55] yes=7,no=8,missing=7,gain=0.291216,cover=2.3175
+			7:leaf=0.025064,cover=1.14105
+			8:leaf=-0.0268949,cover=1.17644
+		6:leaf=0.0274131,cover=1.15661
+booster[189]:
+0:leaf=-0.00401407,cover=1.97474
+booster[190]:
+0:[sepal_length_(cm)<5.45] yes=1,no=2,missing=1,gain=0.0466941,cover=6.22871
+	1:leaf=-0.0126032,cover=1.11998
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.102398,cover=5.10873
+		3:[sepal_length_(cm)<5.95] yes=5,no=6,missing=5,gain=0.0279409,cover=2.41092
+			5:leaf=0.0242593,cover=1.0299
+			6:leaf=0.00306979,cover=1.38102
+		4:[sepal_length_(cm)<6.05] yes=7,no=8,missing=7,gain=0.0227002,cover=2.6978
+			7:leaf=0.0024769,cover=1.0936
+			8:leaf=-0.0128647,cover=1.6042
+booster[191]:
+0:[sepal_width_(cm)<3.15] yes=1,no=2,missing=1,gain=0.113407,cover=5.81117
+	1:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=0.187039,cover=4.7326
+		3:[sepal_width_(cm)<2.65] yes=5,no=6,missing=5,gain=0.155655,cover=3.4325
+			5:leaf=0.0155935,cover=1.33994
+			6:leaf=-0.0188037,cover=2.09256
+		4:leaf=0.0308435,cover=1.3001
+	2:leaf=-0.0186941,cover=1.07857
+booster[192]:
+0:leaf=-0.00391142,cover=1.96061
+booster[193]:
+0:[sepal_length_(cm)<5.45] yes=1,no=2,missing=1,gain=0.0438076,cover=6.1784
+	1:leaf=-0.012204,cover=1.11539
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.0993978,cover=5.06301
+		3:[sepal_length_(cm)<5.95] yes=5,no=6,missing=5,gain=0.0240452,cover=2.38358
+			5:leaf=0.0235351,cover=1.0213
+			6:leaf=0.00328181,cover=1.36228
+		4:[sepal_length_(cm)<6.05] yes=7,no=8,missing=7,gain=0.0224283,cover=2.67943
+			7:leaf=0.0024879,cover=1.08571
+			8:leaf=-0.0127872,cover=1.59372
+booster[194]:
+0:[petal_length_(cm)<4.95] yes=1,no=2,missing=1,gain=0.109676,cover=5.75367
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.160989,cover=2.77758
+		3:leaf=-0.0285049,cover=1.26719
+		4:leaf=0.00931662,cover=1.51039
+	2:[sepal_length_(cm)<6.05] yes=5,no=6,missing=5,gain=0.0271001,cover=2.97608
+		5:leaf=-0.000114906,cover=1.12841
+		6:leaf=0.0180961,cover=1.84768
+booster[195]:
+0:leaf=-0.00382556,cover=1.94177
+booster[196]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0436274,cover=6.11638
+	1:leaf=-0.0100023,cover=1.74395
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.0783563,cover=4.37243
+		3:leaf=0.017197,cover=1.84106
+		4:[sepal_length_(cm)<6.15] yes=5,no=6,missing=5,gain=0.0205762,cover=2.53137
+			5:leaf=0.00359609,cover=1.03926
+			6:leaf=-0.0106962,cover=1.4921
+booster[197]:
+0:[sepal_width_(cm)<3.15] yes=1,no=2,missing=1,gain=0.104433,cover=5.68268
+	1:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=0.179509,cover=4.62789
+		3:[sepal_width_(cm)<2.65] yes=5,no=6,missing=5,gain=0.151206,cover=3.37441
+			5:leaf=0.0153301,cover=1.31656
+			6:leaf=-0.0187675,cover=2.05786
+		4:leaf=0.0302944,cover=1.25347
+	2:leaf=-0.0181175,cover=1.05479
+booster[198]:
+0:leaf=-0.00382171,cover=1.92597
+booster[199]:
+0:[sepal_length_(cm)<5.45] yes=1,no=2,missing=1,gain=0.0405692,cover=6.07007
+	1:leaf=-0.0117204,cover=1.10205
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.0880289,cover=4.96802
+		3:[sepal_length_(cm)<5.95] yes=5,no=6,missing=5,gain=0.0241473,cover=2.32654
+			5:leaf=0.0227689,cover=1.00718
+			6:leaf=0.00277155,cover=1.31936
+		4:[sepal_length_(cm)<6.05] yes=7,no=8,missing=7,gain=0.0199375,cover=2.64148
+			7:leaf=0.00243318,cover=1.07731
+			8:leaf=-0.0119777,cover=1.56416
+booster[200]:
+0:[petal_length_(cm)<4.95] yes=1,no=2,missing=1,gain=0.09986,cover=5.63199
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.153601,cover=2.70265
+		3:leaf=-0.0279897,cover=1.21803
+		4:leaf=0.00923624,cover=1.48462
+	2:[sepal_length_(cm)<6.05] yes=5,no=6,missing=5,gain=0.0245244,cover=2.92934
+		5:leaf=-9.98934e-005,cover=1.1181
+		6:leaf=0.0173207,cover=1.81124
+booster[201]:
+0:leaf=-0.00373718,cover=1.90843
+booster[202]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0419136,cover=6.012
+	1:leaf=-0.00979953,cover=1.71836
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.0801342,cover=4.29364
+		3:leaf=-0.00931318,cover=1.54227
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.147137,cover=2.75137
+			5:leaf=0.0306867,cover=1.2393
+			6:leaf=-0.00638466,cover=1.51207
+booster[203]:
+0:[sepal_width_(cm)<3.15] yes=1,no=2,missing=1,gain=0.0971585,cover=5.56526
+	1:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=0.172439,cover=4.53339
+		3:[sepal_width_(cm)<2.65] yes=5,no=6,missing=5,gain=0.146988,cover=3.32072
+			5:leaf=0.0151229,cover=1.29589
+			6:leaf=-0.0186696,cover=2.02483
+		4:leaf=0.0298288,cover=1.21267
+	2:leaf=-0.0175911,cover=1.03186
+booster[204]:
+0:leaf=-0.00378669,cover=1.89671
+booster[205]:
+0:[petal_length_(cm)<5.05] yes=1,no=2,missing=1,gain=0.0396551,cover=5.97324
+	1:[sepal_length_(cm)<6.15] yes=3,no=4,missing=3,gain=0.117051,cover=4.28577
+		3:[sepal_width_(cm)<3.05] yes=5,no=6,missing=5,gain=0.0490211,cover=3.0882
+			5:leaf=-0.0127134,cover=2.06273
+			6:leaf=0.00785345,cover=1.02547
+		4:leaf=0.0232733,cover=1.19757
+	2:leaf=-0.00960207,cover=1.68747
+booster[206]:
+0:[petal_length_(cm)<4.95] yes=1,no=2,missing=1,gain=0.099032,cover=5.51764
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.14348,cover=2.63576
+		3:leaf=-0.0276252,cover=1.18353
+		4:leaf=0.00870915,cover=1.45223
+	2:[sepal_length_(cm)<6.05] yes=5,no=6,missing=5,gain=0.0225713,cover=2.88188
+		5:leaf=8.74622e-005,cover=1.10328
+		6:leaf=0.0170734,cover=1.7786
+booster[207]:
+0:leaf=-0.00365485,cover=1.88691
+booster[208]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0391551,cover=5.917
+	1:leaf=-0.00938223,cover=1.70527
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.0789162,cover=4.21173
+		3:leaf=-0.00933039,cover=1.51009
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.130893,cover=2.70163
+			5:leaf=0.0296218,cover=1.22645
+			6:leaf=-0.00571018,cover=1.47518
+booster[209]:
+0:[sepal_width_(cm)<3.15] yes=1,no=2,missing=1,gain=0.0934151,cover=5.44595
+	1:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=0.16022,cover=4.43202
+		3:[sepal_width_(cm)<2.65] yes=5,no=6,missing=5,gain=0.134079,cover=3.26978
+			5:leaf=0.014543,cover=1.27508
+			6:leaf=-0.0178831,cover=1.99469
+		4:leaf=0.0291529,cover=1.16224
+	2:leaf=-0.0173949,cover=1.01393
+booster[210]:
+0:leaf=-0.00370456,cover=1.87599
+booster[211]:
+0:[petal_length_(cm)<5.05] yes=1,no=2,missing=1,gain=0.0395479,cover=5.88041
+	1:[sepal_length_(cm)<6.15] yes=3,no=4,missing=3,gain=0.106298,cover=4.21904
+		3:[sepal_width_(cm)<3.05] yes=5,no=6,missing=5,gain=0.0440307,cover=3.05467
+			5:leaf=-0.0119057,cover=2.02978
+			6:leaf=0.00758813,cover=1.02489
+		4:leaf=0.0226567,cover=1.16438
+	2:leaf=-0.00955377,cover=1.66137
+booster[212]:
+0:[petal_length_(cm)<4.95] yes=1,no=2,missing=1,gain=0.0997429,cover=5.40102
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.132228,cover=2.57099
+		3:leaf=-0.0272554,cover=1.15066
+		4:leaf=0.00801372,cover=1.42034
+	2:[sepal_length_(cm)<6.05] yes=5,no=6,missing=5,gain=0.0232256,cover=2.83003
+		5:leaf=-6.22617e-005,cover=1.08539
+		6:leaf=0.0171609,cover=1.74464
+booster[213]:
+0:leaf=-0.0035728,cover=1.86669
+booster[214]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0367049,cover=5.8267
+	1:leaf=-0.0090043,cover=1.69305
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.0775339,cover=4.13365
+		3:leaf=-0.00933169,cover=1.4793
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.116655,cover=2.65435
+			5:leaf=0.0286213,cover=1.21362
+			6:leaf=-0.00508854,cover=1.44073
+booster[215]:
+0:[petal_length_(cm)<4.95] yes=1,no=2,missing=1,gain=0.0935085,cover=5.33243
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.126321,cover=2.53116
+		3:leaf=-0.0268734,cover=1.11859
+		4:leaf=0.00777609,cover=1.41257
+	2:[sepal_length_(cm)<6.05] yes=5,no=6,missing=5,gain=0.023363,cover=2.80127
+		5:leaf=-0.000325008,cover=1.08279
+		6:leaf=0.0167521,cover=1.71848
+booster[216]:
+0:leaf=-0.00363079,cover=1.85161
+booster[217]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0365636,cover=5.78142
+	1:leaf=-0.00895152,cover=1.68034
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.0763528,cover=4.10109
+		3:leaf=-0.00922771,cover=1.46481
+		4:[sepal_length_(cm)<6.05] yes=5,no=6,missing=5,gain=0.11517,cover=2.63628
+			5:leaf=0.0277969,cover=1.3057
+			6:leaf=-0.00574718,cover=1.33058
+booster[218]:
+0:[petal_length_(cm)<4.95] yes=1,no=2,missing=1,gain=0.0927908,cover=5.27745
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.120402,cover=2.50113
+		3:leaf=-0.0266129,cover=1.09652
+		4:leaf=0.00739932,cover=1.40461
+	2:[sepal_length_(cm)<6.05] yes=5,no=6,missing=5,gain=0.0216747,cover=2.77633
+		5:leaf=-0.000122409,cover=1.07729
+		6:leaf=0.0165431,cover=1.69904
+booster[219]:
+0:leaf=-0.00369523,cover=1.83746
+booster[220]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0363212,cover=5.74141
+	1:leaf=-0.00889942,cover=1.66797
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.0749535,cover=4.07344
+		3:leaf=-0.0091236,cover=1.45054
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.109904,cover=2.62289
+			5:leaf=0.0281304,cover=1.20322
+			6:leaf=-0.00479944,cover=1.41967
+booster[221]:
+0:[petal_length_(cm)<4.95] yes=1,no=2,missing=1,gain=0.087247,cover=5.22764
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.119068,cover=2.47455
+		3:leaf=-0.0263646,cover=1.0759
+		4:leaf=0.00751516,cover=1.39865
+	2:[sepal_length_(cm)<6.05] yes=5,no=6,missing=5,gain=0.01901,cover=2.75309
+		5:leaf=9.73981e-005,cover=1.07289
+		6:leaf=0.0159405,cover=1.6802
+booster[222]:
+0:leaf=-0.00374991,cover=1.82329
+booster[223]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0361312,cover=5.69825
+	1:leaf=-0.00884541,cover=1.65582
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.0737563,cover=4.04243
+		3:leaf=-0.00902239,cover=1.43659
+		4:[sepal_length_(cm)<6.05] yes=5,no=6,missing=5,gain=0.105047,cover=2.60583
+			5:leaf=0.027055,cover=1.29904
+			6:leaf=-0.00524846,cover=1.30679
+booster[224]:
+0:[sepal_width_(cm)<3.05] yes=1,no=2,missing=1,gain=0.0867146,cover=5.17539
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.0400876,cover=4.03864
+		3:[sepal_length_(cm)<6.05] yes=5,no=6,missing=5,gain=0.0736794,cover=2.32545
+			5:leaf=-0.0130881,cover=1.31104
+			6:leaf=0.0130947,cover=1.01441
+		4:leaf=0.0162718,cover=1.71318
+	2:leaf=-0.0160571,cover=1.13675
+booster[225]:
+0:leaf=-0.00381708,cover=1.81546
+booster[226]:
+0:[petal_length_(cm)<5.05] yes=1,no=2,missing=1,gain=0.0360345,cover=5.67698
+	1:[sepal_length_(cm)<6.15] yes=3,no=4,missing=3,gain=0.101972,cover=4.1016
+		3:[sepal_width_(cm)<3.05] yes=5,no=6,missing=5,gain=0.0394971,cover=2.97914
+			5:leaf=-0.0114764,cover=1.96973
+			6:leaf=0.00712499,cover=1.00941
+		4:leaf=0.0225086,cover=1.12247
+	2:leaf=-0.00902909,cover=1.57537
+booster[227]:
+0:[petal_length_(cm)<4.95] yes=1,no=2,missing=1,gain=0.0857168,cover=5.14932
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.114887,cover=2.4322
+		3:leaf=-0.0261279,cover=1.05585
+		4:leaf=0.00734846,cover=1.37635
+	2:[sepal_length_(cm)<6.05] yes=5,no=6,missing=5,gain=0.0147248,cover=2.71712
+		5:leaf=0.000704701,cover=1.06033
+		6:leaf=0.0153538,cover=1.65679
+booster[228]:
+0:leaf=-0.00368555,cover=1.80772
+booster[229]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0350813,cover=5.62927
+	1:leaf=-0.00863616,cover=1.64137
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.0722977,cover=3.9879
+		3:leaf=-0.00893713,cover=1.41114
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.103855,cover=2.57676
+			5:leaf=0.027696,cover=1.1862
+			6:leaf=-0.00457165,cover=1.39056
+booster[230]:
+0:[sepal_length_(cm)<5.95] yes=1,no=2,missing=1,gain=0.0806062,cover=5.08835
+	1:leaf=-0.0134653,cover=1.56116
+	2:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=0.143598,cover=3.52719
+		3:[petal_width_(cm)<1.55] yes=5,no=6,missing=5,gain=0.171915,cover=2.42857
+			5:leaf=0.0150655,cover=1.25386
+			6:leaf=-0.0246357,cover=1.17471
+		4:leaf=0.0282062,cover=1.09862
+booster[231]:
+0:leaf=-0.00368613,cover=1.79708
+booster[232]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0348301,cover=5.59562
+	1:leaf=-0.00863045,cover=1.63994
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.0676197,cover=3.95568
+		3:leaf=0.0168189,cover=1.64252
+		4:leaf=-0.0050383,cover=2.31316
+booster[233]:
+0:[petal_length_(cm)<4.95] yes=1,no=2,missing=1,gain=0.0851322,cover=5.04569
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.108104,cover=2.3869
+		3:leaf=-0.0258179,cover=1.03121
+		4:leaf=0.00691924,cover=1.35569
+	2:[sepal_length_(cm)<6.05] yes=5,no=6,missing=5,gain=0.0138373,cover=2.65879
+		5:leaf=0.000813668,cover=1.04848
+		6:leaf=0.0152541,cover=1.61031
+booster[234]:
+0:leaf=-0.00368235,cover=1.78063
+booster[235]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0345271,cover=5.55172
+	1:leaf=-0.00857917,cover=1.62849
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.0682814,cover=3.92323
+		3:leaf=-0.00865171,cover=1.38471
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.0936987,cover=2.53852
+			5:leaf=0.0267323,cover=1.17725
+			6:leaf=-0.00418014,cover=1.36127
+booster[236]:
+0:[sepal_width_(cm)<3.05] yes=1,no=2,missing=1,gain=0.080606,cover=4.99812
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.0354266,cover=3.91444
+		3:[petal_length_(cm)<5.05] yes=5,no=6,missing=5,gain=0.00363092,cover=2.25483
+			5:leaf=-0.00377062,cover=1.12185
+			6:leaf=0.00214008,cover=1.13297
+		4:leaf=0.0155535,cover=1.65961
+	2:leaf=-0.0157613,cover=1.08368
+booster[237]:
+0:leaf=-0.00374058,cover=1.77374
+booster[238]:
+0:[petal_length_(cm)<5.05] yes=1,no=2,missing=1,gain=0.0338412,cover=5.53051
+	1:[sepal_length_(cm)<6.15] yes=3,no=4,missing=3,gain=0.0921814,cover=4.00487
+		3:[sepal_width_(cm)<3.05] yes=5,no=6,missing=5,gain=0.0347394,cover=2.9249
+			5:leaf=-0.0107555,cover=1.9245
+			6:leaf=0.00675113,cover=1.0004
+		4:leaf=0.0218174,cover=1.07998
+	2:leaf=-0.0087305,cover=1.52564
+booster[239]:
+0:[petal_length_(cm)<4.95] yes=1,no=2,missing=1,gain=0.0807244,cover=4.97379
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.103128,cover=2.33995
+		3:leaf=-0.0254268,cover=1.00112
+		4:leaf=0.00674647,cover=1.33883
+	2:[sepal_length_(cm)<6.05] yes=5,no=6,missing=5,gain=0.0129936,cover=2.63383
+		5:leaf=0.000785949,cover=1.03921
+		6:leaf=0.0148368,cover=1.59462
+booster[240]:
+0:leaf=-0.00361313,cover=1.76687
+booster[241]:
+0:[sepal_length_(cm)<5.45] yes=1,no=2,missing=1,gain=0.0335996,cover=5.48653
+	1:leaf=-0.0101992,cover=1.03494
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.0676941,cover=4.45159
+		3:[petal_width_(cm)<1.7] yes=5,no=6,missing=5,gain=0.00528068,cover=2.07531
+			5:leaf=0.0186194,cover=1.06585
+			6:leaf=0.00382941,cover=1.00946
+		4:[sepal_length_(cm)<6.05] yes=7,no=8,missing=7,gain=0.0111407,cover=2.37629
+			7:leaf=0.00162321,cover=1.00294
+			8:leaf=-0.00962242,cover=1.37334
+booster[242]:
+0:[sepal_length_(cm)<5.95] yes=1,no=2,missing=1,gain=0.0776336,cover=4.91749
+	1:leaf=-0.0134149,cover=1.51527
+	2:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=0.130151,cover=3.40222
+		3:[petal_width_(cm)<1.55] yes=5,no=6,missing=5,gain=0.157019,cover=2.36134
+			5:leaf=0.0147773,cover=1.20413
+			6:leaf=-0.0234394,cover=1.15722
+		4:leaf=0.0273967,cover=1.04087
+booster[243]:
+0:leaf=-0.00344197,cover=1.75392
+booster[244]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0345916,cover=5.44242
+	1:leaf=-0.00854802,cover=1.61423
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.0668704,cover=3.82819
+		3:leaf=-0.00856494,cover=1.34371
+		4:[sepal_length_(cm)<6.05] yes=5,no=6,missing=5,gain=0.0897485,cover=2.48448
+			5:leaf=0.0258438,cover=1.25337
+			6:leaf=-0.00466957,cover=1.23111
+booster[245]:
+0:[sepal_width_(cm)<3.05] yes=1,no=2,missing=1,gain=0.0773791,cover=4.87012
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.0320143,cover=3.8206
+		3:[petal_length_(cm)<5.05] yes=5,no=6,missing=5,gain=0.003317,cover=2.2102
+			5:leaf=-0.00356144,cover=1.09501
+			6:leaf=0.00210847,cover=1.11519
+		4:leaf=0.0150295,cover=1.6104
+	2:leaf=-0.0156864,cover=1.04952
+booster[246]:
+0:leaf=-0.00351497,cover=1.74771
+booster[247]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0325685,cover=5.42503
+	1:leaf=-0.00826746,cover=1.60668
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.0642086,cover=3.81836
+		3:leaf=-0.00840064,cover=1.34213
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.0857426,cover=2.47623
+			5:leaf=0.0258917,cover=1.16253
+			6:leaf=-0.00398824,cover=1.3137
+booster[248]:
+0:[petal_length_(cm)<4.95] yes=1,no=2,missing=1,gain=0.0734147,cover=4.84967
+	1:[sepal_width_(cm)<2.85] yes=3,no=4,missing=3,gain=0.0233023,cover=2.27235
+		3:leaf=0.00114227,cover=1.0354
+		4:leaf=-0.0159987,cover=1.23694
+	2:[sepal_length_(cm)<6.05] yes=5,no=6,missing=5,gain=0.0108778,cover=2.57732
+		5:leaf=0.000889285,cover=1.02714
+		6:leaf=0.0140307,cover=1.55018
+booster[249]:
+0:leaf=-0.00355184,cover=1.73902
+booster[250]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0312577,cover=5.40735
+	1:leaf=-0.00808283,cover=1.60427
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.0605991,cover=3.80309
+		3:leaf=-0.00812046,cover=1.33698
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.0835897,cover=2.46611
+			5:leaf=0.0254479,cover=1.1576
+			6:leaf=-0.00404446,cover=1.30851
+booster[251]:
+0:[petal_length_(cm)<4.95] yes=1,no=2,missing=1,gain=0.0725418,cover=4.8267
+	1:[sepal_width_(cm)<2.85] yes=3,no=4,missing=3,gain=0.021536,cover=2.27018
+		3:leaf=0.000923059,cover=1.03721
+		4:leaf=-0.0156925,cover=1.23297
+	2:[sepal_length_(cm)<6.05] yes=5,no=6,missing=5,gain=0.00997858,cover=2.55651
+		5:leaf=0.00104246,cover=1.0209
+		6:leaf=0.0138979,cover=1.53561
+booster[252]:
+0:leaf=-0.0035849,cover=1.73059
+booster[253]:
+0:[petal_length_(cm)<5.05] yes=1,no=2,missing=1,gain=0.0308926,cover=5.38994
+	1:[sepal_length_(cm)<6.15] yes=3,no=4,missing=3,gain=0.0893193,cover=3.93046
+		3:[sepal_width_(cm)<2.55] yes=5,no=6,missing=5,gain=0.0255841,cover=2.88177
+			5:leaf=-0.0123902,cover=1.06604
+			6:leaf=0.00273802,cover=1.81573
+		4:leaf=0.0215379,cover=1.04869
+	2:leaf=-0.00841428,cover=1.45948
+booster[254]:
+0:[sepal_length_(cm)<5.95] yes=1,no=2,missing=1,gain=0.0722124,cover=4.80413
+	1:leaf=-0.0129648,cover=1.48425
+	2:[sepal_width_(cm)<2.75] yes=3,no=4,missing=3,gain=0.0351514,cover=3.31988
+		3:leaf=-0.00373252,cover=1.16589
+		4:[petal_length_(cm)<5.05] yes=5,no=6,missing=5,gain=0.106285,cover=2.15399
+			5:leaf=-0.00582153,cover=1.1453
+			6:leaf=0.0283915,cover=1.00869
+booster[255]:
+0:leaf=-0.00340468,cover=1.72358
+booster[256]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.030531,cover=5.35643
+	1:leaf=-0.0080204,cover=1.60473
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.0566655,cover=3.7517
+		3:leaf=-0.00785468,cover=1.31194
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.0824827,cover=2.43976
+			5:leaf=0.0251053,cover=1.14198
+			6:leaf=-0.00420349,cover=1.29778
+booster[257]:
+0:[sepal_width_(cm)<3.05] yes=1,no=2,missing=1,gain=0.0716532,cover=4.76293
+	1:[petal_width_(cm)<1.65] yes=3,no=4,missing=3,gain=0.0336182,cover=3.75775
+		3:[petal_length_(cm)<5.05] yes=5,no=6,missing=5,gain=0.00336196,cover=2.16983
+			5:leaf=-0.0038796,cover=1.08977
+			6:leaf=0.00190779,cover=1.08006
+		4:leaf=0.015032,cover=1.58792
+	2:leaf=-0.0152382,cover=1.00518
+booster[258]:
+0:leaf=-0.00346406,cover=1.71749
+booster[259]:
+0:[sepal_length_(cm)<5.45] yes=1,no=2,missing=1,gain=0.028878,cover=5.33598
+	1:leaf=-0.00946136,cover=1.02272
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.0607072,cover=4.31326
+		3:[petal_width_(cm)<1.55] yes=5,no=6,missing=5,gain=0.00404458,cover=2.03309
+			5:leaf=0.0176217,cover=1.00822
+			6:leaf=0.00381036,cover=1.02487
+		4:[sepal_length_(cm)<6.15] yes=7,no=8,missing=7,gain=0.00334463,cover=2.28017
+			7:leaf=-0.000476741,cover=1.02738
+			8:leaf=-0.00787168,cover=1.25279
+booster[260]:
+0:[sepal_length_(cm)<5.95] yes=1,no=2,missing=1,gain=0.0710866,cover=4.73978
+	1:leaf=-0.0128989,cover=1.46834
+	2:[sepal_width_(cm)<2.75] yes=3,no=4,missing=3,gain=0.0341507,cover=3.27144
+		3:leaf=-0.00362756,cover=1.15704
+		4:[sepal_length_(cm)<6.55] yes=5,no=6,missing=5,gain=0.054297,cover=2.1144
+			5:leaf=0.0233657,cover=1.09859
+			6:leaf=-0.00259146,cover=1.01581
+booster[261]:
+0:leaf=-0.00334496,cover=1.7085
+booster[262]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0301303,cover=5.30619
+	1:leaf=-0.00797219,cover=1.59399
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.0556443,cover=3.7122
+		3:leaf=-0.00779532,cover=1.29661
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.0781756,cover=2.41559
+			5:leaf=0.0246725,cover=1.13939
+			6:leaf=-0.00402094,cover=1.27619
+booster[263]:
+0:[sepal_length_(cm)<5.95] yes=1,no=2,missing=1,gain=0.0673237,cover=4.71061
+	1:leaf=-0.0125634,cover=1.46219
+	2:[sepal_width_(cm)<2.75] yes=3,no=4,missing=3,gain=0.0320927,cover=3.24843
+		3:leaf=-0.0034823,cover=1.1541
+		4:[sepal_length_(cm)<6.55] yes=5,no=6,missing=5,gain=0.0527935,cover=2.09433
+			5:leaf=0.0229473,cover=1.08155
+			6:leaf=-0.00264343,cover=1.01278
+booster[264]:
+0:leaf=-0.00340072,cover=1.70241
+booster[265]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.029967,cover=5.28585
+	1:leaf=-0.00796326,cover=1.59273
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.054089,cover=3.69312
+		3:leaf=0.0156226,cover=1.5318
+		4:leaf=-0.00443012,cover=2.16132
+booster[266]:
+0:[petal_length_(cm)<4.95] yes=1,no=2,missing=1,gain=0.0690325,cover=4.68686
+	1:[sepal_width_(cm)<2.85] yes=3,no=4,missing=3,gain=0.0197892,cover=2.2153
+		3:leaf=0.000816774,cover=1.02135
+		4:leaf=-0.0152906,cover=1.19395
+	2:[sepal_length_(cm)<6.05] yes=5,no=6,missing=5,gain=0.00684908,cover=2.47156
+		5:leaf=0.00160858,cover=1.00531
+		6:leaf=0.0133639,cover=1.46626
+booster[267]:
+0:leaf=-0.00338522,cover=1.69149
+booster[268]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0287083,cover=5.26684
+	1:leaf=-0.0077873,cover=1.59043
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.0522694,cover=3.67641
+		3:leaf=-0.00757267,cover=1.27884
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.0775475,cover=2.39757
+			5:leaf=0.0242988,cover=1.13474
+			6:leaf=-0.0042459,cover=1.26284
+booster[269]:
+0:[sepal_length_(cm)<5.95] yes=1,no=2,missing=1,gain=0.06415,cover=4.66714
+	1:leaf=-0.0122273,cover=1.4513
+	2:[sepal_width_(cm)<2.75] yes=3,no=4,missing=3,gain=0.0306326,cover=3.21584
+		3:leaf=-0.00336625,cover=1.14581
+		4:[sepal_length_(cm)<6.55] yes=5,no=6,missing=5,gain=0.0507415,cover=2.07003
+			5:leaf=0.0225989,cover=1.06437
+			6:leaf=-0.00258248,cover=1.00566
+booster[270]:
+0:leaf=-0.00343666,cover=1.68567
+booster[271]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0285603,cover=5.24676
+	1:leaf=-0.00777976,cover=1.58927
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.0508211,cover=3.65749
+		3:leaf=0.0152079,cover=1.51943
+		4:leaf=-0.00429628,cover=2.13806
+booster[272]:
+0:[petal_length_(cm)<4.95] yes=1,no=2,missing=1,gain=0.0653655,cover=4.64379
+	1:[sepal_width_(cm)<2.85] yes=3,no=4,missing=3,gain=0.0183759,cover=2.20025
+		3:leaf=0.00076199,cover=1.0192
+		4:leaf=-0.0148062,cover=1.18105
+	2:[sepal_width_(cm)<2.75] yes=5,no=6,missing=5,gain=0.00314913,cover=2.44354
+		5:leaf=0.00244381,cover=1.02885
+		6:leaf=0.0125634,cover=1.4147
+booster[273]:
+0:leaf=-0.00342138,cover=1.67535
+booster[274]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0273292,cover=5.22878
+	1:leaf=-0.00760436,cover=1.5868
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.0491754,cover=3.64198
+		3:leaf=-0.0073644,cover=1.26212
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.0768392,cover=2.37986
+			5:leaf=0.0239304,cover=1.13025
+			6:leaf=-0.00445647,cover=1.24961
+booster[275]:
+0:[sepal_length_(cm)<5.95] yes=1,no=2,missing=1,gain=0.0614206,cover=4.6253
+	1:leaf=-0.0119326,cover=1.43985
+	2:[sepal_width_(cm)<2.75] yes=3,no=4,missing=3,gain=0.0292342,cover=3.18545
+		3:leaf=-0.00324023,cover=1.13868
+		4:leaf=0.0133172,cover=2.04677
+booster[276]:
+0:leaf=-0.00345027,cover=1.66873
+booster[277]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0274357,cover=5.21245
+	1:leaf=-0.00759862,cover=1.58572
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.0469749,cover=3.62673
+		3:leaf=-0.00707124,cover=1.26292
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.0730568,cover=2.36381
+			5:leaf=0.0235111,cover=1.12555
+			6:leaf=-0.00427582,cover=1.23827
+booster[278]:
+0:[petal_length_(cm)<4.85] yes=1,no=2,missing=1,gain=0.0608871,cover=4.60537
+	1:leaf=-0.0102559,cover=1.87826
+	2:[sepal_width_(cm)<2.75] yes=3,no=4,missing=3,gain=0.0120699,cover=2.72711
+		3:leaf=0.000385555,cover=1.17408
+		4:leaf=0.0129786,cover=1.55303
+booster[279]:
+0:leaf=-0.00346718,cover=1.66218
+booster[280]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0268483,cover=5.1951
+	1:leaf=-0.00753218,cover=1.58243
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.0467374,cover=3.61267
+		3:leaf=0.0146674,cover=1.51069
+		4:leaf=-0.00411879,cover=2.10198
+booster[281]:
+0:[petal_length_(cm)<4.95] yes=1,no=2,missing=1,gain=0.0601686,cover=4.5844
+	1:[sepal_width_(cm)<2.85] yes=3,no=4,missing=3,gain=0.0168928,cover=2.18619
+		3:leaf=0.00075096,cover=1.01793
+		4:leaf=-0.014179,cover=1.16827
+	2:[sepal_width_(cm)<2.75] yes=5,no=6,missing=5,gain=0.0017255,cover=2.39821
+		5:leaf=0.00267503,cover=1.01634
+		6:leaf=0.0119516,cover=1.38187
+booster[282]:
+0:leaf=-0.00344952,cover=1.65247
+booster[283]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0256933,cover=5.17819
+	1:leaf=-0.00736385,cover=1.58015
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.0446957,cover=3.59804
+		3:leaf=-0.00698038,cover=1.24437
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.0752349,cover=2.35368
+			5:leaf=0.0234018,cover=1.12081
+			6:leaf=-0.00467652,cover=1.23287
+booster[284]:
+0:[sepal_length_(cm)<5.95] yes=1,no=2,missing=1,gain=0.0583824,cover=4.56709
+	1:leaf=-0.0116308,cover=1.42338
+	2:[sepal_width_(cm)<2.75] yes=3,no=4,missing=3,gain=0.0268547,cover=3.14371
+		3:leaf=-0.003002,cover=1.12654
+		4:leaf=0.0129914,cover=2.01718
+booster[285]:
+0:leaf=-0.00347555,cover=1.64625
+booster[286]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0258135,cover=5.16217
+	1:leaf=-0.00736127,cover=1.57917
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.0430146,cover=3.58301
+		3:leaf=0.0142177,cover=1.502
+		4:leaf=-0.00387489,cover=2.081
+booster[287]:
+0:[sepal_length_(cm)<5.95] yes=1,no=2,missing=1,gain=0.0568028,cover=4.54768
+	1:leaf=-0.0114705,cover=1.42128
+	2:[sepal_width_(cm)<2.75] yes=3,no=4,missing=3,gain=0.0251136,cover=3.1264
+		3:leaf=-0.00280561,cover=1.12194
+		4:leaf=0.0127396,cover=2.00446
+booster[288]:
+0:leaf=-0.00345241,cover=1.6374
+booster[289]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0258526,cover=5.14559
+	1:leaf=-0.00735695,cover=1.57821
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.043108,cover=3.56737
+		3:leaf=-0.00676135,cover=1.23609
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.0740903,cover=2.33128
+			5:leaf=0.0232459,cover=1.11598
+			6:leaf=-0.00469861,cover=1.21531
+booster[290]:
+0:[sepal_width_(cm)<2.65] yes=1,no=2,missing=1,gain=0.0575454,cover=4.53122
+	1:leaf=0.0139573,cover=1.17692
+	2:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=0.113708,cover=3.3543
+		3:leaf=-0.0185261,cover=1.8805
+		4:leaf=0.0110735,cover=1.47381
+booster[291]:
+0:leaf=-0.00349399,cover=1.62997
+booster[292]:
+0:[petal_length_(cm)<5.05] yes=1,no=2,missing=1,gain=0.0249316,cover=5.12369
+	1:[sepal_length_(cm)<6.05] yes=3,no=4,missing=3,gain=0.0818619,cover=3.79249
+		3:[sepal_width_(cm)<2.55] yes=5,no=6,missing=5,gain=0.0161127,cover=2.65049
+			5:leaf=-0.0111988,cover=1.05291
+			6:leaf=0.0014338,cover=1.59758
+		4:leaf=0.0196276,cover=1.14199
+	2:leaf=-0.00786721,cover=1.3312
+booster[293]:
+0:[sepal_length_(cm)<5.95] yes=1,no=2,missing=1,gain=0.0576451,cover=4.50428
+	1:leaf=-0.0115392,cover=1.41181
+	2:[sepal_width_(cm)<2.75] yes=3,no=4,missing=3,gain=0.0246058,cover=3.09247
+		3:leaf=-0.00268176,cover=1.10984
+		4:leaf=0.0128213,cover=1.98263
+booster[294]:
+0:leaf=-0.00336158,cover=1.62511
+booster[295]:
+0:[sepal_length_(cm)<5.45] yes=1,no=2,missing=1,gain=0.0245418,cover=5.10262
+	1:leaf=-0.00873942,cover=1.01017
+	2:[petal_length_(cm)<4.95] yes=3,no=4,missing=3,gain=0.0495499,cover=4.09245
+		3:leaf=0.0130573,cover=1.95273
+		4:leaf=-0.00526992,cover=2.13972
+booster[296]:
+0:[sepal_length_(cm)<5.95] yes=1,no=2,missing=1,gain=0.0553469,cover=4.47973
+	1:leaf=-0.0113487,cover=1.40764
+	2:[sepal_width_(cm)<2.75] yes=3,no=4,missing=3,gain=0.0241187,cover=3.07209
+		3:leaf=-0.00271662,cover=1.10698
+		4:leaf=0.0126239,cover=1.96511
+booster[297]:
+0:leaf=-0.00325187,cover=1.61695
+booster[298]:
+0:[sepal_length_(cm)<5.85] yes=1,no=2,missing=1,gain=0.0253992,cover=5.08439
+	1:leaf=-0.00732799,cover=1.57343
+	2:[petal_width_(cm)<1.55] yes=3,no=4,missing=3,gain=0.0413278,cover=3.51096
+		3:leaf=-0.00664316,cover=1.21287
+		4:[petal_width_(cm)<1.75] yes=5,no=6,missing=5,gain=0.0690937,cover=2.29808
+			5:leaf=0.0226669,cover=1.10435
+			6:leaf=-0.00448832,cover=1.19373
+booster[299]:
+0:[sepal_width_(cm)<2.65] yes=1,no=2,missing=1,gain=0.0545127,cover=4.4615
+	1:leaf=0.0135965,cover=1.16527
+	2:[petal_width_(cm)<1.75] yes=3,no=4,missing=3,gain=0.107501,cover=3.29624
+		3:leaf=-0.0181304,cover=1.85043
+		4:leaf=0.0108164,cover=1.44581
