@@ -8,8 +8,7 @@
 # Originally based on implementation by Far0n
 # https://github.com/Far0n/xgbfi
 
-from __future__ import print_function
-from __future__ import division
+from __future__ import print_function, division
 
 import argparse
 import sys
