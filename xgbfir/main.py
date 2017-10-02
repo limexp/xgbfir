@@ -248,7 +248,7 @@ class XgbTree:
 class XgbModelParser:
     def __init__(self, verbosity = 0):
         self._verbosity = verbosity
-        self.nodeRegex = re.compile("(\d+):\[(.*)<(.+)\]\syes=(.*),no=(.*),missing=.*,gain=(.*),cover=(.*)")
+        self.nodeRegex = re.compile("(\d+):\[(.*?)(?:<(.+)|)\]\syes=(.*),no=(.*?),(?:missing=.*,)?gain=(.*),cover=(.*)")
         self.leafRegex = re.compile("(\d+):leaf=(.*),cover=(.*)")
 
     def ConstructXgbTree(self, tree):
@@ -271,7 +271,8 @@ class XgbModelParser:
             m = self.nodeRegex.match(line)
             node.Number = int(m.group(1))
             node.Feature = m.group(2)
-            node.SplitValue = float(m.group(3))
+            # split on boolean if m.group(3) is not captured
+            node.SplitValue = float(m.group(3)) if m.group(3) else 0.5
             node.LeftChild = int(m.group(4))
             node.RightChild = int(m.group(5))
             node.Gain = float(m.group(6))
