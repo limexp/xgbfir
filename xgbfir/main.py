@@ -261,8 +261,9 @@ class XgbModelParser:
 
     def ParseXgbTreeNode(self, line):
         node = XgbTreeNode()
-        if "leaf" in line:
-            m = self.leafRegex.match(line)
+
+        m = self.leafRegex.match(line)
+        if m:
             node.Number = int(m.group(1))
             node.LeafValue = float(m.group(2))
             node.Cover = float(m.group(3))
