@@ -1,7 +1,9 @@
-# XGBFIR
+# XGBFIR [![Build Status](https://ci.appveyor.com/api/projects/status/github/limexp/xgbfir?branch=master&svg=true)](https://ci.appveyor.com/project/limexp/xgbfir) [![PyPI version](https://badge.fury.io/py/xgbfir.svg)](https://pypi.python.org/pypi/xgbfir/)
+
 XGBoost Feature Interactions Reshaped
 
-### What is Xgbfi?
+
+### What is Xgbfir?
 Xgbfir is a [XGBoost](https://github.com/dmlc/xgboost) model dump parser, which ranks features as well as feature interactions by different metrics.
 
 This project started as a python port of [Xgbfi - XGBoost Feature Interactions &amp; Importance project](https://github.com/Far0n/xgbfi). Thanks Far0n for great tool and idea!
@@ -30,13 +32,6 @@ You have several options to install Xgbfir.
 You can install using the pip package manager by running
 
     pip install xgbfir
-
-### ~~Using conda~~
-Sorry, conda build is not ready yet. Please build from source.
-
-~~You can install using the conda package manager by running~~
-
-~~conda install~~
 
 ### From source
 Clone the repo and install:
@@ -88,7 +83,7 @@ boston = load_boston()
 xgb_rmodel = xgb.XGBRegressor().fit(boston['data'], boston['target'])
 
 # saving to file with proper feature names
-xgbfir.saveXgbFI(xgb_rmodel, feature_names=boston.feature_names, OutputXlsxFile = 'bostonFI.xlsx')
+xgbfir.saveXgbFI(xgb_rmodel, feature_names=boston.feature_names, OutputXlsxFile='bostonFI.xlsx')
 
 
 # loading database
@@ -98,7 +93,7 @@ iris = load_iris()
 xgb_cmodel = xgb.XGBClassifier().fit(iris['data'], iris['target'])
 
 # saving to file with proper feature names
-xgbfir.saveXgbFI(xgb_cmodel, feature_names=iris.feature_names, OutputXlsxFile = 'irisFI.xlsx')
+xgbfir.saveXgbFI(xgb_cmodel, feature_names=iris.feature_names, OutputXlsxFile='irisFI.xlsx')
 ```
 
 
@@ -124,15 +119,10 @@ booster.dump_model('xgb.dump', with_stats=True)
 * python (2.7+ or 3.5+)
 * xlsxwriter (>=0.9.3)
 
-## TODO
-Xgbfir is in beta now, so there are several ways for improvement:
-* Add more information and error messages, handle wrong input
-* Make code style cool
-* Cover with tests
-* ~~Add non-CLI~~ Done!
-* ~~Parse model from XGBoost without dumping~~ Done!
-* Optimize code
-* Add new functions
-	
-## Questions
-Feel free to contact me, open issues or pull requests.
+
+## Contributing
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Feel free to [open issues](https://github.com/limexp/xgbfir/issues) or pull requests.
+

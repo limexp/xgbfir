@@ -17,7 +17,7 @@ boston = load_boston()
 xgb_rmodel = xgb.XGBRegressor().fit(boston['data'], boston['target'])
 
 # saving to file with proper feature names
-xgbfir.saveXgbFI(xgb_rmodel, feature_names=boston.feature_names, OutputXlsxFile = 'bostonFI.xlsx')
+xgbfir.saveXgbFI(xgb_rmodel, feature_names=boston.feature_names, OutputXlsxFile='bostonFI.xlsx')
 
 
 # loading database
@@ -27,7 +27,7 @@ iris = load_iris()
 xgb_cmodel = xgb.XGBClassifier().fit(iris['data'], iris['target'])
 
 # saving to file with proper feature names
-xgbfir.saveXgbFI(xgb_cmodel, feature_names=iris.feature_names, OutputXlsxFile = 'irisFI.xlsx')
+xgbfir.saveXgbFI(xgb_cmodel, feature_names=iris.feature_names, OutputXlsxFile='irisFI.xlsx')
 
 
 # Check working directory. There will be two new files: **bostonFI.xlsx** and **irisFI.xlsx**.
