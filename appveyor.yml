@@ -82,7 +82,7 @@ deploy_script:
   - ps: If (-Not $env:APPVEYOR_PULL_REQUEST_NUMBER
       -And $env:DEPLOY -eq "true"
       -And $env:APPVEYOR_REPO_BRANCH -eq "master") {
-      twine upload -r testpypi dist/*
+      twine upload -r testpypi --skip-existing dist/*
       } Else { 
       write-output "Skip deployment to TESTPYPI"
       }
