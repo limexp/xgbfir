@@ -76,14 +76,13 @@ deploy_script:
   - echo username=%TEST_PYPIUSER%                    >> %USERPROFILE%\\.pypirc
   - echo password=%TEST_PYPIPASSWORD%                >> %USERPROFILE%\\.pypirc  
   - echo [pypi]                                      >> %USERPROFILE%\\.pypirc
-  - echo repository=https://pypi.python.org/pypi     >> %USERPROFILE%\\.pypirc
   - echo username=%PROD_PYPIUSER%                    >> %USERPROFILE%\\.pypirc
   - echo password=%PROD_PYPIPASSWORD%                >> %USERPROFILE%\\.pypirc  
   - set HOME=%USERPROFILE%
   - ps: If (-Not $env:APPVEYOR_PULL_REQUEST_NUMBER
       -And $env:DEPLOY -eq "true"
       -And $env:APPVEYOR_REPO_BRANCH -eq "master") {
-      Invoke-Expression "twine upload -r testpypi dist/*" 
+      twine upload -r testpypi dist/*
       } Else { 
       write-output "Skip deployment to TESTPYPI"
       }
@@ -91,11 +90,10 @@ deploy_script:
       -And $env:DEPLOY -eq "true"
       -And $env:APPVEYOR_REPO_BRANCH -eq "master"
       -And $env:APPVEYOR_REPO_TAG -eq "true") {
-      Invoke-Expression "twine upload -r pypi dist/*" 
+      twine upload -r pypi dist/*
       } Else { 
       write-output "Skip deployment to PYPI"
       }
-
 
 on_finish:
   - echo 'Finished'
