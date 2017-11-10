@@ -492,7 +492,7 @@ def FeatureInteractionsWriter(FeatureInteractions, fileName, MaxDepth, topK, Max
 
 def main(argv):
     epilog = '''
-XGBoost Feature Interactions Reshaped v0.3.0
+XGBoost Feature Interactions Reshaped v0.3.1
 URL: https://github.com/limexp/xgbfir
 '''
 
